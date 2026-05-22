@@ -8,7 +8,7 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 61-1703255,Autodesk Foundation,ADSK,Autodesk,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 43-6022693,Ameren Charitable Trust (Union Electric,AEE,Ameren,Utilities,corporate_foundation,A3,85,charitable trust/foundation,,auto-flagged from IRS scan
 20-3886453,American Electric Power Foundation,AEP,American Electric Power,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
-82-2752694,Aes Crestwood Foundation Inc,AES,AES Corporation,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+31-1138883,The Dayton Power And Light Company Foundation Dba Aes Ohio Foundation,AES,AES Corporation,Utilities,corporate_foundation,C,30,weak match,,auto-flagged from IRS scan
 58-2509396,The Aflac Foundation Inc,AFL,Aflac,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 13-3156497,Assurant Foundation,AIZ,Assurant,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 56-1538739,The Albemarle Foundation Inc,ALB,Albemarle Corporation,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
@@ -19,7 +19,6 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 77-0252898,The Amgen Foundation Inc,AMGN,Amgen,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 81-5266916,American Tower Charitable Foundation Inc,AMT,American Tower,Real Estate,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 36-3337340,Aon Foundation,AON,Aon,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
-27-2198169,The Apa Sherpa Foundation,APA,APA Corporation,Energy,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 23-2130928,Air Products Foundation,APD,Air Products,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 39-1366838,Aptiv Foundation Inc,APTV,Aptiv,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 26-4754581,Broadcom Foundation,AVGO,Broadcom,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
@@ -57,7 +56,7 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 27-3533626,Copart Charitable Foundation,CPRT,Copart,Consumer Cyclical,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 51-0188208,Charles River Laboratories Foundation Inc,CRL,Charles River Laboratories,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 82-1515943,The Crowdstrike Foundation,CRWD,CrowdStrike,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
-27-1864907,Cisco Center Foundation Inc,CSCO,Cisco,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+77-0443347,Cisco Systems Foundation,CSCO,Cisco,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 26-2248439,Csx Foundation Inc,CSX,CSX Corporation,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 13-1980389,Cintas Foundation Inc,CTAS,Cintas,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 82-5385478,Cognizant Us Foundation,CTSH,Cognizant,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
@@ -65,7 +64,7 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 86-1192142,Chevron Group Foundation Inc,CVX,Chevron Corporation,Energy,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 47-2746460,Dominion Energy Charitable Foundation,D,Dominion Energy,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 58-6073119,Delta Air Lines Foundation,DAL,Delta Air Lines,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
-59-0226560,Alfred I Dupont Charitable Trust,DD,DuPont,Basic Materials,corporate_foundation,A3,85,charitable trust/foundation,,auto-flagged from IRS scan
+81-4778118,Dupont Family Charitable Trust,DD,DuPont,Basic Materials,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
 62-1546736,Dollar General Literacy Foundation,DG,Dollar General,Consumer Defensive,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 22-3093807,Quest Diagnostics Foundation Inc,DGX,Quest Diagnostics,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 36-6042871,Danaher Foundation,DHR,Danaher Corporation,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
@@ -89,16 +88,14 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 36-4478772,Equity Residential Foundation,EQR,Equity Residential,Real Estate,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 04-3747289,Eqt Foundation,EQT,EQT Corporation,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 06-1527290,Eversource Energy Foundation Inc C/O Kevin Morrissey,ES,Eversource Energy,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
-45-5399245,Eaton Leadership Foundation,ETN,Eaton Corporation,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+82-2949300,Eaton Charitable Foundation,ETN,Eaton Corporation,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 71-0845366,Entergy Charitable Foundation,ETR,Entergy,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 46-1702755,Edwards Lifesciences Foundation,EW,Edwards Lifesciences,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 83-0499473,Exelon Foundation,EXC,Exelon,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 87-3645269,Factset Charitable Foundation,FDS,FactSet,Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
-46-3778145,Fedex Pilots Charitable Fund,FDX,FedEx,Industrials,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
 34-6514181,Firstenergy Foundation,FE,FirstEnergy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 85-1252333,Fortinet Foundation,FTNT,Fortinet,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 84-2828145,The Fortive Foundation,FTV,Fortive,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
-22-2621967,Ge Aerospace Foundation,GE,GE Aerospace,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 93-3085979,Ge Healthcare Charitable Foundation,GEHC,GE HealthCare,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 93-2481739,Ge Vernova Foundation I,GEV,GE Vernova,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 93-4931186,Globe Life Foundation,GL,Globe Life,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
@@ -108,7 +105,7 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 75-1212458,Halliburton Foundation Inc,HAL,Halliburton,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 22-2538470,Hasbro Foundation Inc,HAS,Hasbro,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 61-1230563,Hca Healthcare Foundation,HCA,HCA Healthcare,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
-06-0699252,Hartford Foundation For Public Giving,HIG,Hartford (The),Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+39-1424249,The Hartford Area Foundation Inc,HIG,Hartford (The),Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 35-0390706,The Honeywell Foundation Inc,HON,Honeywell,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 47-5011215,Hewlett Packard Enterprise Foundation,HPE,Hewlett Packard Enterprise,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 01-0761416,Hormel Foods Corporation Charitable Trust,HRL,Hormel Foods,Consumer Defensive,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
@@ -157,7 +154,7 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 95-6095343,The Northrop Grumman Foundation,NOC,Northrop Grumman,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 84-2220090,Northern Trust Foundation,NTRS,Northern Trust,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 23-7318064,Nucor Foundation Inc,NUE,Nucor,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
-54-1528383,Old Dominion Foundation Incorporated,ODFL,Old Dominion,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+54-0699616,Old Dominion Eye Foundation Inc,ODFL,Old Dominion,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 73-1503823,Oneok Foundation Inc,OKE,ONEOK,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 27-2249812,Omnicom Group Foundation Inc,OMC,Omnicom Group,Communication Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 83-3782653,On Semiconductor Foundation,ON,ON Semiconductor,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
@@ -172,7 +169,7 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 85-1148214,Pultegroup Inc Charitable Foundation Inc,PHM,PulteGroup,Consumer Cyclical,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
 36-4439409,Prologis Foundation,PLD,Prologis,Real Estate,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 41-1890149,Pentair Foundation,PNR,Pentair,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
-47-6498760,Francis Pool Charitable Trust Uma,POOL,Pool Corporation,Industrials,corporate_foundation,A3,85,charitable trust/foundation,,auto-flagged from IRS scan
+52-6081248,Pool & Hot Tub Foundation,POOL,Pool Corporation,Industrials,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
 25-6037790,Ppg Industries Foundation,PPG,PPG Industries,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 46-1605118,Ppl Foundation,PPL,PPL Corporation,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 82-5383610,Ptc Foundation Inc,PTC,PTC Inc.,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
@@ -205,7 +202,7 @@ ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,s
 20-2045897,Trane Technologies Charitable Foundation,TT,Trane Technologies,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
 75-6038519,Texas Instruments Foundation,TXN,Texas Instruments,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 25-6115832,Textron Charitable Trust Dtd 122353,TXT,Textron,Industrials,corporate_foundation,A3,85,charitable trust/foundation,,auto-flagged from IRS scan
-36-3929159,United Airlines Historical Foundation Co D Dopkin,UAL,United Airlines Holdings,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+58-1686601,United Airlines Pilots Retirement Foundation,UAL,United Airlines Holdings,Industrials,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
 20-3396995,Universal Health Services Foundation,UHS,Universal Health Services,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 13-6406825,Union Pacific Foundation,UNP,Union Pacific Corporation,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
 81-4503596,Visa Foundation,V,Visa Inc.,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan

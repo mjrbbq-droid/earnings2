@@ -8,6 +8,7 @@ already downloaded.
 from __future__ import annotations
 
 import csv
+import json
 import sys
 import zipfile
 from pathlib import Path
@@ -98,6 +99,7 @@ def load_filings_from_index(index_path: Path, target_eins: set[str]) -> list[dic
 
 
 def find_in_zips(object_id: str, zip_dir: Path) -> tuple[str, str] | None:
+    """Legacy per-call linear scan. Prefer the pre-built location map."""
     for zip_path in sorted(zip_dir.glob("*.zip")):
         try:
             with zipfile.ZipFile(zip_path) as z:
@@ -107,6 +109,17 @@ def find_in_zips(object_id: str, zip_dir: Path) -> tuple[str, str] | None:
         except Exception:
             continue
     return None
+
+
+def load_location_map() -> dict[str, tuple[str, str]]:
+    """Load the OBJECT_ID -> (zip_path, xml_path) map built by
+    build_filing_index_for_all_eins.py."""
+    p = Path("data/all_filing_locations.json")
+    if not p.exists():
+        return {}
+    with open(p, encoding="utf-8") as f:
+        raw = json.load(f)
+    return {k: tuple(v) for k, v in raw.items()}
 
 
 def main() -> None:
@@ -122,12 +135,19 @@ def main() -> None:
 
     target_eins = set(donors.keys())
     zip_dir = Path("data/irs_zips")
+    location_map = load_location_map()
+    print(f"Pre-built location map: {len(location_map)} OBJECT_IDs")
 
-    # Pull filings from both 2023 and 2024 indices
+    # Pull filings from 2023, 2024, and 2025 indices
     filings_2023 = load_filings_from_index(Path("data/irs_index/index_2023.csv"), target_eins)
     filings_2024 = load_filings_from_index(Path("data/irs_index/index_2024.csv"), target_eins)
+    idx_2025 = Path("data/irs_index/index_2025.csv")
+    filings_2025 = (
+        load_filings_from_index(idx_2025, target_eins) if idx_2025.exists() else []
+    )
 
     # Wipe existing irs_xml grants for these EINs so we can re-run cleanly
+    # SQLite limit on bound parameters is ~32k; we're well under
     placeholders = ",".join("?" * len(target_eins))
     conn.execute(
         f"DELETE FROM foundation_grants WHERE source='irs_xml' AND donor_ein IN ({placeholders});",
@@ -135,8 +155,12 @@ def main() -> None:
     )
     conn.commit()
 
-    all_filings = filings_2023 + filings_2024
-    print(f"Processing {len(all_filings)} filings across {len(donors)} foundations\n")
+    all_filings = filings_2023 + filings_2024 + filings_2025
+    print(
+        f"Processing {len(all_filings)} filings "
+        f"(2023:{len(filings_2023)}, 2024:{len(filings_2024)}, 2025:{len(filings_2025)}) "
+        f"across {len(donors)} foundations\n"
+    )
 
     total_grants = 0
     n_filings_parsed = 0
@@ -151,7 +175,7 @@ def main() -> None:
         tax_year = int(tax_period[:4]) if tax_period[4:6] in ("01", "02") else int(tax_period[:4])
         ticker, name = donors[ein]
 
-        location = find_in_zips(object_id, zip_dir)
+        location = location_map.get(object_id) or find_in_zips(object_id, zip_dir)
         if not location:
             print(f"  ! MISSING {ticker:6s} {tax_period}  oid={object_id}")
             n_missing += 1

@@ -76,6 +76,10 @@ FALSE_POSITIVE_MARKERS = [
     'GE AEROSPACE FOUNDATION',               # need to verify — this is a sub-brand
     'OLD DOMINION FOUNDATION INCORPORATED',  # ODFL is freight, this looks unclear
     'PILOTS CHARITABLE FUND',                # employee-only
+    'AES RESTAURANT',                        # not AES Corp (utility)
+    'EATON MOUNTAIN',                        # Maine ski area
+    'HARTFORD DEVELOPMENT',                  # CT urban dev, not Hartford Ins
+    'OLD DOMINION ATHLETIC',                 # ODU sports, not ODFL freight
 ]
 
 
