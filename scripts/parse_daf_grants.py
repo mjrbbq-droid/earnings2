@@ -1,5 +1,5 @@
 """
-Parse Schedule I grants from major DAF 990s. These are LARGE filings —
+Parse Schedule I grants from major DAF 990s. These are LARGE filings â€”
 Fidelity Charitable alone disburses 2M+ grants/year. Strategy: parse all
 grants, but only WRITE rows that match our anti/pro/collab/reentry/innocence
 classifier. The "unrelated" grants stay unsaved (millions of rows otherwise).
@@ -34,7 +34,7 @@ def main() -> None:
     conn = connect(RISK_DB_PATH)
     init_db(conn)
 
-    locations = json.loads(Path("data/daf_filing_locations.json").read_text())
+    locations = json.loads(Path("data/reference/daf_filing_locations.json").read_text())
 
     # Map DAF display-names to canonical EINs (using the IRS schema's full org name)
     # daf_short_to_ein maps the short label used in daf_filing_locations.json

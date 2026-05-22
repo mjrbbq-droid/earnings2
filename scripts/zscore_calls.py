@@ -7,7 +7,7 @@ from statistics import mean, pstdev
 from datetime import datetime, timezone
 from typing import Optional
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 
 # Mappings
 TREND = {"improving": 1, "stable": 0, "deteriorating": -1, "unclear": 0}

@@ -1,0 +1,48 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4
+  },
+
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true,
+    "**/*.pyc": true,
+    "**/.ipynb_checkpoints": true
+  },
+  "files.watcherExclude": {
+    "**/.venv/**": true,
+    "**/data/raw_sources/**": true,
+    "**/data/processed/**": true,
+    "**/data/databases/**": true,
+    "**/data/outputs/**": true
+  },
+  "search.exclude": {
+    "**/.venv": true,
+    "**/data/raw_sources": true,
+    "**/data/processed": true,
+    "**/data/databases": true,
+    "**/data/outputs": true,
+    "**/data/REVIEW_LATER": true,
+    "**/__pycache__": true
+  },
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cwd": "${workspaceFolder}",
+
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

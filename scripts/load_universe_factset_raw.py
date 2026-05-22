@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pandas as pd
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 DATA_DIR = Path("./data")
 
 # Match:
@@ -20,7 +20,7 @@ FILE_PATTERN = re.compile(r"^(\d{8})(?:[a-zA-Z]|_[^.]*)?\.xlsx$", re.IGNORECASE)
 
 REQUIRED_COLS = ["ticker", "company_name", "date", "mkt_value", "sector", "industry"]
 
-MKT_VALUE_MULTIPLIER = 1_000_000  # FactSet export is in millions → store USD
+MKT_VALUE_MULTIPLIER = 1_000_000  # FactSet export is in millions â†’ store USD
 
 
 def parse_date_from_filename(name: str) -> str:

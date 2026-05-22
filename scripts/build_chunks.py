@@ -31,7 +31,7 @@ JUNK_LINE_RE = re.compile(
     r"(corrected|preliminary|final|edited)\s+transcript|"
     r"event\s+transcript|"
     r"total\s+pages(\s*:\s*\d+|\s+\d+)?|"
-    r"copyright\s*©|"
+    r"copyright\s*Â©|"
     r"1-877-FACTSET|"
     r"www\.callstreet\.com|"
     r"factset\s+callstreet|"
@@ -106,7 +106,7 @@ def ensure_chunk_uniqueness(conn: sqlite3.Connection) -> None:
 def main() -> None:
     load_dotenv()
 
-    db_path = os.getenv("EARNINGS_DB_PATH", "./data/earnings.db")
+    db_path = os.getenv("EARNINGS_DB_PATH", "./data/databases/earnings.db")
     conn = connect(db_path)
     init_db(conn)
 

@@ -18,7 +18,7 @@ SCHEMA_SQL = """
 PRAGMA journal_mode = WAL;
 PRAGMA foreign_keys = ON;
 
--- ── companies ─────────────────────────────────────────────────────────
+-- â”€â”€ companies â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS companies (
     ticker          TEXT PRIMARY KEY,
     company         TEXT NOT NULL,
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS companies (
 
 CREATE INDEX IF NOT EXISTS ix_companies_status ON companies(status);
 
--- ── query taxonomy (the ontology — core IP) ───────────────────────────
+-- â”€â”€ query taxonomy (the ontology â€” core IP) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS query_taxonomy (
     id              INTEGER PRIMARY KEY AUTOINCREMENT,
     category        TEXT NOT NULL,                    -- police | activism | governance | public_safety | incident | ...
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS query_taxonomy (
 CREATE INDEX IF NOT EXISTS ix_taxonomy_category ON query_taxonomy(category);
 CREATE INDEX IF NOT EXISTS ix_taxonomy_active   ON query_taxonomy(active);
 
--- ── articles (raw ingestion landing) ──────────────────────────────────
+-- â”€â”€ articles (raw ingestion landing) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS articles (
     id               INTEGER PRIMARY KEY AUTOINCREMENT,
     ticker           TEXT,                            -- nullable; some sources don't tag
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS articles (
     source_country   TEXT,
     query_type       TEXT,                            -- which query produced this row
     source_api       TEXT NOT NULL,                   -- fmp_general | fmp_stock | fmp_press | gdelt | newsapi | ...
-    raw_path         TEXT,                            -- pointer to source CSV in data/raw_articles/
+    raw_path         TEXT,                            -- pointer to source CSV in data/raw_sources/raw_articles/
     url_hash         TEXT,                            -- sha256(url) for dedup
     title_hash       TEXT,                            -- sha256(title.lower())
     ingested_at_utc  TEXT NOT NULL
@@ -77,7 +77,7 @@ CREATE INDEX IF NOT EXISTS ix_articles_published
 CREATE INDEX IF NOT EXISTS ix_articles_source_api
     ON articles(source_api);
 
--- ── keyword hits (links articles ↔ taxonomy) ──────────────────────────
+-- â”€â”€ keyword hits (links articles â†” taxonomy) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS article_keyword_hits (
     article_id      INTEGER NOT NULL,
     taxonomy_id     INTEGER NOT NULL,
@@ -89,7 +89,7 @@ CREATE TABLE IF NOT EXISTS article_keyword_hits (
 
 CREATE INDEX IF NOT EXISTS ix_hits_taxonomy ON article_keyword_hits(taxonomy_id);
 
--- ── fetched full text (one row per article) ──────────────────────────
+-- â”€â”€ fetched full text (one row per article) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS article_text (
     article_id        INTEGER PRIMARY KEY,
     url               TEXT NOT NULL,
@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS article_text (
 
 CREATE INDEX IF NOT EXISTS ix_article_text_status ON article_text(fetch_status);
 
--- ── machine scoring (one row per article × model × prompt) ────────────
+-- â”€â”€ machine scoring (one row per article Ã— model Ã— prompt) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS article_scores (
     id                  INTEGER PRIMARY KEY AUTOINCREMENT,
     article_id          INTEGER NOT NULL,
@@ -125,11 +125,11 @@ CREATE TABLE IF NOT EXISTS article_scores (
     infraction_type     TEXT,
     infraction_summary  TEXT,
     context_note        TEXT,
-    disagrees_with_score INTEGER,                      -- 0/1 — Claude disagrees with Python
+    disagrees_with_score INTEGER,                      -- 0/1 â€” Claude disagrees with Python
     disagreement_note   TEXT,
     age_days            INTEGER,                       -- days from the date that drove decay (event preferred, else publish)
-    recency_factor      REAL,                          -- 0.30 - 1.00 — Python's recency multiplier
-    recency_source      TEXT,                          -- 'event' | 'publish' | 'none' — which date drove the decay
+    recency_factor      REAL,                          -- 0.30 - 1.00 â€” Python's recency multiplier
+    recency_source      TEXT,                          -- 'event' | 'publish' | 'none' â€” which date drove the decay
     scored_at_utc       TEXT NOT NULL,
     FOREIGN KEY (article_id) REFERENCES articles(id) ON DELETE CASCADE,
     UNIQUE(article_id, model, prompt_version)
@@ -137,7 +137,7 @@ CREATE TABLE IF NOT EXISTS article_scores (
 
 CREATE INDEX IF NOT EXISTS ix_article_scores_article ON article_scores(article_id);
 
--- ── rolled-up company scores (snapshots over a window) ────────────────
+-- â”€â”€ rolled-up company scores (snapshots over a window) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS company_scores (
     id                    INTEGER PRIMARY KEY AUTOINCREMENT,
     ticker                TEXT NOT NULL,
@@ -156,7 +156,7 @@ CREATE TABLE IF NOT EXISTS company_scores (
 CREATE INDEX IF NOT EXISTS ix_company_scores_ticker_date
     ON company_scores(ticker, as_of_date);
 
--- ── review queue (articles flagged for analyst review) ────────────────
+-- â”€â”€ review queue (articles flagged for analyst review) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS review_queue (
     id              INTEGER PRIMARY KEY AUTOINCREMENT,
     article_id      INTEGER NOT NULL UNIQUE,
@@ -171,11 +171,11 @@ CREATE TABLE IF NOT EXISTS review_queue (
 CREATE INDEX IF NOT EXISTS ix_review_queue_status_priority
     ON review_queue(status, priority);
 
--- ── company-level BALANCED police-stance investigation ───────────────
+-- â”€â”€ company-level BALANCED police-stance investigation â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 -- Captures BOTH directions per company:
---   anti_police_*  — defund advocacy, refusing to sell to police, donations
+--   anti_police_*  â€” defund advocacy, refusing to sell to police, donations
 --                    to police-reform NGOs, walked-back partnerships
---   pro_police_*   — selling weapons / FR / body cams / radios to police,
+--   pro_police_*   â€” selling weapons / FR / body cams / radios to police,
 --                    hosting police data, marketing partnerships, donations
 --                    to police foundations or unions
 -- net_position synthesizes the two.
@@ -207,20 +207,20 @@ CREATE TABLE IF NOT EXISTS company_stance_investigation (
     pro_police_evidence_url           TEXT,
     pro_police_evidence_quote         TEXT,
 
-    -- Net synthesis (Option A labels — v4)
+    -- Net synthesis (Option A labels â€” v4)
     net_position                      TEXT,    -- reform_leaning | enforcement_leaning | cross_exposure | no_material_exposure | unknown
     net_summary                       TEXT,
     confidence                        REAL,
     notes                             TEXT,
     n_search_results                  INTEGER,
-    policy_stance_score               REAL     -- v4: signed -5.0..+5.0 (+ = enforcement-leaning, − = reform-leaning)
+    policy_stance_score               REAL     -- v4: signed -5.0..+5.0 (+ = enforcement-leaning, âˆ’ = reform-leaning)
 );
 
 CREATE INDEX IF NOT EXISTS ix_csi_anti  ON company_stance_investigation(anti_police_action);
 CREATE INDEX IF NOT EXISTS ix_csi_pro   ON company_stance_investigation(pro_police_action);
 CREATE INDEX IF NOT EXISTS ix_csi_net   ON company_stance_investigation(net_position);
 
--- ── donor foundations (ticker -> 501c3 EIN map) ──────────────────────
+-- â”€â”€ donor foundations (ticker -> 501c3 EIN map) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS donor_foundations (
     ein                TEXT PRIMARY KEY,
     foundation_name    TEXT NOT NULL,
@@ -233,7 +233,7 @@ CREATE TABLE IF NOT EXISTS donor_foundations (
 
 CREATE INDEX IF NOT EXISTS ix_donor_foundations_ticker ON donor_foundations(donor_ticker);
 
--- ── 990 filings — one row per foundation × tax year ──────────────────
+-- â”€â”€ 990 filings â€” one row per foundation Ã— tax year â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS foundation_filings (
     id                       INTEGER PRIMARY KEY AUTOINCREMENT,
     ein                      TEXT NOT NULL,
@@ -252,7 +252,7 @@ CREATE TABLE IF NOT EXISTS foundation_filings (
 CREATE INDEX IF NOT EXISTS ix_foundation_filings_ein_year
     ON foundation_filings(ein, tax_year);
 
--- ── Schedule I grant detail — populated later from raw 990 XML ───────
+-- â”€â”€ Schedule I grant detail â€” populated later from raw 990 XML â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS foundation_grants (
     id                       INTEGER PRIMARY KEY AUTOINCREMENT,
     donor_ein                TEXT NOT NULL,
@@ -273,7 +273,7 @@ CREATE INDEX IF NOT EXISTS ix_foundation_grants_donor_year
 CREATE INDEX IF NOT EXISTS ix_foundation_grants_classification
     ON foundation_grants(grantee_classification);
 
--- ── federal contracts (USAspending.gov) ───────────────────────────────
+-- â”€â”€ federal contracts (USAspending.gov) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS company_federal_contracts (
     id                      INTEGER PRIMARY KEY AUTOINCREMENT,
     ticker                  TEXT,
@@ -293,7 +293,7 @@ CREATE TABLE IF NOT EXISTS company_federal_contracts (
 CREATE INDEX IF NOT EXISTS ix_fed_contracts_ticker ON company_federal_contracts(ticker);
 CREATE INDEX IF NOT EXISTS ix_fed_contracts_le     ON company_federal_contracts(is_le_agency);
 
--- ── SEC EDGAR filings detection ───────────────────────────────────────
+-- â”€â”€ SEC EDGAR filings detection â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS company_sec_signals (
     id                INTEGER PRIMARY KEY AUTOINCREMENT,
     ticker            TEXT NOT NULL,
@@ -310,7 +310,7 @@ CREATE TABLE IF NOT EXISTS company_sec_signals (
 
 CREATE INDEX IF NOT EXISTS ix_sec_signals_ticker ON company_sec_signals(ticker);
 
--- ── GDELT news mentions ───────────────────────────────────────────────
+-- â”€â”€ GDELT news mentions â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS gdelt_news (
     id              INTEGER PRIMARY KEY AUTOINCREMENT,
     ticker          TEXT NOT NULL,
@@ -331,7 +331,7 @@ CREATE TABLE IF NOT EXISTS gdelt_news (
 CREATE INDEX IF NOT EXISTS ix_gdelt_ticker     ON gdelt_news(ticker);
 CREATE INDEX IF NOT EXISTS ix_gdelt_seen_date  ON gdelt_news(seen_date);
 
--- ── manual reviews (analyst overrides) ────────────────────────────────
+-- â”€â”€ manual reviews (analyst overrides) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CREATE TABLE IF NOT EXISTS manual_reviews (
     id              INTEGER PRIMARY KEY AUTOINCREMENT,
     article_id      INTEGER NOT NULL,

@@ -73,7 +73,7 @@ FALSE_POSITIVE_MARKERS = [
     'ALFRED I DUPONT',                       # personal trust (Jacksonville)
     'HISTORICAL FOUNDATION',                 # historical society, not corp
     'EATON LEADERSHIP',                      # leadership prog, not Eaton Corp
-    'GE AEROSPACE FOUNDATION',               # need to verify — this is a sub-brand
+    'GE AEROSPACE FOUNDATION',               # need to verify â€” this is a sub-brand
     'OLD DOMINION FOUNDATION INCORPORATED',  # ODFL is freight, this looks unclear
     'PILOTS CHARITABLE FUND',                # employee-only
     'AES RESTAURANT',                        # not AES Corp (utility)
@@ -103,19 +103,19 @@ def score_match(short: str, name: str) -> tuple[str, int, str]:
 
 def main() -> None:
     sp500 = {}
-    with open('data/sp500_universe.csv', encoding='utf-8') as f:
+    with open('data/reference/sp500_universe.csv', encoding='utf-8') as f:
         for r in csv.DictReader(f):
             sp500[r['ticker']] = {'name': r['name'], 'sector': r.get('sector', '')}
 
     have_tickers = set()
-    with open('data/donor_foundations.csv', encoding='utf-8') as f:
+    with open('data/reference/donor_foundations.csv', encoding='utf-8') as f:
         for r in csv.DictReader(f):
             have_tickers.add(r['donor_ticker'])
 
     all_candidates = defaultdict(list)
-    for idx in ['data/irs_index/index_2023.csv',
-                'data/irs_index/index_2024.csv',
-                'data/irs_index/index_2025.csv']:
+    for idx in ['data/raw_sources/irs_index/index_2023.csv',
+                'data/raw_sources/irs_index/index_2024.csv',
+                'data/raw_sources/irs_index/index_2025.csv']:
         if not Path(idx).exists():
             continue
         print(f'Scanning {idx}...')
@@ -160,7 +160,7 @@ def main() -> None:
     for t in sorted(tier_counts):
         print(f'  Tier {t}: {tier_counts[t]}')
 
-    out_path = Path('data/foundation_candidates_v2.csv')
+    out_path = Path('data/reference/foundation_candidates_v2.csv')
     with open(out_path, 'w', encoding='utf-8', newline='') as f:
         w = csv.writer(f, lineterminator='\n')
         w.writerow(['ein_dashed', 'foundation_name', 'donor_ticker', 'donor_company',

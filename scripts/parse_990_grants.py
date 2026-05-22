@@ -28,16 +28,16 @@ NS = {"irs": "http://www.irs.gov/efile"}
 
 # Known filing locations (object_id -> (zip_path, xml_path_inside_zip))
 FILING_LOCATIONS = {
-    "202312869349100516": ("data/irs_zips/2023_TEOS_XML_10A.zip",
+    "202312869349100516": ("data/raw_sources/irs_zips/2023_TEOS_XML_10A.zip",
                             "2023_TEOS_XML_10A/202312869349100516_public.xml",
                             "94-6064702", "Levi Strauss Foundation", 2022),
-    "202321019349102627": ("data/irs_zips/2023_TEOS_XML_04A.zip",
+    "202321019349102627": ("data/raw_sources/irs_zips/2023_TEOS_XML_04A.zip",
                             "2023_TEOS_XML_04A/202321019349102627_public.xml",
                             "93-1159948", "Nike Foundation", 2022),
-    "202322839349100212": ("data/irs_zips/2023_TEOS_XML_10A.zip",
+    "202322839349100212": ("data/raw_sources/irs_zips/2023_TEOS_XML_10A.zip",
                             "2023_TEOS_XML_10A/202322839349100212_public.xml",
                             "23-7049738", "JPMorgan Chase Foundation", 2022),
-    "202343199349103794": ("data/irs_zips/2023_TEOS_XML_11A.zip",
+    "202343199349103794": ("data/raw_sources/irs_zips/2023_TEOS_XML_11A.zip",
                             "2023_TEOS_XML_11A/202343199349103794_public.xml",
                             "26-2456949", "Chubb Charitable Foundation", 2022),
 }

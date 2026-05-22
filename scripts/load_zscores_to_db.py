@@ -9,7 +9,7 @@ from typing import Optional
 
 import pandas as pd
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 DATA_DIR = Path("./data")
 
 

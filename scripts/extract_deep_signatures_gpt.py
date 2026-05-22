@@ -123,7 +123,7 @@ def main() -> None:
         raise SystemExit("Missing OPENAI_API_KEY in your .env")
 
     model = os.getenv("OPENAI_MODEL", "gpt-5.2")
-    db_path = os.getenv("EARNINGS_DB_PATH", "./data/earnings.db")
+    db_path = os.getenv("EARNINGS_DB_PATH", "./data/databases/earnings.db")
 
     client = OpenAI(api_key=api_key, timeout=180.0)
 

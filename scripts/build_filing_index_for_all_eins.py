@@ -16,16 +16,16 @@ from pathlib import Path
 def main() -> None:
     # Collect ALL EINs we care about
     target_eins = set()
-    with open('data/donor_foundations.csv', encoding='utf-8') as f:
+    with open('data/reference/donor_foundations.csv', encoding='utf-8') as f:
         for r in csv.DictReader(f):
             target_eins.add(r['ein'].replace('-', ''))
     print(f'Target EINs: {len(target_eins)}')
 
     # Collect all OBJECT_IDs for those EINs across indices
     target_oids = set()
-    for idx_path in ['data/irs_index/index_2023.csv',
-                     'data/irs_index/index_2024.csv',
-                     'data/irs_index/index_2025.csv']:
+    for idx_path in ['data/raw_sources/irs_index/index_2023.csv',
+                     'data/raw_sources/irs_index/index_2024.csv',
+                     'data/raw_sources/irs_index/index_2025.csv']:
         if not Path(idx_path).exists():
             continue
         print(f'  Reading {idx_path}...')
@@ -37,7 +37,7 @@ def main() -> None:
 
     # Single pass through every ZIP, recording matches
     locations: dict[str, list[str]] = {}  # oid -> [zip_path, xml_path]
-    zip_dir = Path('data/irs_zips')
+    zip_dir = Path('data/raw_sources/irs_zips')
     zips = sorted(zip_dir.glob('*.zip'))
     print(f'Scanning {len(zips)} ZIPs...')
 
@@ -60,7 +60,7 @@ def main() -> None:
         if hits:
             print(f'  [{i:2d}/{len(zips)}] {zp.name}: {hits} hits')
 
-    out_path = Path('data/all_filing_locations.json')
+    out_path = Path('data/reference/all_filing_locations.json')
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(locations, f, indent=2)
     print(f'\nWrote {out_path}: {len(locations)} OBJECT_IDs mapped')

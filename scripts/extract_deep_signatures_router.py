@@ -30,7 +30,7 @@ from src.signatures_schema_deep_v2 import HomebuildersDeepSignatureV2
 from src.signatures_schema_energy_services_v1 import EnergyServicesDeepSignatureV1
 from src.signatures_schema_construction_engineering_v1 import ConstructionEngineeringDeepSignatureV1
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 
 MAX_ATTEMPTS = 6
 BASE_SLEEP = 5.0

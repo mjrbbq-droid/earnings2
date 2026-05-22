@@ -21,7 +21,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from dotenv import load_dotenv
 from openai import OpenAI, APITimeoutError, APIConnectionError, RateLimitError
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 OUT_DIR = PROJECT_ROOT / "pulses" / "company"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -11,19 +11,19 @@ def clean_text(s: str) -> str:
         return ""
     # Common mojibake from PDF extraction
     return (
-        s.replace("â€œ", "“")
-         .replace("â€", "”")
-         .replace("â€™", "’")
-         .replace("â€“", "–")
-         .replace("â€”", "—")
-         .replace("â€¦", "…")
-         .replace("Ã©", "é")
+        s.replace("Ã¢â‚¬Å“", "â€œ")
+         .replace("Ã¢â‚¬Â", "â€")
+         .replace("Ã¢â‚¬â„¢", "â€™")
+         .replace("Ã¢â‚¬â€œ", "â€“")
+         .replace("Ã¢â‚¬â€", "â€”")
+         .replace("Ã¢â‚¬Â¦", "â€¦")
+         .replace("ÃƒÂ©", "Ã©")
     )
 
 
 def main() -> None:
-    db = "./data/earnings.db"
-    out = "./data/bzh_signatures.csv"
+    db = "./data/databases/earnings.db"
+    out = "./data/reference/bzh_signatures.csv"
 
     c = sqlite3.connect(db)
     c.row_factory = sqlite3.Row

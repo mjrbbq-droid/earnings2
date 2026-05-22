@@ -1,6 +1,6 @@
 """
 Phase 3: parse Schedule I / Part XV from all 20 donor foundations across
-2 tax years (FY2022 + FY2023). Builds a multi-foundation × multi-year view.
+2 tax years (FY2022 + FY2023). Builds a multi-foundation Ã— multi-year view.
 
 Uses the IRS 2023 + 2024 indices to locate OBJECT_IDs and the monthly ZIPs we
 already downloaded.
@@ -84,7 +84,7 @@ def parse_990(root):
 
 
 def load_filings_from_index(index_path: Path, target_eins: set[str]) -> list[dict]:
-    """Return canonical 990 / 990PF filing per (EIN, tax_period) — prefer non-990T."""
+    """Return canonical 990 / 990PF filing per (EIN, tax_period) â€” prefer non-990T."""
     by_key = {}
     with open(index_path, encoding="utf-8") as f:
         for row in csv.DictReader(f):
@@ -114,7 +114,7 @@ def find_in_zips(object_id: str, zip_dir: Path) -> tuple[str, str] | None:
 def load_location_map() -> dict[str, tuple[str, str]]:
     """Load the OBJECT_ID -> (zip_path, xml_path) map built by
     build_filing_index_for_all_eins.py."""
-    p = Path("data/all_filing_locations.json")
+    p = Path("data/reference/all_filing_locations.json")
     if not p.exists():
         return {}
     with open(p, encoding="utf-8") as f:
@@ -128,20 +128,20 @@ def main() -> None:
 
     # Load all donor EINs
     donors = {}
-    with open("data/donor_foundations.csv", encoding="utf-8") as f:
+    with open("data/reference/donor_foundations.csv", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             ein = r["ein"].replace("-", "")
             donors[ein] = (r["donor_ticker"], r["foundation_name"])
 
     target_eins = set(donors.keys())
-    zip_dir = Path("data/irs_zips")
+    zip_dir = Path("data/raw_sources/irs_zips")
     location_map = load_location_map()
     print(f"Pre-built location map: {len(location_map)} OBJECT_IDs")
 
     # Pull filings from 2023, 2024, and 2025 indices
-    filings_2023 = load_filings_from_index(Path("data/irs_index/index_2023.csv"), target_eins)
-    filings_2024 = load_filings_from_index(Path("data/irs_index/index_2024.csv"), target_eins)
-    idx_2025 = Path("data/irs_index/index_2025.csv")
+    filings_2023 = load_filings_from_index(Path("data/raw_sources/irs_index/index_2023.csv"), target_eins)
+    filings_2024 = load_filings_from_index(Path("data/raw_sources/irs_index/index_2024.csv"), target_eins)
+    idx_2025 = Path("data/raw_sources/irs_index/index_2025.csv")
     filings_2025 = (
         load_filings_from_index(idx_2025, target_eins) if idx_2025.exists() else []
     )

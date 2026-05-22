@@ -28,7 +28,7 @@ def main() -> None:
     # Load existing CSV for field structure & to keep older rows
     existing = []
     existing_eins = set()
-    with open('data/donor_foundations.csv', encoding='utf-8') as f:
+    with open('data/reference/donor_foundations.csv', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         fieldnames = reader.fieldnames
         for r in reader:
@@ -45,7 +45,7 @@ def main() -> None:
     # Load Tier A candidates
     tier_a = []
     tier_b = []
-    with open('data/foundation_candidates_v2.csv', encoding='utf-8') as f:
+    with open('data/reference/foundation_candidates_v2.csv', encoding='utf-8') as f:
         for r in csv.DictReader(f):
             if r['tier'] in ('A1', 'A2', 'A3'):
                 tier_a.append(r)
@@ -88,7 +88,7 @@ def main() -> None:
 
     # Write merged CSV
     all_rows = existing + new_rows
-    out_path = Path('data/donor_foundations.csv')
+    out_path = Path('data/reference/donor_foundations.csv')
     with open(out_path, 'w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=fieldnames, lineterminator='\n')
         w.writeheader()
@@ -98,7 +98,7 @@ def main() -> None:
 
     # Save Tier B separately for manual review
     if tier_b:
-        tier_b_path = Path('data/foundation_candidates_tier_b_review.csv')
+        tier_b_path = Path('data/reference/foundation_candidates_tier_b_review.csv')
         with open(tier_b_path, 'w', encoding='utf-8', newline='') as f:
             w = csv.writer(f, lineterminator='\n')
             w.writerow(['ein_dashed','foundation_name','donor_ticker','donor_company','tier','why','notes'])

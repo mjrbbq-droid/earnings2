@@ -4,7 +4,7 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 
 
 def ensure_columns(conn: sqlite3.Connection) -> None:

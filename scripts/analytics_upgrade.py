@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from typing import Optional, Tuple, List, Dict
 
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 
 # Composite score weights (positive is better; LRI is inverted)
 WEIGHTS = {

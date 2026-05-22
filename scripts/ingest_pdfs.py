@@ -252,8 +252,8 @@ def event_exists(conn, ticker: str, call_date: str | None, event_type: str) -> b
 def main() -> None:
     load_dotenv()
 
-    db_path = os.getenv("EARNINGS_DB_PATH", "./data/earnings.db")
-    raw_dir = Path(os.getenv("RAW_PDF_DIR", "./data/raw_pdfs"))
+    db_path = os.getenv("EARNINGS_DB_PATH", "./data/databases/earnings.db")
+    raw_dir = Path(os.getenv("RAW_PDF_DIR", "./data/raw_sources/raw_pdfs"))
     processed_dir = Path(os.getenv("PROCESSED_DIR", "./data/processed"))
 
     default_industry = os.getenv("DEFAULT_INDUSTRY", "unclassified").strip().lower()

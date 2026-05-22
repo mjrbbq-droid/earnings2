@@ -9,11 +9,28 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ── Paths ──────────────────────────────────────────────────────────────
+# Data is organized into subfolders (see data/README.md):
+#   reference/     - small analyst-curated lookups (in git)
+#   databases/     - SQLite databases (gitignored)
+#   raw_sources/   - bulk source data (gitignored): IRS zips, raw articles/PDFs
+#   processed/     - intermediate parquets/PDFs (gitignored)
+#   outputs/       - final deliverables (gitignored)
+#   REVIEW_LATER/  - things you should look at and decide what to do with
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
-DB_PATH = os.getenv("EARNINGS_DB_PATH", str(DATA_DIR / "earnings.db"))
-RISK_DB_PATH = os.getenv("RISK_DB_PATH", str(DATA_DIR / "institutional_risk.db"))
-RAW_ARTICLES_DIR = DATA_DIR / "raw_articles"
+REFERENCE_DIR = DATA_DIR / "reference"
+DATABASES_DIR = DATA_DIR / "databases"
+RAW_SOURCES_DIR = DATA_DIR / "raw_sources"
+OUTPUTS_DIR = DATA_DIR / "outputs"
+
+DB_PATH = os.getenv("EARNINGS_DB_PATH", str(DATABASES_DIR / "earnings.db"))
+
+# institutional_risk.db: prefer new location; fall back to legacy root if not yet moved
+_risk_new = DATABASES_DIR / "institutional_risk.db"
+_risk_legacy = DATA_DIR / "institutional_risk.db"
+RISK_DB_PATH = os.getenv("RISK_DB_PATH", str(_risk_new if _risk_new.exists() else _risk_legacy))
+
+RAW_ARTICLES_DIR = RAW_SOURCES_DIR / "raw_articles"
 PROCESSED_ARTICLES_DIR = DATA_DIR / "processed_articles"
 
 # ── FMP ────────────────────────────────────────────────────────────────

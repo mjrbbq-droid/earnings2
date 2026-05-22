@@ -5,7 +5,7 @@ import re
 import sqlite3
 from pathlib import Path
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 
 DATE_ISO_RE = re.compile(r"\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b")
 DATE_DMY_RE = re.compile(r"\b(\d{1,2})[- ]([A-Za-z]{3})[- ](20\d{2})\b")

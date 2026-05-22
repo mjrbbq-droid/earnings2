@@ -1,5 +1,5 @@
 """
-Ingest FMP news → CSV (raw layer) + institutional_risk.db (master).
+Ingest FMP news â†’ CSV (raw layer) + institutional_risk.db (master).
 
 Sources pulled:
     1. /stable/news/general-latest        (broad market news, no ticker)
@@ -8,7 +8,7 @@ Sources pulled:
     4. /stable/news/stock?symbols=TICKER  (per active ticker in company_master)
 
 Flow per item:
-    raw row -> data/raw_articles/fmp_news_YYYYMMDD_HHMMSS.csv
+    raw row -> data/raw_sources/raw_articles/fmp_news_YYYYMMDD_HHMMSS.csv
             -> upsert into articles (dedup on url_hash)
             -> match title+snippet against query_taxonomy
             -> insert into article_keyword_hits

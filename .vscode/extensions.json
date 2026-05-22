@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "ms-toolsai.jupyter",
+    "charliermarsh.ruff",
+    "qwtel.sqlite-viewer",
+    "github.vscode-pull-request-github"
+  ]
+}

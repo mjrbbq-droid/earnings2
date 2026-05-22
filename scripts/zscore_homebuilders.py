@@ -5,7 +5,7 @@ import sqlite3, json, csv
 from statistics import mean, pstdev
 from pathlib import Path
 
-DB = "./data/earnings.db"
+DB = "./data/databases/earnings.db"
 OUT_DIR = "./data"
 
 DEEP_PROMPT = "hb_deep_v2"

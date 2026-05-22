@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 def main() -> None:
-    out_dir = Path('data/irs_zips')
+    out_dir = Path('data/raw_sources/irs_zips')
     out_dir.mkdir(parents=True, exist_ok=True)
 
     total_bytes = 0
