@@ -1,0 +1,182 @@
+{
+  "202320449349100022": {
+    "ticker": "QCOM",
+    "name": "Qualcomm Charitable Foundation",
+    "ein": "274621444",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_02A.zip",
+    "xml_path": "2023_TEOS_XML_02A/202320449349100022_public.xml"
+  },
+  "202310909349100011": {
+    "ticker": "EL",
+    "name": "Estee Lauder Companies Charitable Foundation",
+    "ein": "812590470",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_04A.zip",
+    "xml_path": "2023_TEOS_XML_04A/202310909349100011_public.xml"
+  },
+  "202321019349102627": {
+    "ticker": "NKE",
+    "name": "Nike Foundation",
+    "ein": "931159948",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_04A.zip",
+    "xml_path": "2023_TEOS_XML_04A/202321019349102627_public.xml"
+  },
+  "202331319349100748": {
+    "ticker": "YUM",
+    "name": "Yum! Brands Foundation",
+    "ein": "611327140",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_05A.zip",
+    "xml_path": "2023_TEOS_XML_05A/202331319349100748_public.xml"
+  },
+  "202331579349300413": {
+    "ticker": "ULTA",
+    "name": "Ulta Beauty Charitable Foundation",
+    "ein": "300943172",
+    "tax_year": 2023,
+    "return_type": "990",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_06A.zip",
+    "xml_path": "2023_TEOS_XML_06A/202331579349300413_public.xml"
+  },
+  "202341529349100304": {
+    "ticker": "SBUX",
+    "name": "Starbucks Foundation",
+    "ein": "911795425",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_06A.zip",
+    "xml_path": "2023_TEOS_XML_06A/202341529349100304_public.xml"
+  },
+  "202311749349100416": {
+    "ticker": "PRU",
+    "name": "Prudential Foundation Inc",
+    "ein": "222175290",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_07A.zip",
+    "xml_path": "2023_TEOS_XML_07A/202311749349100416_public.xml"
+  },
+  "202302369349100910": {
+    "ticker": "COF",
+    "name": "Capital One Foundation Inc",
+    "ein": "113276603",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_08A.zip",
+    "xml_path": "2023_TEOS_XML_08A/202302369349100910_public.xml"
+  },
+  "202302279349100520": {
+    "ticker": "DIS",
+    "name": "Walt Disney Company Foundation",
+    "ein": "956037079",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_08A.zip",
+    "xml_path": "2023_TEOS_XML_08A/202302279349100520_public.xml"
+  },
+  "202312799349100306": {
+    "ticker": "IBM",
+    "name": "IBM International Foundation",
+    "ein": "133267906",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_10A.zip",
+    "xml_path": "2023_TEOS_XML_10A/202312799349100306_public.xml"
+  },
+  "202322839349100212": {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase Foundation",
+    "ein": "237049738",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_10A.zip",
+    "xml_path": "2023_TEOS_XML_10A/202322839349100212_public.xml"
+  },
+  "202312929349301606": {
+    "ticker": "PYPL",
+    "name": "PayPal Charitable Giving Fund",
+    "ein": "450931286",
+    "tax_year": 2022,
+    "return_type": "990",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_10A.zip",
+    "xml_path": "2023_TEOS_XML_10A/202312929349301606_public.xml"
+  },
+  "202312869349100516": {
+    "ticker": "LEVI",
+    "name": "Levi Strauss Foundation",
+    "ein": "946064702",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_10A.zip",
+    "xml_path": "2023_TEOS_XML_10A/202312869349100516_public.xml"
+  },
+  "202343199349100309": {
+    "ticker": "UL",
+    "name": "Unilever Foundation",
+    "ein": "136122117",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202343199349100309_public.xml"
+  },
+  "202343199349103794": {
+    "ticker": "CB",
+    "name": "Chubb Charitable Foundation",
+    "ein": "262456949",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202343199349103794_public.xml"
+  },
+  "202343189349101664": {
+    "ticker": "GS",
+    "name": "Goldman Sachs Foundation",
+    "ein": "311678646",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202343189349101664_public.xml"
+  },
+  "202303179349103505": {
+    "ticker": "CMCSA",
+    "name": "Comcast NBCUniversal Foundation",
+    "ein": "510390132",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202303179349103505_public.xml"
+  },
+  "202333119349303163": {
+    "ticker": "ABNB",
+    "name": "Airbnb.org",
+    "ein": "833135259",
+    "tax_year": 2022,
+    "return_type": "990",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202333119349303163_public.xml"
+  },
+  "202313179349102306": {
+    "ticker": "BLK",
+    "name": "BlackRock Charitable Foundation",
+    "ein": "842144591",
+    "tax_year": 2022,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202313179349102306_public.xml"
+  },
+  "202343489349100119": {
+    "ticker": "CRM",
+    "name": "Salesforce.com Foundation",
+    "ein": "943347800",
+    "tax_year": 2023,
+    "return_type": "990PF",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_12A.zip",
+    "xml_path": "2023_TEOS_XML_12A/202343489349100119_public.xml"
+  }
+}

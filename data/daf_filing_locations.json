@@ -1,0 +1,128 @@
+{
+  "202340469349301209": {
+    "name": "AOGF",
+    "year": "FY2021",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_02A.zip",
+    "xml_path": "2023_TEOS_XML_02A/202340469349301209_public.xml"
+  },
+  "202311359349313966": {
+    "name": "NPT",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_05A.zip",
+    "xml_path": "2023_TEOS_XML_05A/202311359349313966_public.xml"
+  },
+  "202321309349304807": {
+    "name": "Fidelity Charitable",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_05A.zip",
+    "xml_path": "2023_TEOS_XML_05A/202321309349304807_public.xml"
+  },
+  "202331359349303108": {
+    "name": "Vanguard Charitable",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_05A.zip",
+    "xml_path": "2023_TEOS_XML_05A/202331359349303108_public.xml"
+  },
+  "202321949349101007": {
+    "name": "Schwab Charitable",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_07A.zip",
+    "xml_path": "2023_TEOS_XML_07A/202321949349101007_public.xml"
+  },
+  "202302569349300030": {
+    "name": "RPA",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_09A.zip",
+    "xml_path": "2023_TEOS_XML_09A/202302569349300030_public.xml"
+  },
+  "202323189349300212": {
+    "name": "Tides Center",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202323189349300212_public.xml"
+  },
+  "202333189349300213": {
+    "name": "Tides Foundation",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202333189349300213_public.xml"
+  },
+  "202333189349318948": {
+    "name": "Silicon Valley CF",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2023_TEOS_XML_11A.zip",
+    "xml_path": "2023_TEOS_XML_11A/202333189349318948_public.xml"
+  },
+  "202400469349300305": {
+    "name": "Tides Foundation",
+    "year": "FY2022_v2",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_02A.zip",
+    "xml_path": "2024_TEOS_XML_02A/202400469349300305_public.xml"
+  },
+  "202410469349300741": {
+    "name": "AOGF",
+    "year": "FY2022",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_02A.zip",
+    "xml_path": "2024_TEOS_XML_02A/202410469349300741_public.xml"
+  },
+  "202430459349302913": {
+    "name": "Fidelity Charitable",
+    "year": "FY2022_v2",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_02A.zip",
+    "xml_path": "2024_TEOS_XML_02A/202430459349302913_public.xml"
+  },
+  "202440469349300404": {
+    "name": "Tides Center",
+    "year": "FY2022_v2",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_02A.zip",
+    "xml_path": "2024_TEOS_XML_02A/202440469349300404_public.xml"
+  },
+  "202431429349301368": {
+    "name": "NPT",
+    "year": "FY2023",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_05A.zip",
+    "xml_path": "2024_TEOS_XML_05A/202431429349301368_public.xml"
+  },
+  "202441359349309439": {
+    "name": "Vanguard Charitable",
+    "year": "FY2023",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_05A.zip",
+    "xml_path": "2024_TEOS_XML_05A/202441359349309439_public.xml"
+  },
+  "202441369349301334": {
+    "name": "Fidelity Charitable",
+    "year": "FY2023",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_05A.zip",
+    "xml_path": "2024_TEOS_XML_05A/202441369349301334_public.xml"
+  },
+  "202402159349100205": {
+    "name": "Schwab Charitable",
+    "year": "FY2023",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_08A.zip",
+    "xml_path": "2024_TEOS_XML_08A/202402159349100205_public.xml"
+  },
+  "202412739349300301": {
+    "name": "Tides Center",
+    "year": "FY2023",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_10A.zip",
+    "xml_path": "2024_TEOS_XML_10A/202412739349300301_public.xml"
+  },
+  "202412739349300401": {
+    "name": "Tides Foundation",
+    "year": "FY2023",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_10A.zip",
+    "xml_path": "2024_TEOS_XML_10A/202412739349300401_public.xml"
+  },
+  "202413129349304911": {
+    "name": "Silicon Valley CF",
+    "year": "FY2023",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_11A.zip",
+    "xml_path": "2024_TEOS_XML_11A/202413129349304911_public.xml"
+  },
+  "202433159349300308": {
+    "name": "RPA",
+    "year": "FY2023",
+    "zip_path": "data\\irs_zips\\2024_TEOS_XML_11A.zip",
+    "xml_path": "2024_TEOS_XML_11A/202433159349300308_public.xml"
+  }
+}

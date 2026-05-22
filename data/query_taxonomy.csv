@@ -1,0 +1,24 @@
+category,keyword,severity,stance,notes
+police,defund police,5,activism,Direct anti-police policy stance
+police,abolish police,5,activism,Stronger than defund
+police,defund the police,5,activism,Phrase variant
+police,police reform,3,activism,Softer reform framing
+police,police brutality,4,activism,Critical of police
+police,law enforcement,2,neutral,Generic - needs context
+police,police union,2,neutral,Context-dependent
+police,back the blue,4,positive_institutional,Pro-police framing
+police,blue lives matter,4,positive_institutional,Pro-police movement
+activism,boycott,2,activism,Consumer pressure
+activism,black lives matter,2,activism,Black Lives Matter movement (full phrase only - 'BLM' alone collides with ticker symbols)
+activism,protest,2,activism,Generic
+activism,divest,3,activism,Investor pressure
+governance,EEOC,3,neutral,Regulatory body - context matters
+governance,discrimination,2,neutral,Generic - needs context
+governance,DEI,2,neutral,Diversity programs
+governance,civil rights,2,neutral,Generic
+public_safety,public safety,1,neutral,Very generic
+public_safety,body camera,2,positive_institutional,Law-enforcement tech
+public_safety,retail theft,2,neutral,Often pro-enforcement framing
+public_safety,organized retail crime,2,positive_institutional,Industry framing
+incident,George Floyd,4,activism,Named incident
+incident,officer-involved,3,neutral,Incident framing

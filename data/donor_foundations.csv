@@ -1,0 +1,48 @@
+ein,foundation_name,donor_ticker,donor_company,relationship,notes
+94-6064702,Levi Strauss Foundation,LEVI,Levi Strauss & Co.,corporate_foundation,Private 990-PF; key recipient list includes Pioneers in Justice grantees
+93-1159948,Nike Foundation,NKE,Nike Inc.,corporate_foundation,Private 990-PF; separate from Nike Community Impact Fund
+13-3267906,IBM International Foundation,IBM,IBM,corporate_foundation,Private 990-PF
+26-2456949,Chubb Charitable Foundation,CB,Chubb Limited,corporate_foundation,Houses Rule of Law Fund
+23-7049738,JPMorgan Chase Foundation,JPM,JPMorgan Chase,corporate_foundation,Houses Chase PolicyCenter / Second Chance Agenda
+61-1327140,Yum! Brands Foundation,YUM,Yum! Brands,corporate_foundation,Louisville HQ
+51-0390132,Comcast NBCUniversal Foundation,CMCSA,Comcast,corporate_foundation,Merged entity
+94-3347800,Salesforce.com Foundation,CRM,Salesforce,corporate_foundation,Pledge 1% origin
+95-6037079,Walt Disney Company Foundation,DIS,Walt Disney Co,corporate_foundation,
+45-0931286,PayPal Charitable Giving Fund,PYPL,PayPal,corporate_foundation,Donor-advised fund structure
+30-0943172,Ulta Beauty Charitable Foundation,ULTA,Ulta Beauty,corporate_foundation,
+81-2590470,Estee Lauder Companies Charitable Foundation,EL,Estee Lauder,corporate_foundation,
+11-3276603,Capital One Foundation Inc,COF,Capital One,corporate_foundation,
+22-2175290,Prudential Foundation Inc,PRU,Prudential Financial,corporate_foundation,
+27-4621444,Qualcomm Charitable Foundation,QCOM,Qualcomm,corporate_foundation,
+31-1678646,Goldman Sachs Foundation,GS,Goldman Sachs,corporate_foundation,Note: 'Goldman Sachs Gives' is a separate donor-advised fund
+20-1548253,Google Foundation,GOOGL,Alphabet Inc.,corporate_foundation,Distinct from Google.org which is fiscally hosted
+91-1795425,Starbucks Foundation,SBUX,Starbucks,corporate_foundation,Pro-police-net flagged donor
+84-2144591,BlackRock Charitable Foundation,BLK,BlackRock,corporate_foundation,Pro-police-net flagged donor
+13-6122117,Unilever Foundation,UL,Unilever,corporate_foundation,US giving arm; parent has UK/NL structure
+83-3135259,Airbnb.org,ABNB,Airbnb,separate_charitable_arm,501c3 split from Airbnb
+51-0198509,Tides Foundation,DAF_TIDES_F,Tides Foundation,daf,Major progressive DAF host
+94-3213100,Tides Center,DAF_TIDES_C,Tides Center,daf,Fiscal sponsor / DAF host
+81-0739440,American Online Giving Foundation,DAF_AOGF,American Online Giving Foundation,daf,Benevity-affiliated corporate-matching DAF
+23-7825575,National Philanthropic Trust,DAF_NPT,National Philanthropic Trust,daf,Independent DAF host
+11-0303001,Fidelity Investments Charitable Gift Fund,DAF_FIDC,Fidelity Charitable,daf,Largest US DAF host
+26-1997839,Schwab Charitable Foundation,DAF_SCH,Schwab Charitable,daf,Major DAF host
+13-3615533,Rockefeller Philanthropy Advisors,DAF_RPA,Rockefeller Philanthropy Advisors,daf,Donor services + DAF host
+20-5205488,Silicon Valley Community Foundation,DAF_SVCF,Silicon Valley CF,daf,Major DAF host
+23-2888152,Vanguard Charitable Endowment Program,DAF_VGD,Vanguard Charitable,daf,DAF host
+58-2491657,The Home Depot Foundation (THDF II),HD,Home Depot,corporate_foundation,"Hub of Sludge ""Cop City"" Atlanta Police Foundation funding"
+91-6374992,Microsoft Charitable Trust,MSFT,Microsoft,corporate_foundation,Newly-found Microsoft giving entity — separate from Microsoft Alumni Foundation
+13-3319048,Verizon Foundation,VZ,Verizon Communications,corporate_foundation,Includes Verizon Frontline programs
+93-3284518,The Palantir Foundation for Defense Policy,PLTR,Palantir Technologies,corporate_foundation,"Named foundation explicitly for ""defense policy"""
+45-5596123,Axon Advance Foundation,AXON,Axon Enterprise,corporate_foundation,Axon corporate foundation; smaller scale
+46-2626883,AmazonSmile Foundation,AMZN,Amazon,corporate_foundation,Defunct 2023 but still files; track wind-down
+11-3813663,Goldman Sachs Charitable Gift Fund,DAF_GSCG,Goldman Sachs Charitable Gift Fund,daf,Major DAF host
+31-1774905,Goldman Sachs Philanthropy Fund,DAF_GSPF,Goldman Sachs Philanthropy Fund,daf,Separate from Foundation; major DAF
+36-6109323,Motorola Solutions Foundation,MSI,Motorola Solutions,corporate_foundation,Pro-police corporate vendor foundation
+58-1574705,The Coca-Cola Foundation,KO,The Coca-Cola Company,corporate_foundation,
+20-0721133,Bank of America Charitable Foundation,BAC,Bank of America,corporate_foundation,
+41-1367441,Wells Fargo Foundation,WFC,Wells Fargo,corporate_foundation,
+13-3781879,Citi Foundation,C,Citigroup,corporate_foundation,
+43-1353948,AT&T Foundation,T,AT&T,corporate_foundation,
+41-1924256,Travelers Foundation,TRV,Travelers Companies,corporate_foundation,
+20-3713472,AIG Foundation Inc,AIG,AIG,corporate_foundation,
+13-6099176,UPS Foundation Inc,UPS,United Parcel Service,corporate_foundation,

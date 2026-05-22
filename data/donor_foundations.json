@@ -1,0 +1,906 @@
+{
+  "generated_at": "2026-05-22",
+  "description": "Authoritative EIN catalog for the police-policy-stance investigation. Each entry: corporate foundation OR donor-advised fund (DAF) verified against ProPublica Nonprofit Explorer name+address match.",
+  "donor_foundations": [
+    {
+      "ein": "203713472",
+      "foundation_name": "AIG Foundation Inc",
+      "donor_ticker": "AIG",
+      "donor_company": "AIG",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 0,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "462626883",
+      "foundation_name": "AmazonSmile Foundation",
+      "donor_ticker": "AMZN",
+      "donor_company": "Amazon",
+      "relationship": "corporate_foundation",
+      "notes": "Defunct 2023 but still files; track wind-down",
+      "filings_seen": {
+        "earliest_tax_year": 2013,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 8
+      },
+      "grants_parsed": 362193,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 22399,
+        "direct_broad_cj_reform_or_reentry": 516053,
+        "direct_pro_police": 34136
+      }
+    },
+    {
+      "ein": "455596123",
+      "foundation_name": "Axon Advance Foundation",
+      "donor_ticker": "AXON",
+      "donor_company": "Axon Enterprise",
+      "relationship": "corporate_foundation",
+      "notes": "Axon corporate foundation; smaller scale",
+      "filings_seen": {
+        "earliest_tax_year": 2013,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 11
+      },
+      "grants_parsed": 0,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "200721133",
+      "foundation_name": "Bank of America Charitable Foundation",
+      "donor_ticker": "BAC",
+      "donor_company": "Bank of America",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 114824,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 50,
+        "direct_broad_cj_reform_or_reentry": 1535780,
+        "direct_pro_police": 423557
+      }
+    },
+    {
+      "ein": "842144591",
+      "foundation_name": "BlackRock Charitable Foundation",
+      "donor_ticker": "BLK",
+      "donor_company": "BlackRock",
+      "relationship": "corporate_foundation",
+      "notes": "Pro-police-net flagged donor",
+      "filings_seen": {
+        "earliest_tax_year": 2019,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 5
+      },
+      "grants_parsed": 45,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "133781879",
+      "foundation_name": "Citi Foundation",
+      "donor_ticker": "C",
+      "donor_company": "Citigroup",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 401,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 1000000,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "262456949",
+      "foundation_name": "Chubb Charitable Foundation",
+      "donor_ticker": "CB",
+      "donor_company": "Chubb Limited",
+      "relationship": "corporate_foundation",
+      "notes": "Houses Rule of Law Fund",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 7575,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 11731,
+        "direct_pro_police": 300
+      }
+    },
+    {
+      "ein": "510390132",
+      "foundation_name": "Comcast NBCUniversal Foundation",
+      "donor_ticker": "CMCSA",
+      "donor_company": "Comcast",
+      "relationship": "corporate_foundation",
+      "notes": "Merged entity",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 3,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "113276603",
+      "foundation_name": "Capital One Foundation Inc",
+      "donor_ticker": "COF",
+      "donor_company": "Capital One",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 44,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "943347800",
+      "foundation_name": "Salesforce.com Foundation",
+      "donor_ticker": "CRM",
+      "donor_company": "Salesforce",
+      "relationship": "corporate_foundation",
+      "notes": "Pledge 1% origin",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2024,
+        "n_filings_parsed": 11
+      },
+      "grants_parsed": 53,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "956037079",
+      "foundation_name": "Walt Disney Company Foundation",
+      "donor_ticker": "DIS",
+      "donor_company": "Walt Disney Co",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 9
+      },
+      "grants_parsed": 457,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "812590470",
+      "foundation_name": "Estee Lauder Companies Charitable Foundation",
+      "donor_ticker": "EL",
+      "donor_company": "Estee Lauder",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2020,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 4
+      },
+      "grants_parsed": 201,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 855000,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "201548253",
+      "foundation_name": "Google Foundation",
+      "donor_ticker": "GOOGL",
+      "donor_company": "Alphabet Inc.",
+      "relationship": "corporate_foundation",
+      "notes": "Distinct from Google.org which is fiscally hosted",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2015,
+        "n_filings_parsed": 5
+      },
+      "grants_parsed": 0,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "311678646",
+      "foundation_name": "Goldman Sachs Foundation",
+      "donor_ticker": "GS",
+      "donor_company": "Goldman Sachs",
+      "relationship": "corporate_foundation",
+      "notes": "Note: 'Goldman Sachs Gives' is a separate donor-advised fund",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 197,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "582491657",
+      "foundation_name": "The Home Depot Foundation (THDF II)",
+      "donor_ticker": "HD",
+      "donor_company": "Home Depot",
+      "relationship": "corporate_foundation",
+      "notes": "Hub of Sludge \"Cop City\" Atlanta Police Foundation funding",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2024,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 339,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 50000
+      }
+    },
+    {
+      "ein": "133267906",
+      "foundation_name": "IBM International Foundation",
+      "donor_ticker": "IBM",
+      "donor_company": "IBM",
+      "relationship": "corporate_foundation",
+      "notes": "Private 990-PF",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 9
+      },
+      "grants_parsed": 32,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "237049738",
+      "foundation_name": "JPMorgan Chase Foundation",
+      "donor_ticker": "JPM",
+      "donor_company": "JPMorgan Chase",
+      "relationship": "corporate_foundation",
+      "notes": "Houses Chase PolicyCenter / Second Chance Agenda",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 19298,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 180,
+        "direct_broad_cj_reform_or_reentry": 1010605,
+        "direct_pro_police": 6570
+      }
+    },
+    {
+      "ein": "581574705",
+      "foundation_name": "The Coca-Cola Foundation",
+      "donor_ticker": "KO",
+      "donor_company": "The Coca-Cola Company",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 649,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 2000000
+      }
+    },
+    {
+      "ein": "946064702",
+      "foundation_name": "Levi Strauss Foundation",
+      "donor_ticker": "LEVI",
+      "donor_company": "Levi Strauss & Co.",
+      "relationship": "corporate_foundation",
+      "notes": "Private 990-PF; key recipient list includes Pioneers in Justice grantees",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 147,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 235833,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "916374992",
+      "foundation_name": "Microsoft Charitable Trust",
+      "donor_ticker": "MSFT",
+      "donor_company": "Microsoft",
+      "relationship": "corporate_foundation",
+      "notes": "Newly-found Microsoft giving entity \u2014 separate from Microsoft Alumni Foundation",
+      "filings_seen": {
+        "earliest_tax_year": 2012,
+        "latest_tax_year": 2022,
+        "n_filings_parsed": 9
+      },
+      "grants_parsed": 2,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "366109323",
+      "foundation_name": "Motorola Solutions Foundation",
+      "donor_ticker": "MSI",
+      "donor_company": "Motorola Solutions",
+      "relationship": "corporate_foundation",
+      "notes": "Pro-police corporate vendor foundation",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 455,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 1000000,
+        "direct_pro_police": 478550
+      }
+    },
+    {
+      "ein": "931159948",
+      "foundation_name": "Nike Foundation",
+      "donor_ticker": "NKE",
+      "donor_company": "Nike Inc.",
+      "relationship": "corporate_foundation",
+      "notes": "Private 990-PF; separate from Nike Community Impact Fund",
+      "filings_seen": {
+        "earliest_tax_year": 2012,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 9
+      },
+      "grants_parsed": 30,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "933284518",
+      "foundation_name": "The Palantir Foundation for Defense Policy",
+      "donor_ticker": "PLTR",
+      "donor_company": "Palantir Technologies",
+      "relationship": "corporate_foundation",
+      "notes": "Named foundation explicitly for \"defense policy\"",
+      "filings_seen": {
+        "earliest_tax_year": 2023,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 1
+      },
+      "grants_parsed": 0,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "222175290",
+      "foundation_name": "Prudential Foundation Inc",
+      "donor_ticker": "PRU",
+      "donor_company": "Prudential Financial",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 291,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "450931286",
+      "foundation_name": "PayPal Charitable Giving Fund",
+      "donor_ticker": "PYPL",
+      "donor_company": "PayPal",
+      "relationship": "corporate_foundation",
+      "notes": "Donor-advised fund structure",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 17227,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 46479,
+        "direct_broad_cj_reform_or_reentry": 1545010,
+        "direct_pro_police": 65856
+      }
+    },
+    {
+      "ein": "274621444",
+      "foundation_name": "Qualcomm Charitable Foundation",
+      "donor_ticker": "QCOM",
+      "donor_company": "Qualcomm",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 2,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "911795425",
+      "foundation_name": "Starbucks Foundation",
+      "donor_ticker": "SBUX",
+      "donor_company": "Starbucks",
+      "relationship": "corporate_foundation",
+      "notes": "Pro-police-net flagged donor",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 219,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "431353948",
+      "foundation_name": "AT&T Foundation",
+      "donor_ticker": "T",
+      "donor_company": "AT&T",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 521,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 50000,
+        "direct_pro_police": 35000
+      }
+    },
+    {
+      "ein": "411924256",
+      "foundation_name": "Travelers Foundation",
+      "donor_ticker": "TRV",
+      "donor_company": "Travelers Companies",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 175,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "136122117",
+      "foundation_name": "Unilever Foundation",
+      "donor_ticker": "UL",
+      "donor_company": "Unilever",
+      "relationship": "corporate_foundation",
+      "notes": "US giving arm; parent has UK/NL structure",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 11,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "300943172",
+      "foundation_name": "Ulta Beauty Charitable Foundation",
+      "donor_ticker": "ULTA",
+      "donor_company": "Ulta Beauty",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2017,
+        "latest_tax_year": 2024,
+        "n_filings_parsed": 8
+      },
+      "grants_parsed": 56,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "136099176",
+      "foundation_name": "UPS Foundation Inc",
+      "donor_ticker": "UPS",
+      "donor_company": "United Parcel Service",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 2,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "133319048",
+      "foundation_name": "Verizon Foundation",
+      "donor_ticker": "VZ",
+      "donor_company": "Verizon Communications",
+      "relationship": "corporate_foundation",
+      "notes": "Includes Verizon Frontline programs",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 20057,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 9449,
+        "direct_pro_police": 3600
+      }
+    },
+    {
+      "ein": "411367441",
+      "foundation_name": "Wells Fargo Foundation",
+      "donor_ticker": "WFC",
+      "donor_company": "Wells Fargo",
+      "relationship": "corporate_foundation",
+      "notes": null,
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 2,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "611327140",
+      "foundation_name": "Yum! Brands Foundation",
+      "donor_ticker": "YUM",
+      "donor_company": "Yum! Brands",
+      "relationship": "corporate_foundation",
+      "notes": "Louisville HQ",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 9
+      },
+      "grants_parsed": 105,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "810739440",
+      "foundation_name": "American Online Giving Foundation",
+      "donor_ticker": "DAF_AOGF",
+      "donor_company": "American Online Giving Foundation",
+      "relationship": "daf",
+      "notes": "Benevity-affiliated corporate-matching DAF",
+      "filings_seen": {
+        "earliest_tax_year": 2016,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 8
+      },
+      "grants_parsed": 67579,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 635475,
+        "direct_broad_cj_reform_or_reentry": 26931061,
+        "direct_pro_police": 741892
+      }
+    },
+    {
+      "ein": "110303001",
+      "foundation_name": "Fidelity Investments Charitable Gift Fund",
+      "donor_ticker": "DAF_FIDC",
+      "donor_company": "Fidelity Charitable",
+      "relationship": "daf",
+      "notes": "Largest US DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 202952,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 260815,
+        "direct_broad_cj_reform_or_reentry": 98899908,
+        "direct_pro_police": 4380928
+      }
+    },
+    {
+      "ein": "113813663",
+      "foundation_name": "Goldman Sachs Charitable Gift Fund",
+      "donor_ticker": "DAF_GSCG",
+      "donor_company": "Goldman Sachs Charitable Gift Fund",
+      "relationship": "daf",
+      "notes": "Major DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 5187,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 1324250,
+        "direct_pro_police": 104500
+      }
+    },
+    {
+      "ein": "311774905",
+      "foundation_name": "Goldman Sachs Philanthropy Fund",
+      "donor_ticker": "DAF_GSPF",
+      "donor_company": "Goldman Sachs Philanthropy Fund",
+      "relationship": "daf",
+      "notes": "Separate from Foundation; major DAF",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2022,
+        "n_filings_parsed": 12
+      },
+      "grants_parsed": 11762,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 25120750,
+        "direct_pro_police": 158000
+      }
+    },
+    {
+      "ein": "237825575",
+      "foundation_name": "National Philanthropic Trust",
+      "donor_ticker": "DAF_NPT",
+      "donor_company": "National Philanthropic Trust",
+      "relationship": "daf",
+      "notes": "Independent DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 31201,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 222200,
+        "direct_broad_cj_reform_or_reentry": 49296430,
+        "direct_pro_police": 7841547
+      }
+    },
+    {
+      "ein": "133615533",
+      "foundation_name": "Rockefeller Philanthropy Advisors",
+      "donor_ticker": "DAF_RPA",
+      "donor_company": "Rockefeller Philanthropy Advisors",
+      "relationship": "daf",
+      "notes": "Donor services + DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2010,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 14
+      },
+      "grants_parsed": 3189,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 350000,
+        "direct_broad_cj_reform_or_reentry": 1732500,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "261997839",
+      "foundation_name": "Schwab Charitable Foundation",
+      "donor_ticker": "DAF_SCH",
+      "donor_company": "Schwab Charitable",
+      "relationship": "daf",
+      "notes": "Major DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 10
+      },
+      "grants_parsed": 16,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "205205488",
+      "foundation_name": "Silicon Valley Community Foundation",
+      "donor_ticker": "DAF_SVCF",
+      "donor_company": "Silicon Valley CF",
+      "relationship": "daf",
+      "notes": "Major DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 7420,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 40000,
+        "direct_broad_cj_reform_or_reentry": 13298290,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "943213100",
+      "foundation_name": "Tides Center",
+      "donor_ticker": "DAF_TIDES_C",
+      "donor_company": "Tides Center",
+      "relationship": "daf",
+      "notes": "Fiscal sponsor / DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 1420,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 649200,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "510198509",
+      "foundation_name": "Tides Foundation",
+      "donor_ticker": "DAF_TIDES_F",
+      "donor_company": "Tides Foundation",
+      "relationship": "daf",
+      "notes": "Major progressive DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 9643,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 75000,
+        "direct_broad_cj_reform_or_reentry": 3112292,
+        "direct_pro_police": 0
+      }
+    },
+    {
+      "ein": "232888152",
+      "foundation_name": "Vanguard Charitable Endowment Program",
+      "donor_ticker": "DAF_VGD",
+      "donor_company": "Vanguard Charitable",
+      "relationship": "daf",
+      "notes": "DAF host",
+      "filings_seen": {
+        "earliest_tax_year": 2011,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 13
+      },
+      "grants_parsed": 42857,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 402900,
+        "direct_broad_cj_reform_or_reentry": 7079523,
+        "direct_pro_police": 124273
+      }
+    },
+    {
+      "ein": "833135259",
+      "foundation_name": "Airbnb.org",
+      "donor_ticker": "ABNB",
+      "donor_company": "Airbnb",
+      "relationship": "separate_charitable_arm",
+      "notes": "501c3 split from Airbnb",
+      "filings_seen": {
+        "earliest_tax_year": 2020,
+        "latest_tax_year": 2023,
+        "n_filings_parsed": 4
+      },
+      "grants_parsed": 79,
+      "classified_totals_usd": {
+        "direct_reform_advocacy": 0,
+        "direct_broad_cj_reform_or_reentry": 0,
+        "direct_pro_police": 0
+      }
+    }
+  ],
+  "corp_foundations_count": 35,
+  "daf_count": 11,
+  "totals_by_relationship": {
+    "corporate_foundation": 35,
+    "daf": 11,
+    "separate_charitable_arm": 1
+  }
+}
