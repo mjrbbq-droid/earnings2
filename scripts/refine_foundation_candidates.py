@@ -63,6 +63,19 @@ FALSE_POSITIVE_MARKERS = [
     'BERKSHIRE HATHAWAY ENERGY',
     'CINTAS DELIVERS',
     'DELIVERS THE BEST',
+    # Additional second-pass false positives
+    'APA SHERPA',                            # mountaineering, not APA Corp
+    'AES CRESTWOOD',                         # MD school district
+    'CISCO CENTER',                          # CA theater, not Cisco Systems
+    'HARTFORD FOUNDATION FOR PUBLIC',        # CT community fdn, not Hartford Ins
+    'POOL CHARITABLE TRUST UMA',             # personal trust
+    'FRANCIS POOL',                          # personal trust
+    'ALFRED I DUPONT',                       # personal trust (Jacksonville)
+    'HISTORICAL FOUNDATION',                 # historical society, not corp
+    'EATON LEADERSHIP',                      # leadership prog, not Eaton Corp
+    'GE AEROSPACE FOUNDATION',               # need to verify — this is a sub-brand
+    'OLD DOMINION FOUNDATION INCORPORATED',  # ODFL is freight, this looks unclear
+    'PILOTS CHARITABLE FUND',                # employee-only
 ]
 
 

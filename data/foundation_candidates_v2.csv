@@ -1,0 +1,227 @@
+ein_dashed,foundation_name,donor_ticker,donor_company,sector,relationship,tier,score,why,state,notes
+77-0532250,Agilent Technologies Foundation,A,Agilent Technologies,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+30-0129206,Apple Foundation Inc,AAPL,Apple Inc.,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+46-0827839,Abbvie Foundation,ABBV,AbbVie,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+36-4296414,Accenture Foundation Inc,ACN,Accenture,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+26-0233808,Adobe Foundation,ADBE,Adobe Inc.,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+84-4029107,Analog Devices Foundation,ADI,Analog Devices,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+61-1703255,Autodesk Foundation,ADSK,Autodesk,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+43-6022693,Ameren Charitable Trust (Union Electric,AEE,Ameren,Utilities,corporate_foundation,A3,85,charitable trust/foundation,,auto-flagged from IRS scan
+20-3886453,American Electric Power Foundation,AEP,American Electric Power,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+82-2752694,Aes Crestwood Foundation Inc,AES,AES Corporation,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+58-2509396,The Aflac Foundation Inc,AFL,Aflac,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+13-3156497,Assurant Foundation,AIZ,Assurant,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+56-1538739,The Albemarle Foundation Inc,ALB,Albemarle Corporation,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+36-6116535,The Allstate Foundation,ALL,Allstate,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+77-0386898,The Applied Materials Foundation,AMAT,Applied Materials,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+41-6038616,The Amcor Cares Foundation,AMCR,Amcor,Consumer Cyclical,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+13-6095939,Ametek Foundation Inc,AME,Ametek,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+77-0252898,The Amgen Foundation Inc,AMGN,Amgen,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+81-5266916,American Tower Charitable Foundation Inc,AMT,American Tower,Real Estate,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+36-3337340,Aon Foundation,AON,Aon,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+27-2198169,The Apa Sherpa Foundation,APA,APA Corporation,Energy,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+23-2130928,Air Products Foundation,APD,Air Products,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+39-1366838,Aptiv Foundation Inc,APTV,Aptiv,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+26-4754581,Broadcom Foundation,AVGO,Broadcom,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+95-3251844,Avery Dennison Foundation,AVY,Avery Dennison,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+13-6123529,American Express Foundation,AXP,American Express,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+91-6056738,Boeing Company Charitable Trust,BA,Boeing,Industrials,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+36-2837820,Ball Foundation,BALL,Ball Corporation,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+36-3159396,Baxter International Foundation,BAX,Baxter International,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+41-1784382,Best Buy Foundation,BBY,Best Buy,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+16-1636254,Biogen Foundation Incorporated,BIIB,Biogen,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+31-1605320,Bny Mellon Foundation,BK,BNY Mellon,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+76-0441292,Baker Hughes Foundation,BKR,Baker Hughes,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+26-2870487,Broadridge Foundation C/O Broadridge Financial Solutions,BR,Broadridge Financial Solutions,Technology,corporate_foundation,C,30,weak match,,auto-flagged from IRS scan
+20-3617312,Brown & Brown Disaster Relief Foundation Inc,BRO,Brown & Brown,Financial Services,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+04-3556844,Boston Scientific Foundation Inc,BSX,Boston Scientific,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+26-0462996,The Blackstone Charitable Foundation,BX,Blackstone Inc.,Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+36-2899320,Conagra Brands Foundation,CAG,Conagra Brands,Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+31-1746458,Cardinal Health Foundation,CAH,Cardinal Health,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+37-6022314,Caterpillar Foundation,CAT,Caterpillar Inc.,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+51-0439609,Cbre Foundation Inc,CBRE,CBRE Group,Real Estate,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+52-1452037,Constellation Energy Foundation Inc,CEG,Constellation Energy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+88-4379468,Cf Industries Foundation,CF,CF Industries,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+85-3309126,Church & Dwight Philanthropic Foundation Inc,CHD,Church & Dwight,Consumer Defensive,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+23-6261726,Cigna Foundation,CI,Cigna,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+94-2674980,The Clorox Company Foundation,CLX,Clorox,Consumer Defensive,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+45-0575574,Cme Group Foundation,CME,CME Group,Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+35-6042373,The Cummins Foundation Inc,CMI,Cummins,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+38-3575175,Cms Energy Foundation,CMS,CMS Energy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+20-1298192,Centene Foundation,CNC,Centene Corporation,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+35-1950691,Centerpoint Energy Foundation Inc,CNP,CenterPoint Energy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+47-0401230,Cooper Foundation,COO,Cooper Companies (The),Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+47-1846222,Cencora Impact Foundation,COR,Cencora,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+91-1799391,The Costco Foundation,COST,Costco,Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+21-6019196,Campbell Soup Foundation,CPB,Campbell Soup Company,Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+27-3533626,Copart Charitable Foundation,CPRT,Copart,Consumer Cyclical,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+51-0188208,Charles River Laboratories Foundation Inc,CRL,Charles River Laboratories,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+82-1515943,The Crowdstrike Foundation,CRWD,CrowdStrike,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+27-1864907,Cisco Center Foundation Inc,CSCO,Cisco,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+26-2248439,Csx Foundation Inc,CSX,CSX Corporation,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+13-1980389,Cintas Foundation Inc,CTAS,Cintas,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+82-5385478,Cognizant Us Foundation,CTSH,Cognizant,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+42-1388269,Corteva Agriscience Foundation,CTVA,Corteva,Basic Materials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+86-1192142,Chevron Group Foundation Inc,CVX,Chevron Corporation,Energy,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+47-2746460,Dominion Energy Charitable Foundation,D,Dominion Energy,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+58-6073119,Delta Air Lines Foundation,DAL,Delta Air Lines,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+59-0226560,Alfred I Dupont Charitable Trust,DD,DuPont,Basic Materials,corporate_foundation,A3,85,charitable trust/foundation,,auto-flagged from IRS scan
+62-1546736,Dollar General Literacy Foundation,DG,Dollar General,Consumer Defensive,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+22-3093807,Quest Diagnostics Foundation Inc,DGX,Quest Diagnostics,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+36-6042871,Danaher Foundation,DHR,Danaher Corporation,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+04-2374187,Dover Foundation Inc,DOV,Dover Corporation,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+84-2532252,The Dow Foundation,DOW,Dow Inc.,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+58-1703733,Domino'S Pizza Partners Foundation,DPZ,Domino's,Consumer Cyclical,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+59-3332929,Darden Restaurants Inc Foundation,DRI,Darden Restaurants,Consumer Cyclical,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+38-2708636,Dte Energy Foundation,DTE,DTE Energy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+58-1586283,Duke Energy Foundation,DUK,Duke Energy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+33-0932587,Davita Children'S Foundation,DVA,DaVita,Healthcare,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+36-5040938,Devon Energy Charitable Foundation,DVN,Devon Energy,Energy,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+45-5270991,California Foundation For The Advancement Of The Electronic Arts,EA,Electronic Arts,Technology,corporate_foundation,C,30,weak match,,auto-flagged from IRS scan
+02-0605596,Ebay Foundation,EBAY,eBay,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+41-1372157,Ecolab Foundation (A/K/A Ecolab Industry Foundation),ECL,Ecolab,Basic Materials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+93-4767892,Consolidated Edison Foundationinc,ED,Consolidated Edison,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+83-4517595,Equifax Foundation Inc,EFX,Equifax,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+20-1032167,The Everest Foundation,EG,Everest Group,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+95-4383002,Edison International Foundation,EIX,Edison International,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+35-2122763,Elevance Health Foundation Inc,ELV,Elevance Health,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+88-3070927,Equinix Foundation,EQIX,Equinix,Real Estate,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+36-4478772,Equity Residential Foundation,EQR,Equity Residential,Real Estate,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+04-3747289,Eqt Foundation,EQT,EQT Corporation,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+06-1527290,Eversource Energy Foundation Inc C/O Kevin Morrissey,ES,Eversource Energy,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+45-5399245,Eaton Leadership Foundation,ETN,Eaton Corporation,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+71-0845366,Entergy Charitable Foundation,ETR,Entergy,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+46-1702755,Edwards Lifesciences Foundation,EW,Edwards Lifesciences,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+83-0499473,Exelon Foundation,EXC,Exelon,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+87-3645269,Factset Charitable Foundation,FDS,FactSet,Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+46-3778145,Fedex Pilots Charitable Fund,FDX,FedEx,Industrials,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+34-6514181,Firstenergy Foundation,FE,FirstEnergy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+85-1252333,Fortinet Foundation,FTNT,Fortinet,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+84-2828145,The Fortive Foundation,FTV,Fortive,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+22-2621967,Ge Aerospace Foundation,GE,GE Aerospace,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+93-3085979,Ge Healthcare Charitable Foundation,GEHC,GE HealthCare,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+93-2481739,Ge Vernova Foundation I,GEV,GE Vernova,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+93-4931186,Globe Life Foundation,GL,Globe Life,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+16-6051394,Corning Incorporated Foundation,GLW,Corning Inc.,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+88-1928522,Generac Foundation Inc,GNRC,Generac,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+85-3724394,The Global Payments Care Foundation Inc,GPN,Global Payments,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+75-1212458,Halliburton Foundation Inc,HAL,Halliburton,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+22-2538470,Hasbro Foundation Inc,HAS,Hasbro,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+61-1230563,Hca Healthcare Foundation,HCA,HCA Healthcare,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+06-0699252,Hartford Foundation For Public Giving,HIG,Hartford (The),Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+35-0390706,The Honeywell Foundation Inc,HON,Honeywell,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+47-5011215,Hewlett Packard Enterprise Foundation,HPE,Hewlett Packard Enterprise,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+01-0761416,Hormel Foods Corporation Charitable Trust,HRL,Hormel Foods,Consumer Defensive,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+26-4137268,Henry Schein Cares Foundation Inc,HSIC,Henry Schein,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+34-1525626,The Hershey Foundation,HSY,Hershey Company (The),Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+61-1004763,Humana Foundation Inc,HUM,Humana,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+84-3022317,Howmet Aerospace Foundation,HWM,Howmet Aerospace,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+47-1141222,Idex Foundation,IEX,IDEX Corporation,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+37-1827916,Incyte Charitable Giving Foundation,INCY,Incyte,Healthcare,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+94-3092928,Intel Foundation,INTC,Intel,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+47-0860921,The Intuit Foundation,INTU,Intuit,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+13-6155080,International Paper Company Foundation,IP,International Paper,Consumer Cyclical,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+84-0440750,Iron Mountain Foundation,IRM,Iron Mountain,Real Estate,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+13-7560758,The Gartner Family Charitable Trust,IT,Gartner,Technology,corporate_foundation,C,30,weak match,,auto-flagged from IRS scan
+36-6087160,Illinois Tool Works Foundation,ITW,Illinois Tool Works,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+76-0522586,Invesco Foundation Inc,IVZ,Invesco,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+88-2162851,Jabil Cares Foundation Inc,JBL,Jabil,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+22-6062811,Johnson & Johnson Foundation United States Inc,JNJ,Johnson & Johnson,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+47-1861715,Keysight Technologies Foundation,KEYS,Keysight Technologies,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+46-0858318,The Kraft Heinz Company Foundation,KHC,Kraft Heinz,Consumer Defensive,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+94-3254854,Greene Van Arsdale Foundation Co Kkr Accounting Services Llc,KKR,KKR,Financial Services,corporate_foundation,C,30,weak match,,auto-flagged from IRS scan
+77-0557004,Kla Foundation,KLAC,KLA Corporation,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+39-6044304,Kimberly-Clark Foundation,KMB,Kimberly-Clark,Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+84-1148161,Kinder Morgan Foundation,KMI,Kinder Morgan,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+31-1192929,The Kroger Co Foundation,KR,Kroger,Consumer Defensive,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+20-3922378,Leidos Relief Foundation,LDOS,Leidos,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+65-0171539,Lennar Foundation,LEN,Lennar,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+81-0587320,The Labcorp Charitable Foundation,LH,LabCorp,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+34-6520425,L3Harris Foundation Inc,LHX,L3Harris,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+39-1444065,Alliant Energy Foundation Inc,LNT,Alliant Energy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+56-6061689,Lowe'S Foundation,LOW,Lowe's,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+98-0543843,Mastercard Foundation,MA,Mastercard,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+94-3140036,Mckesson Foundation Inc,MCK,McKesson Corporation,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+20-3881590,Mondelez International Foundation,MDLZ,Mondelez International,Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+41-1306950,Medtronic Communities Foundation,MDT,Medtronic,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+13-2878224,Metlife Foundation,MET,MetLife,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+01-0640027,Mgm Resorts Foundation,MGM,MGM Resorts,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+36-3837360,The Mosaic Foundation Inc,MOS,Mosaic Company (The),Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+46-4439930,Marathon Petroleum Foundation Inc,MPC,Marathon Petroleum,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+87-1807181,Moderna Charitable Foundation Inc,MRNA,Moderna,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+13-6155650,Morgan Stanley Foundation,MS,Morgan Stanley,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+82-0516178,Micron Technology Foundation Inc,MU,Micron Technology,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+34-1596194,The Nordson Corporation Foundation,NDSN,Nordson Corporation,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+65-0031452,Nextera Energy Foundation Inc,NEE,NextEra Energy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+51-0324200,Nisource Charitable Foundation,NI,NiSource,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+95-6095343,The Northrop Grumman Foundation,NOC,Northrop Grumman,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+84-2220090,Northern Trust Foundation,NTRS,Northern Trust,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+23-7318064,Nucor Foundation Inc,NUE,Nucor,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+54-1528383,Old Dominion Foundation Incorporated,ODFL,Old Dominion,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+73-1503823,Oneok Foundation Inc,OKE,ONEOK,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+27-2249812,Omnicom Group Foundation Inc,OMC,Omnicom Group,Communication Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+83-3782653,On Semiconductor Foundation,ON,ON Semiconductor,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+94-3382118,Oracle Education Foundation,ORCL,Oracle Corporation,Technology,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+46-5691719,Paychex Charitable Foundation Inc,PAYX,Paychex,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+91-6030638,Paccar Foundation,PCAR,Paccar,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+94-3358729,The Pg&E Corporation Foundation,PCG,PG&E Corporation,Utilities,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+13-6163174,Pepsico Foundation Inc,PEP,PepsiCo,Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+13-6083839,The Pfizer Foundation Inc,PFE,Pfizer,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+42-1312301,The Principal Financial Group Foundation Inc,PFG,Principal Financial Group,Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+51-0238854,Progressive Foundation Inc,PGR,Progressive Corporation,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+85-1148214,Pultegroup Inc Charitable Foundation Inc,PHM,PulteGroup,Consumer Cyclical,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+36-4439409,Prologis Foundation,PLD,Prologis,Real Estate,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+41-1890149,Pentair Foundation,PNR,Pentair,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+47-6498760,Francis Pool Charitable Trust Uma,POOL,Pool Corporation,Industrials,corporate_foundation,A3,85,charitable trust/foundation,,auto-flagged from IRS scan
+25-6037790,Ppg Industries Foundation,PPG,PPG Industries,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+46-1605118,Ppl Foundation,PPL,PPL Corporation,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+82-5383610,Ptc Foundation Inc,PTC,PTC Inc.,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+52-2316766,The Ralph Lauren Corporate Foundation C/O Cbiz Mhm Llc,RL,Ralph Lauren Corporation,Consumer Cyclical,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+02-0622126,Resmed Foundation,RMD,ResMed,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+48-1307009,Rockwell Automation Charitable Corp,ROK,Rockwell Automation,Industrials,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+46-3828645,Ross Stores Foundation,ROST,Ross Stores,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+82-1349416,Republic Services Charitable Foundation,RSG,Republic Services,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+04-2683042,Revvity Foundation F/K/A Perkinelmer Foundation,RVTY,Revvity,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+94-3192615,Charles Schwab Foundation,SCHW,Charles Schwab Corporation,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+34-6555476,Sherwin-Williams Foundation,SHW,Sherwin-Williams,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+23-7033142,Schlumberger Foundation Inc,SLB,Schlumberger,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+77-0488629,The Synopsys Foundation,SNPS,Synopsys,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+37-1101365,Southern Foundation Inc,SO,Southern Company,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+99-3218054,Solventum Charitable Foundation,SOLV,Solventum,Healthcare,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+27-3655593,S&P Global Foundation Fka The Mcgraw-Hill Research Foundation,SPGI,S&P Global,Financial Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+26-1325469,Sempra Foundation,SRE,Sempra,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+34-1807803,Steris Foundation,STE,Steris,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+26-3012038,Steel Dynamics Foundation Inc,STLD,Steel Dynamics,Basic Materials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+56-2615567,State Street Foundation Inc,STT,State Street Corporation,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+38-3224966,The Ronda E Stryker And William D Johnston Foundation,SYK,Stryker Corporation,Healthcare,corporate_foundation,C,30,weak match,,auto-flagged from IRS scan
+30-0380758,Sysco Foundation Inc,SYY,Sysco,Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+46-5601414,Te Connectivity Foundation,TEL,TE Connectivity,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+58-2302288,Betty A & James B Williams Foundation C/O Allen Mast Truist Financial Corp,TFC,Truist Financial,Financial Services,corporate_foundation,C,30,weak match,,auto-flagged from IRS scan
+41-6017088,Target Foundation,TGT,Target Corporation,Consumer Defensive,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+04-2399760,The Tjx Foundation Inc,TJX,TJX Companies,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+47-2113249,Tko Strong Foundation Inc,TKO,TKO Group Holdings,Communication Services,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+37-1380272,Trimble Foundation,TRMB,Trimble Inc.,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+84-3668757,Tractor Supply Company Foundation,TSCO,Tractor Supply,Consumer Cyclical,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+20-2045897,Trane Technologies Charitable Foundation,TT,Trane Technologies,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+75-6038519,Texas Instruments Foundation,TXN,Texas Instruments,Technology,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+25-6115832,Textron Charitable Trust Dtd 122353,TXT,Textron,Industrials,corporate_foundation,A3,85,charitable trust/foundation,,auto-flagged from IRS scan
+36-3929159,United Airlines Historical Foundation Co D Dopkin,UAL,United Airlines Holdings,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+20-3396995,Universal Health Services Foundation,UHS,Universal Health Services,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+13-6406825,Union Pacific Foundation,UNP,Union Pacific Corporation,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+81-4503596,Visa Foundation,V,Visa Inc.,Financial Services,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+74-2904514,Valero Energy Foundation,VLO,Valero Energy,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+63-0971859,Vulcan Materials Company Foundation,VMC,Vulcan Materials Company,Basic Materials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+20-3959500,Ventas Charitable Foundation Inc,VTR,Ventas,Real Estate,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+14-1994641,Wabtec Foundation,WAB,Wabtec,Industrials,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+20-5212596,The Waters Foundation Inc,WAT,Waters Corporation,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+81-0981987,Welltower Charitable Foundation,WELL,Welltower,Real Estate,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+04-3073733,The Waste Management Charitable Foundation C/O Waste Management Inc,WM,Waste Management,Industrials,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+31-6032504,Williams Foundation,WMB,Williams Companies,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+20-3424952,Williams-Sonoma Inc Foundation,WSM,Williams-Sonoma,Consumer Cyclical,corporate_foundation,A2,90,company + foundation,,auto-flagged from IRS scan
+41-6029036,The Charles L Weyerhaeuser Foundation,WY,Weyerhaeuser,Real Estate,corporate_foundation,C,30,weak match,,auto-flagged from IRS scan
+47-3468336,Wynn Resorts Foundation,WYNN,Wynn Resorts,Consumer Cyclical,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+41-2007734,Xcel Energy Foundation,XEL,Xcel Energy,Utilities,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+13-6082357,Exxonmobil Foundation,XOM,ExxonMobil,Energy,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+83-2382526,Zimmer Biomet Foundation Inc,ZBH,Zimmer Biomet,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
+88-6668828,Zebra Technologies Corporation Charitable Foundation,ZBRA,Zebra Technologies,Technology,corporate_foundation,B2,60,starts with name,,auto-flagged from IRS scan
+85-4303487,Zoetis Foundation Inc,ZTS,Zoetis,Healthcare,corporate_foundation,A1,100,exact match,,auto-flagged from IRS scan
