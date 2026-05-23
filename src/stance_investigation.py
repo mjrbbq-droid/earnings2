@@ -280,8 +280,14 @@ def investigate_company(
     ticker: str,
     company_name: str,
     sector: str | None = None,
+    known_evidence: str | None = None,
 ) -> StanceInvestigation:
-    """One balanced investigation per ticker. Claude does its own web_search."""
+    """One balanced investigation per ticker. Claude does its own web_search.
+
+    If known_evidence is provided (e.g., grant data from corporate-foundation
+    990s), it's appended to the prompt so Claude can verify / contextualize
+    specific findings rather than discovering them blind via web search.
+    """
     sector_hint = f" (sector: {sector})" if sector else ""
     user_msg = (
         f"Investigate **{company_name}** (ticker ${ticker}){sector_hint}.\n\n"
@@ -293,6 +299,16 @@ def investigate_company(
         f"donations to police foundations or unions, marketing partnerships, lobbying.\n\n"
         f"Use web_search. Surface dates. Then synthesize a net_position."
     )
+    if known_evidence:
+        user_msg += (
+            f"\n\n--- KNOWN EVIDENCE (from primary IRS 990 filings) ---\n"
+            f"{known_evidence}\n\n"
+            f"Use web_search to verify, contextualize, and find primary-source URLs "
+            f"(company press releases, news articles, 990 PDFs) corroborating these "
+            f"grants. Treat this 990 data as authoritative for amounts and recipients; "
+            f"your job is to add the WHO/WHY/WHEN/STATUS narrative and confirm whether "
+            f"the giving pattern is ongoing or has faded."
+        )
 
     response = client.messages.parse(
         model=ANTHROPIC_MODEL,
