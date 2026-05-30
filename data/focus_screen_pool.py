@@ -57,32 +57,59 @@ def fetch_screen_pool():
 
 
 def render_quadrant(focus_df: pd.DataFrame, n: int):
-    """Focused interactive quadrant: just the 19, large markers, ticker labels."""
+    """Focused interactive quadrant: just the 19, large markers, ticker labels.
+
+    Upper cluster shows labels next to markers. The dense pure-reform row at
+    y~0 uses vertical "stem" leader lines staggered in height with the ticker
+    label at the top of each stem, so every ticker is legible even when
+    multiple markers share an x score.
+    """
     cmap = {"Reform-aligned": "#2b8cbe", "Mixed engagement": "#756bb1"}
+    top = focus_df[focus_df["Public-safety-alignment"] >= 20]
+    bot = focus_df[focus_df["Public-safety-alignment"] < 20].sort_values(
+        "Reform-alignment")
+
+    def hovertext(sub):
+        return sub.apply(
+            lambda r: (
+                f"<b>{r['Company']} ({r['Ticker']})</b><br>"
+                f"Sector: {r['Sector']}<br>"
+                f"Reform-alignment: {r['Reform-alignment']:.1f}<br>"
+                f"Public-safety-alignment: {r['Public-safety-alignment']:.1f}<br>"
+                f"Confidence: {r['Confidence']:.2f}<br>"
+                f"Anti type: {r.get('Anti type','')}<br>"
+                f"Pro type: {r.get('Pro type','')}"
+            ), axis=1)
+
     fig = go.Figure()
-    for cat, sub in focus_df.groupby("Category"):
+    seen_in_legend: set[str] = set()
+    # Upper cluster: labels next to markers (well-spread, no overlap issues).
+    for cat, sub in top.groupby("Category"):
         fig.add_trace(go.Scatter(
             x=sub["Reform-alignment"], y=sub["Public-safety-alignment"],
             mode="markers+text",
             text=sub["Ticker"],
             textposition="top right",
-            textfont=dict(size=14, color="#222"),
+            textfont=dict(size=14, color="#111", family="Arial Black"),
             marker=dict(size=22, color=cmap.get(cat, "#999"),
                         line=dict(width=1.2, color="white"),
                         opacity=0.92),
             name=cat,
-            hovertext=sub.apply(
-                lambda r: (
-                    f"<b>{r['Company']} ({r['Ticker']})</b><br>"
-                    f"Sector: {r['Sector']}<br>"
-                    f"Reform-alignment: {r['Reform-alignment']:.1f}<br>"
-                    f"Public-safety-alignment: {r['Public-safety-alignment']:.1f}<br>"
-                    f"Confidence: {r['Confidence']:.2f}<br>"
-                    f"Anti type: {r.get('Anti type','')}<br>"
-                    f"Pro type: {r.get('Pro type','')}"
-                ), axis=1),
-            hoverinfo="text",
+            hovertext=hovertext(sub), hoverinfo="text",
         ))
+        seen_in_legend.add(cat)
+    # Bottom row: markers only — labels go into the right-side callout column.
+    for cat, sub in bot.groupby("Category"):
+        fig.add_trace(go.Scatter(
+            x=sub["Reform-alignment"], y=sub["Public-safety-alignment"],
+            mode="markers",
+            marker=dict(size=22, color=cmap.get(cat, "#999"),
+                        line=dict(width=1.2, color="white"),
+                        opacity=0.92),
+            name=cat, showlegend=(cat not in seen_in_legend),
+            hovertext=hovertext(sub), hoverinfo="text",
+        ))
+        seen_in_legend.add(cat)
     fig.add_hline(y=50, line=dict(color="#ddd", width=1))
     fig.add_vline(x=50, line=dict(color="#ddd", width=1))
     qa = dict(showarrow=False, font=dict(size=11, color="#888"))
@@ -90,6 +117,50 @@ def render_quadrant(focus_df: pd.DataFrame, n: int):
     fig.add_annotation(x=85, y=96, text="Mixed (both sides)", **qa)
     fig.add_annotation(x=15, y=4, text="Limited on both", **qa)
     fig.add_annotation(x=85, y=4, text="Pure reform-aligned", **qa)
+    # Vertical "stem" leaders for the dense bottom row: each marker gets a
+    # vertical line going straight up, with the ticker label at the top.
+    # Markers that share an x get small horizontal offsets so their stems and
+    # labels separate; markers themselves stay at the true (x, y) score.
+    if len(bot):
+        bot_sorted = bot.sort_values(["Reform-alignment", "Ticker"]).reset_index(drop=True)
+        stem_heights = np.linspace(40, 8, len(bot_sorted))
+        offsets: list[float] = [0.0] * len(bot_sorted)
+        rounded_x = bot_sorted["Reform-alignment"].round(1).tolist()
+        i = 0
+        while i < len(bot_sorted):
+            j = i
+            while j < len(bot_sorted) and rounded_x[j] == rounded_x[i]:
+                j += 1
+            grp = list(range(i, j))
+            mid = (len(grp) - 1) / 2.0
+            for k, idx in enumerate(grp):
+                offsets[idx] = (k - mid) * 1.2
+            i = j
+
+        stem_x, stem_y = [], []
+        label_x, label_y_, label_txt = [], [], []
+        for idx, (_, r) in enumerate(bot_sorted.iterrows()):
+            mx, my = r["Reform-alignment"], r["Public-safety-alignment"]
+            lx = mx + offsets[idx]
+            ly = stem_heights[idx]
+            # leader line: marker → top, with a None pair to break between stems
+            stem_x.extend([mx, lx, None])
+            stem_y.extend([my, ly, None])
+            label_x.append(lx)
+            label_y_.append(ly)
+            label_txt.append(r["Ticker"])
+
+        fig.add_trace(go.Scatter(
+            x=stem_x, y=stem_y, mode="lines",
+            line=dict(color="rgba(120,120,120,0.7)", width=0.8),
+            hoverinfo="skip", showlegend=False,
+        ))
+        fig.add_trace(go.Scatter(
+            x=label_x, y=label_y_, mode="text", text=label_txt,
+            textposition="top center",
+            textfont=dict(size=13, color="#111", family="Arial Black"),
+            hoverinfo="skip", showlegend=False,
+        ))
     fig.update_layout(
         title=f"Screen Pool — Reform-aligned + Mixed-engagement ({n} Russell 1000 companies)",
         xaxis=dict(title="Reform-alignment score", range=[-5, 105]),
