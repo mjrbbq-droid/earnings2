@@ -52,6 +52,9 @@ data/outputs/
 # --- Data: REVIEW_LATER (things to triage; not for tracking) ---
 data/REVIEW_LATER/
 
+# --- Local screenshot/extract scratch ---
+data/_doc*_extract/
+
 # --- Data: legacy / catch-all (in case things are at root before reorg) ---
 data/*.xlsx
 data/*.xlsm
