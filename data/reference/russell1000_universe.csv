@@ -1,0 +1,986 @@
+ticker,company,exchange,sector,market_value_musd,sales_musd
+A,"Agilent Technologies, Inc.",NYSE,Healthcare,32736.6523439856,7232
+AA,Alcoa Corporation,NYSE,Non-Energy Materials,19303.543812393,12978
+AAL,American Airlines Group Inc.,NASDAQ,Industrials,9867.86621745187,55994
+AAON,"AAON, Inc.",NASDAQ,Industrials,11429.9598327461,1616.958
+AAPL,Apple Inc.,NASDAQ,Technology,4565564.8406699,451442
+ABBV,"AbbVie, Inc.",NYSE,Healthcare,380567.168391157,62819
+ABNB,"Airbnb, Inc. Class A",NASDAQ,Consumer Services,79617.3204796939,12711
+ABT,Abbott Laboratories,NYSE,Healthcare,149238.485072575,45134
+ACGL,Arch Capital Group Ltd.,NASDAQ,Finance,31934.2088217004,19166
+ACHC,"Acadia Healthcare Company, Inc.",NASDAQ,Healthcare,2215.48566451523,3371.066
+ACI,"Albertsons Companies, Inc. Class A",NYSE,Consumer Non-Cyclicals,7927.39400228986,83172.5
+ACM,AECOM,NYSE,Industrials,9209.95282479096,15985.834
+ACN,Accenture Plc Class A,NYSE,Technology,108274.330035363,72110.322
+ADBE,Adobe Inc.,NASDAQ,Technology,96296.6131285401,24451
+ADC,Agree Realty Corporation,NYSE,Finance,8996.90564475534,749.945
+ADI,"Analog Devices, Inc.",NASDAQ,Technology,203056.846001402,12740.193
+ADM,Archer-Daniels-Midland Company,NYSE,Consumer Non-Cyclicals,38339.6444639787,80649
+ADP,"Automatic Data Processing, Inc.",NASDAQ,Business Services,87002.1643525129,21600.4
+ADSK,"Autodesk, Inc.",NASDAQ,Technology,50041.4238739014,7200
+ADT,"ADT, Inc.",NYSE,Business Services,5393.61237826477,5139.645
+AEE,Ameren Corporation,NYSE,Utilities,30752.6404891249,8878
+AEP,"American Electric Power Company, Inc.",NASDAQ,Utilities,70499.6783961542,22161.8
+AES,AES Corporation,NYSE,Utilities,10469.1554715447,12454
+AFG,"American Financial Group, Inc.",NYSE,Finance,11098.6390469411,8092
+AFL,Aflac Incorporated,NYSE,Finance,58456.9142761461,18112
+AFRM,"Affirm Holdings, Inc. Class A",NASDAQ,Finance,23590.2569762151,3675.497
+AGCO,AGCO Corporation,NYSE,Industrials,8274.84598399838,10374.4
+AGNC,AGNC Investment Corp.,NASDAQ,Finance,12064.7361465292,3817
+AGO,Assured Guaranty Ltd.,NYSE,Finance,3318.08497162856,914
+AIG,"American International Group, Inc.",NYSE,Finance,39908.6217388096,26642
+AIT,"Applied Industrial Technologies, Inc.",NYSE,Industrials,11555.3991757001,4838.729
+AIZ,"Assurant, Inc.",NYSE,Finance,12488.9774980526,13160.4
+AJG,Arthur J. Gallagher & Co.,NYSE,Finance,52112.165329895,14972.6
+AKAM,"Akamai Technologies, Inc.",NASDAQ,Technology,20998.0198065946,4266.646
+ALAB,"Astera Labs, Inc.",NASDAQ,Technology,55764.1440306245,1001.444
+ALB,Albemarle Corporation,NYSE,Non-Energy Materials,20929.861877209,5494.583
+ALGM,"Allegro MicroSystems, Inc.",NASDAQ,Technology,9124.89819335938,890.096
+ALGN,"Align Technology, Inc.",NASDAQ,Healthcare,11665.160698819,4095.789
+ALK,"Alaska Air Group, Inc.",NYSE,Industrials,5122.39025313291,14402
+ALL,Allstate Corporation,NYSE,Finance,53762.3625834407,68174
+ALLE,Allegion Public Limited Company,NYSE,Non-Energy Materials,11276.5036121348,4159.00000004761
+ALLY,Ally Financial Inc,NYSE,Finance,13162.100260207,15614
+ALNY,"Alnylam Pharmaceuticals, Inc",NASDAQ,Healthcare,39470.3226795048,4286.923
+ALSN,"Allison Transmission Holdings, Inc.",NYSE,Industrials,9443.0909327307,3650
+AM,Antero Midstream Corp.,NYSE,Energy,10121.823780452,1285.722
+AMAT,"Applied Materials, Inc.",NASDAQ,Technology,355892.306259155,29024
+AMCR,Amcor PLC,NYSE,Non-Energy Materials,18341.2519857562,23225.5387494342
+AMD,"Advanced Micro Devices, Inc.",NASDAQ,Technology,808027.828288823,37454
+AME,"AMETEK, Inc.",NYSE,Industrials,51886.9769223779,7597.582
+AMG,"Affiliated Managers Group, Inc.",NYSE,Finance,8132.81002567499,2130.4
+AMGN,Amgen Inc.,NASDAQ,Healthcare,181374.35383372,37302
+AMH,American Homes 4 Rent Class A,NYSE,Finance,11567.9080142195,1878.75
+AMKR,"Amkor Technology, Inc.",NASDAQ,Technology,17893.9173054444,7071.107
+AMP,"Ameriprise Financial, Inc.",NYSE,Finance,39839.6932959661,19312
+AMT,American Tower Corporation,NYSE,Finance,86180.8974333182,10819.3
+AMTM,"Amentum Holdings, Inc.",NYSE,Industrials,5646.15018177265,14201
+AMZN,"Amazon.com, Inc.",NASDAQ,Consumer Non-Cyclicals,2924320.24924994,742776
+AN,"AutoNation, Inc.",NYSE,Consumer Cyclicals,6522.98380895751,27493.1
+ANET,Arista Networks Inc,NYSE,Technology,194307.555797845,9709.9
+AON,Aon Plc Class A,NYSE,Finance,68032.8035013289,17574
+AOS,A. O. Smith Corporation,NYSE,Industrials,7995.43849984322,3811.9
+APA,APA Corporation,NASDAQ,Energy,12944.0788900312,8611
+APD,"Air Products and Chemicals, Inc.",NYSE,Non-Energy Materials,63626.5573088089,12463.2
+APG,APi Group Corporation,NYSE,Industrials,18179.9409086206,8174
+APH,Amphenol Corporation Class A,NYSE,Technology,172528.092627021,25903.8
+APO,Apollo Global Management Inc,NYSE,Finance,75102.9394144425,31692
+APP,AppLovin Corp. Class A,NASDAQ,Technology,190756.812891294,5839.145
+APPF,AppFolio Inc Class A,NASDAQ,Finance,5764.20929669333,995.334
+APTV,Aptiv PLC,NYSE,Consumer Cyclicals,13099.3110788277,20659
+AR,Antero Resources Corporation,NYSE,Energy,10878.3420976782,5761.436951
+ARE,"Alexandria Real Estate Equities, Inc.",NYSE,Finance,8701.27546288131,2939.42
+ARES,Ares Management Corporation,NYSE,Finance,41752.1138782279,6816.502
+ARMK,Aramark,NYSE,Consumer Services,14031.2017083457,19413.806
+ARW,"Arrow Electronics, Inc.",NYSE,Technology,11122.1441972241,33512.466
+AS,"Amer Sports, Inc.",NYSE,Consumer Cyclicals,21193.6619694089,7039.2
+ASH,Ashland Inc.,NYSE,Non-Energy Materials,2624.09755971374,1808
+ASTS,"AST SpaceMobile, Inc. Class A",NASDAQ,Telecommunications,50300.9450090274,84.935
+ATI,Allegheny Technologies Incorporated,NYSE,Non-Energy Materials,23178.1370710311,4594.5
+ATO,Atmos Energy Corporation,NYSE,Utilities,29417.9518129141,4881.241
+ATR,"AptarGroup, Inc.",NYSE,Non-Energy Materials,7358.48266584874,3872.744
+AU,Anglogold Ashanti PLC,NYSE,Non-Energy Materials,47733.3050124871,11166.00000003
+AUR,"Aurora Innovation, Inc. Class A",NASDAQ,Consumer Cyclicals,13355.7928258157,4
+AVB,"AvalonBay Communities, Inc.",NYSE,Finance,25906.8384412937,3139.247
+AVGO,Broadcom Inc.,NASDAQ,Technology,1997366.95994139,68282
+AVT,"Avnet, Inc.",NASDAQ,Technology,7141.01606256329,24955.101
+AVTR,"Avantor, Inc.",NYSE,Healthcare,5735.144856737,6552.2
+AVY,Avery Dennison Corporation,NYSE,Non-Energy Materials,12278.236017415,9005.7
+AWI,"Armstrong World Industries, Inc.",NYSE,Non-Energy Materials,6818.37073632231,1648
+AWK,"American Water Works Company, Inc.",NYSE,Utilities,24171.8222274408,5205
+AXON,Axon Enterprise Inc,NASDAQ,Industrials,31541.2070442047,2983.248
+AXP,American Express Company,NYSE,Finance,213254.303891949,82423
+AXS,Axis Capital Holdings Limited,NYSE,Finance,7048.67864698684,6636.709
+AXTA,Axalta Coating Systems Ltd.,NYSE,Non-Energy Materials,6491.18922653055,5109
+AYI,Acuity Inc.,NYSE,Industrials,8995.72276925342,4587.1
+AZO,"AutoZone, Inc.",NYSE,Consumer Cyclicals,49883.2426677654,19986.403
+BA,Boeing Company,NYSE,Industrials,176816.209894721,92182
+BAC,Bank of America Corp,NYSE,Finance,362635.755138259,193860
+BAH,Booz Allen Hamilton Holding Corporation Class A,NYSE,Business Services,9697.04216299666,11217
+BALL,Ball Corporation,NYSE,Non-Energy Materials,15045.588730055,13725
+BAX,Baxter International Inc.,NYSE,Healthcare,9983.34561733482,11320
+BBWI,"Bath & Body Works, Inc.",NYSE,Consumer Non-Cyclicals,3916.89021788217,7245
+BBY,"Best Buy Co., Inc.",NYSE,Consumer Cyclicals,13598.2677832292,41860
+BC,Brunswick Corporation,NYSE,Consumer Cyclicals,5429.26353796525,5519.1
+BDX,"Becton, Dickinson and Company",NYSE,Healthcare,40570.575279458,20600
+BEN,"Franklin Resources, Inc.",NYSE,Finance,16456.9084533415,8973.1
+BEPC,Brookfield Renewable Holdings Corporation Class A,NYSE,Utilities,7061.71216851864,5118.91748792912
+BF.B,Brown-Forman Corporation Class B,NYSE,Consumer Non-Cyclicals,12030.1563296406,3926
+BFAM,"Bright Horizons Family Solutions, Inc.",NYSE,Consumer Non-Cyclicals,3289.49527315469,2980.302
+BG,Bunge Global SA,NYSE,Consumer Non-Cyclicals,23511.1148934992,80542
+BHF,"Brighthouse Financial, Inc.",NASDAQ,Finance,3595.53172461636,5903
+BIIB,Biogen Inc.,NASDAQ,Healthcare,29080.0828160243,9600.4
+BILL,"BILL Holdings, Inc.",NYSE,Technology,3456.00644958246,1600.323
+BIO,"Bio-Rad Laboratories, Inc. Class A",NYSE,Healthcare,8164.2787126888,2589.9
+BIRK,Birkenstock Holding plc,NYSE,Consumer Cyclicals,7869.34077078803,2530.95891186857
+BJ,"BJ's Wholesale Club Holdings, Inc.",NYSE,Consumer Non-Cyclicals,10751.7020974963,21965.291
+BKNG,Booking Holdings Inc.,NASDAQ,Consumer Services,130466.275449812,27687
+BKR,Baker Hughes Company Class A,NASDAQ,Energy,62698.7403564977,27893
+BLD,TopBuild Corp.,NYSE,Industrials,11749.9145075629,5621.668
+BLDR,"Builders FirstSource, Inc.",NYSE,Industrials,8332.66368537582,14820.219
+BLK,"BlackRock, Inc.",NYSE,Finance,174295.128982429,26276
+BLSH,Bullish,NYSE,Finance,5158.37146902399,216387.97700258
+BMRN,BioMarin Pharmaceutical Inc.,NASDAQ,Healthcare,10124.2391258226,3287.884
+BMY,Bristol-Myers Squibb Company,NYSE,Healthcare,117459.941481661,48482
+BNY,Bank of New York Mellon Corp,NYSE,Finance,95914.6177169262,40667
+BOKF,BOK Financial Corporation,NASDAQ,Finance,7911.25469932478,3401.941
+BPOP,"Popular, Inc.",NASDAQ,Finance,9721.31588832196,4499.532
+BR,"Broadridge Financial Solutions, Inc.",NYSE,Finance,17013.3358530169,7322.3
+BRBR,"BellRing Brands, Inc.",NYSE,Consumer Non-Cyclicals,998.826791500527,2331.7
+BRK.B,Berkshire Hathaway Inc. Class B,NYSE,Finance,1034672.43067896,375394
+BRKR,Bruker Corporation,NASDAQ,Healthcare,7401.21005133371,3458.5
+BRO,"Brown & Brown, Inc.",NYSE,Finance,19255.6275659989,6399
+BROS,"Dutch Bros, Inc. Class A",NYSE,Consumer Services,9213.05247249334,1747.419
+BRX,"Brixmor Property Group, Inc.",NYSE,Finance,9487.38891379064,1382.352
+BSX,Boston Scientific Corporation,NYSE,Healthcare,75001.4771133224,20614
+BSY,"Bentley Systems, Incorporated Class B",NASDAQ,Technology,9739.7220477568,1555.418
+BURL,"Burlington Stores, Inc.",NYSE,Consumer Non-Cyclicals,20497.1193004271,11902.048
+BWA,BorgWarner Inc.,NYSE,Consumer Cyclicals,14528.2918915374,14334
+BWXT,"BWX Technologies, Inc.",NYSE,Industrials,18226.7337234813,3377.134
+BX,Blackstone Inc.,NYSE,Finance,144138.671561727,14506.73
+BXP,BXP Inc,NYSE,Finance,10635.283723428,3489.212
+BYD,Boyd Gaming Corporation,NYSE,Consumer Services,6111.42538706074,4097.779
+C,Citigroup Inc.,NYSE,Finance,215032.246704768,172239
+CACC,Credit Acceptance Corporation,NASDAQ,Finance,5782.22272987361,2326.1
+CACI,CACI International Inc Class A,NYSE,Business Services,11285.1220524305,9162.866
+CAG,"Conagra Brands, Inc.",NYSE,Consumer Non-Cyclicals,6377.56736370566,11181.3
+CAH,"Cardinal Health, Inc.",NYSE,Healthcare,46803.6974699493,250732
+CAI,"Caris Life Sciences, Inc.",NASDAQ,Healthcare,4347.62911499184,907.292
+CAR,"Avis Budget Group, Inc.",NASDAQ,Consumer Cyclicals,5832.15532234183,11752
+CARR,Carrier Global Corp.,NYSE,Industrials,53580.7462384226,21870
+CART,Maplebear Inc.,NASDAQ,Consumer Services,9504.60542308528,3864
+CASY,"Casey's General Stores, Inc.",NASDAQ,Consumer Cyclicals,28989.9242505934,16982.08
+CAT,Caterpillar Inc.,NYSE,Industrials,419147.44380698,70755
+CAVA,"CAVA Group, Inc.",NYSE,Consumer Services,9574.1510758244,1286.108
+CB,Chubb Limited,NYSE,Finance,124359.588136524,61098
+CBC,"Central Bancompany, Inc.",NASDAQ,Finance,6823.80155599839,1253.743
+CBOE,Cboe Global Markets Inc,CBOE BZX,Finance,36387.0723548066,4792
+CBRE,"CBRE Group, Inc. Class A",NYSE,Finance,38110.0773174036,42167
+CBSH,"Commerce Bancshares, Inc.",NASDAQ,Finance,7573.12360670255,2174.613
+CCC,CCC Intelligent Solutions Holdings Inc,NASDAQ,Finance,2729.27362164884,1086.71
+CCI,Crown Castle Inc.,NYSE,Finance,39660.3912884728,4213
+CCK,"Crown Holdings, Inc.",NYSE,Non-Energy Materials,10956.7564494984,12761
+CCL,Carnival Corporation Ltd.,NYSE,Consumer Services,38704.1165225473,26977
+CDNS,"Cadence Design Systems, Inc.",NASDAQ,Technology,103168.974994617,5528.613
+CDW,CDW Corporation,NASDAQ,Technology,14588.1674657525,22904.8
+CE,Celanese Corporation,NYSE,Non-Energy Materials,5804.43809682084,9492
+CEG,Constellation Energy Corporation,NASDAQ,Utilities,104268.344878979,28501
+CELH,"Celsius Holdings, Inc.",NASDAQ,Consumer Non-Cyclicals,8091.01747373948,2968.608
+CERT,"Certara, Inc.",NASDAQ,Healthcare,832.270625728168,419.749
+CF,"CF Industries Holdings, Inc.",NYSE,Non-Energy Materials,17873.2307707057,7407
+CFG,"Citizens Financial Group, Inc.",NYSE,Finance,26675.3927604039,12146
+CFR,"Cullen/Frost Bankers, Inc.",NYSE,Finance,8646.52550811809,2918.165
+CG,Carlyle Group Inc,NASDAQ,Finance,16436.4322485391,4194.7
+CGNX,Cognex Corporation,NASDAQ,Industrials,11100.1767305925,1046.76
+CHD,"Church & Dwight Co., Inc.",NYSE,Consumer Non-Cyclicals,23222.8430867326,6205.4
+CHDN,Churchill Downs Incorporated,NASDAQ,Consumer Services,6055.26709250727,2946.3
+CHE,Chemed Corporation,NYSE,Healthcare,5832.77372020012,2540.548
+CHH,"Choice Hotels International, Inc.",NYSE,Consumer Services,5272.92747954634,1604.508
+CHRD,Chord Energy Corporation,NASDAQ,Energy,7527.2005808283,5327.714
+CHRW,"C.H. Robinson Worldwide, Inc.",NASDAQ,Industrials,20803.4133439529,16198.957
+CHTR,"Charter Communications, Inc. Class A",NASDAQ,Telecommunications,20382.1541490632,54636
+CHWY,"Chewy, Inc. Class A",NYSE,Consumer Cyclicals,8666.36367440861,12601.5
+CI,Cigna Group,NYSE,Healthcare,75590.1360626221,278128
+CIEN,Ciena Corporation,NYSE,Technology,82305.196034641,5124.289
+CINF,Cincinnati Financial Corporation,NASDAQ,Finance,25204.6573142987,12928
+CL,Colgate-Palmolive Company,NYSE,Consumer Non-Cyclicals,73049.2847645776,20795
+CLF,Cleveland-Cliffs Inc,NYSE,Non-Energy Materials,7318.42020916636,18909
+CLH,"Clean Harbors, Inc.",NYSE,Business Services,14942.7442950662,6058.424
+CLVT,Clarivate PLC,NYSE,Business Services,1655.57065863658,2447
+CLX,Clorox Company,NYSE,Consumer Non-Cyclicals,11742.6722336098,6760
+CMCSA,Comcast Corporation Class A,NASDAQ,Telecommunications,90091.6016963641,125277
+CME,CME Group Inc. Class A,NASDAQ,Finance,101134.502291992,6758.4
+CMG,"Chipotle Mexican Grill, Inc.",NYSE,Consumer Services,41932.5729857474,12138.59
+CMI,Cummins Inc.,NYSE,Industrials,92155.989983635,33894
+CMS,CMS Energy Corporation,NYSE,Utilities,22928.0120635005,8822
+CNA,CNA Financial Corporation,NYSE,Finance,11576.0402702619,15039
+CNC,Centene Corporation,NYSE,Healthcare,29045.1392169809,198101
+CNH,CNH Industrial NV,NYSE,Industrials,13044.2791906511,18095
+CNM,"Core & Main, Inc. Class A",NYSE,Industrials,9578.29791611927,7647
+CNP,"CenterPoint Energy, Inc.",NYSE,Utilities,28175.0799340303,9412
+CNXC,Concentrix Corporation,NASDAQ,Technology,1601.37667179108,9953.94
+COF,Capital One Financial Corp,NYSE,Finance,117488.879828774,74786
+COHR,Coherent Corp.,NYSE,Technology,74378.1582872486,6602.084
+COIN,"Coinbase Global, Inc. Class A",NASDAQ,Finance,45784.2124424078,6628.492
+COKE,"Coca-Cola Consolidated, Inc.",NASDAQ,Consumer Non-Cyclicals,11777.2207220584,7494.746
+COLB,"Columbia Banking System, Inc.",NASDAQ,Finance,8623.91889266088,3399.14
+COLD,"Americold Realty Trust, Inc.",NYSE,Finance,4373.74189015914,2602.736
+COLM,Columbia Sportswear Company,NASDAQ,Consumer Cyclicals,3395.2372058772,3397.107
+COO,"Cooper Companies, Inc.",NASDAQ,Healthcare,11862.9550757489,4151.8
+COP,ConocoPhillips,NYSE,Energy,140262.178577684,57858
+COR,"Cencora, Inc.",NYSE,Healthcare,51949.7520455793,328680.018
+CORT,Corcept Therapeutics Incorporated.,NASDAQ,Healthcare,7154.98383842711,769.096
+COST,Costco Wholesale Corporation,NASDAQ,Consumer Non-Cyclicals,445289.605762701,286265
+COTY,Coty Inc. Class A,NYSE,Consumer Non-Cyclicals,1893.00290989556,5789.8
+CPAY,"Corpay, Inc.",NYSE,Finance,23046.6118353999,4783.723
+CPB,Campbell's Company,NASDAQ,Consumer Non-Cyclicals,6112.00355529785,10037
+CPNG,"Coupang, Inc. Class A",NYSE,Consumer Non-Cyclicals,29546.7554254852,35130
+CPRT,"Copart, Inc.",NASDAQ,Consumer Cyclicals,31644.6778147761,4638.867
+CPT,Camden Property Trust,NYSE,Finance,14615.9009034769,1583.574
+CR,Crane Company,NYSE,Industrials,10332.4357799846,2443.8
+CRBG,"Corebridge Financial, Inc.",NYSE,Finance,12295.2557269846,18129
+CRCL,"Circle Internet Group, Inc. Class A",NYSE,Finance,25513.844013424,2862.202
+CRH,CRH public limited company,NYSE,Non-Energy Materials,70996.2707519531,38061.0000004318
+CRL,"Charles River Laboratories International, Inc.",NYSE,Healthcare,7923.11054054846,4027.044
+CRM,"Salesforce, Inc.",NYSE,Technology,145212.720569163,42829
+CROX,"Crocs, Inc.",NASDAQ,Consumer Cyclicals,5882.75735786307,4024.771
+CRS,Carpenter Technology Corporation,NYSE,Non-Energy Materials,22900.5954820564,3028.8
+CRUS,"Cirrus Logic, Inc.",NASDAQ,Technology,8780.68427513284,1997.379
+CRWD,"CrowdStrike Holdings, Inc. Class A",NASDAQ,Technology,164267.681128616,4812.005
+CSCO,"Cisco Systems, Inc.",NASDAQ,Technology,471671.497028623,60746
+CSGP,"CoStar Group, Inc.",NASDAQ,Technology,13198.0565160047,3411.8
+CSL,Carlisle Companies Incorporated,NYSE,Non-Energy Materials,13945.478178693,4976.2
+CSX,CSX Corporation,NASDAQ,Industrials,87592.6673668586,14151
+CTAS,Cintas Corporation,NASDAQ,Business Services,67958.7997528608,11027.21
+CTSH,Cognizant Technology Solutions Corporation Class A,NASDAQ,Technology,25190.9012887772,21406
+CTVA,Corteva Inc,NYSE,Non-Energy Materials,53432.0299769165,17889
+CUBE,CubeSmart,NYSE,Finance,9095.91395980469,1132.003
+CUZ,Cousins Properties Incorporated,NYSE,Finance,4416.26245491643,1006.597
+CVNA,Carvana Co. Class A,NYSE,Consumer Cyclicals,80069.0094662695,22522
+CVS,CVS Health Corporation,NYSE,Consumer Non-Cyclicals,117474.621158469,407944
+CVX,Chevron Corporation,NYSE,Energy,363267.422609877,188812
+CW,Curtiss-Wright Corporation,NYSE,Industrials,27432.1413956292,3606.414
+CWEN,"Clearway Energy, Inc. Class C",NYSE,Utilities,8303.56452968013,1467
+CXT,"Crane NXT, Co.",NYSE,Technology,2248.75576973089,1714.1
+CZR,"Caesars Entertainment, Inc.",NASDAQ,Consumer Services,5861.822499473,11562
+D,Dominion Energy Inc,NYSE,Utilities,59099.3990739277,17756
+DAL,"Delta Air Lines, Inc.",NYSE,Industrials,53742.1376861399,65178
+DAR,Darling Ingredients Inc,NYSE,Consumer Non-Cyclicals,9335.39297641005,6313.039
+DASH,"DoorDash, Inc. Class A",NASDAQ,Consumer Services,68660.561644114,14721
+DBX,"Dropbox, Inc. Class A",NASDAQ,Technology,5844.13252515257,2525.8
+DCI,"Donaldson Company, Inc.",NYSE,Industrials,9695.96827247832,3752.5
+DD,"DuPont de Nemours, Inc.",NYSE,Non-Energy Materials,19536.850319531,5464
+DDOG,"Datadog, Inc. Class A",NASDAQ,Technology,78955.5303530123,3672.031
+DDS,"Dillard's, Inc. Class A",NYSE,Consumer Non-Cyclicals,9211.41692480794,6604.965
+DE,Deere & Company,NYSE,Industrials,142992.091244552,47334
+DECK,Deckers Outdoor Corporation,NYSE,Consumer Cyclicals,15883.8147390529,5454.447
+DELL,"Dell Technologies, Inc. Class C",NYSE,Technology,199198.251801807,113725
+DG,Dollar General Corporation,NYSE,Consumer Non-Cyclicals,22976.21219768,42724.369
+DGX,Quest Diagnostics Incorporated,NYSE,Healthcare,21474.0003637804,11278
+DHI,"D.R. Horton, Inc.",NYSE,Consumer Cyclicals,41915.9029932749,33348.4
+DHR,Danaher Corporation,NYSE,Healthcare,122536.332607523,24778
+DINO,HF Sinclair Corporation,NYSE,Energy,12273.1520402993,27622
+DIS,Walt Disney Company,NYSE,Consumer Services,180909.753237461,97367
+DJT,Trump Media & Technology Group Corp.,NASDAQ,Technology,2373.49421205022,3.7326
+DKNG,"DraftKings, Inc. Class A",NASDAQ,Consumer Services,22290.8088646856,6291.795
+DKS,"Dick's Sporting Goods, Inc.",NYSE,Consumer Cyclicals,19608.1740646887,19204.947
+DLB,"Dolby Laboratories, Inc. Class A",NYSE,Technology,5265.33108285365,1364.906
+DLR,"Digital Realty Trust, Inc.",NYSE,Finance,67368.0594436442,6340.228
+DLTR,"Dollar Tree, Inc.",NASDAQ,Consumer Non-Cyclicals,18668.3249043361,19411.8
+DOC,"Healthpeak Properties, Inc.",NYSE,Finance,14036.559589433,2872.575
+DOCS,"Doximity, Inc. Class A",NYSE,Healthcare,3704.98766037918,644.863
+DOCU,"DocuSign, Inc.",NASDAQ,Technology,9409.53242059064,3219.5
+DOV,Dover Corporation,NYSE,Industrials,28732.7038544975,8280.135
+DOW,"Dow, Inc.",NYSE,Non-Energy Materials,24858.3739953851,39331
+DOX,Amdocs Limited,NASDAQ,Technology,6593.02663611236,4624.845
+DPZ,"Domino's Pizza, Inc.",NASDAQ,Consumer Services,10369.387142894,4978.532
+DRI,"Darden Restaurants, Inc.",NYSE,Consumer Services,23586.1924652588,12763.8
+DRS,"Leonardo DRS, Inc.",NASDAQ,Industrials,12097.6601459319,3695
+DT,"Dynatrace, Inc.",NYSE,Technology,11341.3197541083,2018.387
+DTE,DTE Energy Company,NYSE,Utilities,30220.2727639454,16290
+DTM,"DT Midstream, Inc.",NYSE,Energy,14803.2681999293,1276
+DUK,Duke Energy Corporation,NYSE,Utilities,97722.3814032041,33166
+DUOL,"Duolingo, Inc. Class A",NASDAQ,Technology,5023.67020318629,1098.813
+DV,"DoubleVerify Holdings, Inc.",NYSE,Consumer Services,1485.53338301519,764.055
+DVA,DaVita Inc.,NYSE,Healthcare,12513.8632875977,13835.088
+DVN,Devon Energy Corporation,NYSE,Energy,51041.132694527,17260
+DXC,DXC Technology Co.,NYSE,Technology,1526.90190238645,12644
+DXCM,"DexCom, Inc.",NASDAQ,Healthcare,27111.4346652559,4817.9
+EA,Electronic Arts Inc.,NASDAQ,Technology,50320.8051904188,7573
+EBAY,eBay Inc.,NASDAQ,Consumer Non-Cyclicals,48999.8402709961,11679
+ECG,"Everus Construction Group, Inc.",NYSE,Industrials,7731.78239560471,3956.711
+ECL,Ecolab Inc.,NYSE,Non-Energy Materials,73899.854970932,16452.3
+ED,"Consolidated Edison, Inc.",NYSE,Utilities,39804.8962895838,17215
+EEFT,"Euronet Worldwide, Inc.",NASDAQ,Finance,2637.46151689117,4340.5
+EFX,Equifax Inc.,NYSE,Business Services,19490.961930261,6281.4
+EG,"Everest Group, Ltd.",NYSE,Finance,13586.1175378722,17300
+EGP,"EastGroup Properties, Inc.",NYSE,Finance,11055.8380453777,735.38
+EHC,Encompass Health Corporation,NYSE,Healthcare,10345.472292205,6066.4
+EIX,Edison International,NYSE,Utilities,27574.3355302513,19609
+EL,Estee Lauder Companies Inc. Class A,NYSE,Consumer Non-Cyclicals,32995.6961833379,14843
+ELAN,"Elanco Animal Health, Inc.",NYSE,Healthcare,11831.9609344595,4893
+ELF,"e.l.f. Beauty, Inc.",NYSE,Consumer Non-Cyclicals,3409.50877224153,1636.472
+ELS,"Equity LifeStyle Properties, Inc.",NYSE,Finance,12496.0427569199,1543.962
+ELV,"Elevance Health, Inc.",NYSE,Healthcare,85012.5527692107,200415
+EME,"EMCOR Group, Inc.",NYSE,Industrials,38007.991826199,17747.283
+EMN,Eastman Chemical Company,NYSE,Non-Energy Materials,8680.3059071959,8659
+EMR,Emerson Electric Co.,NYSE,Industrials,78257.169272583,18311
+ENPH,"Enphase Energy, Inc.",NASDAQ,Technology,9262.77858423069,1399.801
+ENTG,"Entegris, Inc.",NASDAQ,Technology,21350,3235.3
+EOG,"EOG Resources, Inc.",NYSE,Energy,71532.0063556777,23570
+EPAM,"EPAM Systems, Inc.",NYSE,Technology,5312.2156528456,5555.425
+EPR,EPR Properties,NYSE,Finance,4437.44471740723,724.528
+EQH,"Equitable Holdings, Inc.",NYSE,Finance,11649.2721897332,12083
+EQIX,"Equinix, Inc.",NASDAQ,Finance,105549.644427817,9436
+EQR,Equity Residential,NYSE,Finance,24964.3778686384,3090.426
+EQT,EQT Corporation,NYSE,Energy,34507.6216232702,9551.453
+ES,Eversource Energy,NYSE,Utilities,26182.6918227295,13933.252
+ESAB,ESAB Corporation,NYSE,Industrials,5711.92201854501,2910.014
+ESI,Element Solutions Inc,NYSE,Non-Energy Materials,10453.1852689198,2797.5
+ESS,"Essex Property Trust, Inc.",NYSE,Finance,18394.4863481701,1907.518
+ESTC,Elastic NV,NYSE,Technology,5578.70443954621,1677.082
+ETN,Eaton Corp. Plc,NYSE,Industrials,157793.464143433,28522
+ETR,Entergy Corporation,NYSE,Utilities,51058.9625980249,13359.169
+ETSY,"Etsy, Inc.",NYSE,Consumer Non-Cyclicals,6055.32873284395,2863.602
+EVR,Evercore Inc. Class A,NYSE,Finance,13249.9268417056,4581.531
+EVRG,"Evergy, Inc.",NASDAQ,Utilities,19402.2813976812,5971.9
+EW,Edwards Lifesciences Corporation,NYSE,Healthcare,49812.4581740112,6303.5
+EWBC,"East West Bancorp, Inc.",NASDAQ,Finance,16916.2988418454,4633.14
+EXC,Exelon Corporation,NASDAQ,Utilities,47261.9821141246,24786
+EXE,Expand Energy Corporation,NASDAQ,Energy,22162.1606401191,12957
+EXEL,"Exelixis, Inc.",NASDAQ,Healthcare,12575.2939464049,2375.491
+EXLS,"ExlService Holdings, Inc.",NASDAQ,Business Services,4390.9817677041,2157.011
+EXP,Eagle Materials Inc.,NYSE,Non-Energy Materials,6645.80521814473,2308.658
+EXPD,"Expeditors International of Washington, Inc.",NYSE,Industrials,21124.0759307127,11185.552
+EXPE,"Expedia Group, Inc.",NASDAQ,Consumer Services,27192.0994541659,15171
+EXR,Extra Space Storage Inc.,NYSE,Finance,31873.121532296,3413.572
+F,Ford Motor Company,NYSE,Consumer Cyclicals,63276.9197725013,189861
+FAF,First American Financial Corporation,NYSE,Finance,6881.30697865295,7700.7
+FANG,"Diamondback Energy, Inc.",NASDAQ,Energy,54248.4603650635,15218
+FAST,Fastenal Company,NASDAQ,Industrials,51454.9298815811,8442.8
+FBIN,"Fortune Brands Innovations, Inc.",NYSE,Consumer Non-Cyclicals,4706.12516501878,4441.4
+FCN,"FTI Consulting, Inc.",NYSE,Business Services,4654.84306003898,3873.92
+FCNCA,"First Citizens BancShares, Inc. Class A",NASDAQ,Finance,22698.6476013099,14409
+FCX,"Freeport-McMoRan, Inc.",NYSE,Non-Energy Materials,91471.9325291319,25793
+FDS,FactSet Research Systems Inc.,NYSE,Technology,8587.90999091009,2401.061
+FDX,FedEx Corporation,NYSE,Industrials,98253.4874247964,91933
+FE,FirstEnergy Corp.,NYSE,Utilities,27059.0114557724,15527
+FERG,Ferguson Enterprises Inc.,NYSE,Industrials,44566.9152341853,30499.1999999953
+FFIV,"F5, Inc.",NASDAQ,Technology,21899.1302519959,3224.625
+FHB,"First Hawaiian, Inc.",NASDAQ,Finance,3306.4192914273,1170.112
+FHN,First Horizon Corporation,NYSE,Finance,11485.7510701125,5003
+FICO,Fair Isaac Corporation,NYSE,Business Services,29648.8775851587,2255.802
+FIGR,"Figure Technology Solutions, Inc. Class A",NASDAQ,Finance,7517.38379057653,#N/A
+FIS,"Fidelity National Information Services, Inc.",NYSE,Finance,21719.2621360226,11440
+FISV,"Fiserv, Inc.",NASDAQ,Finance,29659.588485599,21090
+FITB,Fifth Third Bancorp,NASDAQ,Finance,45215.8843961721,13433
+FIVE,"Five Below, Inc.",NASDAQ,Consumer Non-Cyclicals,11943.1521273983,4764.147
+FIX,"Comfort Systems USA, Inc.",NYSE,Industrials,65726.0980569315,10135.687
+FLEX,Flex Ltd,NASDAQ,Technology,53414.2359093279,27914
+FLO,"Flowers Foods, Inc.",NYSE,Consumer Non-Cyclicals,1655.66719505349,5273.826
+FLS,Flowserve Corporation,NYSE,Industrials,9326.07855826663,4652.986
+FLUT,Flutter Entertainment Plc,NYSE,Consumer Services,16657.8380050659,17022.0000001922
+FMC,FMC Corporation,NYSE,Non-Energy Materials,1689.36207680785,3434.6
+FNB,F.N.B. Corporation,NYSE,Finance,6247.16666872869,2705
+FND,"Floor & Decor Holdings, Inc. Class A",NYSE,Consumer Cyclicals,5371.19800249522,4675.626
+FNF,"Fidelity National Financial, Inc. - FNF Group",NYSE,Finance,12938.4024685188,14978
+FOUR,"Shift4 Payments, Inc. Class A",NYSE,Finance,3407.17710825265,4452.7
+FOXA,Fox Corporation Class A,NASDAQ,Consumer Services,25999.762955269,16201
+FR,"First Industrial Realty Trust, Inc.",NYSE,Finance,8640.25722950812,744.829
+FRHC,Freedom Holding Corp.,NASDAQ,Finance,8695.78717922396,1927.354
+FRMI,Fermi Inc.,NASDAQ,Utilities,4195.23871234327,0
+FRPT,Freshpet Inc,NASDAQ,Consumer Non-Cyclicals,2571.64218253532,1136.41
+FRT,Federal Realty Investment Trust,NYSE,Finance,10522.0030868718,1310.734
+FSLR,"First Solar, Inc.",NASDAQ,Industrials,29406.7628876336,5419.048
+FTAI,FTAI Aviation Ltd.,NASDAQ,Industrials,25679.5949842065,2836.353
+FTI,TechnipFMC plc,NYSE,Energy,26876.4968287423,10166.1
+FTNT,"Fortinet, Inc.",NASDAQ,Technology,93727.707024734,7109.5
+FTV,Fortive Corp.,NYSE,Industrials,18264.2238383696,3754.3
+FWONK,Liberty Media Corporation Series C Liberty Formula One,NASDAQ,Consumer Services,22447.9456031199,4746
+G,Genpact Limited,NYSE,Technology,5353.0157466502,5161.699
+GAP,"Gap, Inc.",NYSE,Consumer Cyclicals,8786.43103688036,15366
+GD,General Dynamics Corporation,NYSE,Industrials,92673.7175987065,53808
+GDDY,"GoDaddy, Inc. Class A",NYSE,Technology,11568.649052029,5026.1
+GE,GE Aerospace,NYSE,Industrials,330957.009760302,48312
+GEHC,GE Healthcare Technologies Inc.,NASDAQ,Healthcare,29058.4876904667,20979
+GEN,Gen Digital Inc.,NASDAQ,Technology,14819.8741433845,5000
+GEV,GE Vernova Inc.,NYSE,Industrials,277289.485995959,39347
+GFS,GlobalFoundries Inc.,NASDAQ,Technology,45131.0023781843,6840
+GGG,Graco Inc.,NYSE,Industrials,12616.8997388764,2248.464
+GILD,"Gilead Sciences, Inc.",NASDAQ,Healthcare,165985.472830981,29786
+GIS,"General Mills, Inc.",NYSE,Consumer Non-Cyclicals,17958.3736445331,18371.2
+GL,Globe Life Inc.,NYSE,Finance,11987.5744693635,6073.515
+GLIBK,Liberty Capital Corporation Class C,NASDAQ,Telecommunications,915.663274151102,1036
+GLOB,Globant SA,NYSE,Technology,1676.23027254347,2450.877
+GLPI,"Gaming and Leisure Properties, Inc.",NASDAQ,Finance,13526.6742340942,1619.502
+GLW,Corning Inc,NYSE,Non-Energy Materials,164287.152434913,16321
+GM,General Motors Company,NYSE,Consumer Cyclicals,75848.0758309895,184623
+GME,GameStop Corp. Class A,NYSE,Consumer Cyclicals,9727.62585470313,3629.9
+GMED,Globus Medical Inc Class A,NYSE,Healthcare,11197.8879621169,3100.664
+GNRC,Generac Holdings Inc.,NYSE,Industrials,16514.4304610902,4326.391
+GNTX,Gentex Corporation,NASDAQ,Consumer Cyclicals,5142.78693353583,2632.939
+GOOGL,Alphabet Inc. Class A,NASDAQ,Technology,4689283.66855345,423064
+GPC,Genuine Parts Company,NYSE,Consumer Cyclicals,13542.2551660531,24699.012
+GPK,Graphic Packaging Holding Company,NYSE,Non-Energy Materials,3201.50147098163,8653
+GPN,Global Payments Inc.,NYSE,Finance,20094.5043449004,8263.462
+GRMN,Garmin Ltd.,NYSE,Technology,45893.9904282913,7463.909
+GS,"Goldman Sachs Group, Inc.",NYSE,Finance,293966.030951016,129068
+GTES,Gates Industrial Corporation plc,NYSE,Industrials,6527.14367122587,3446.7
+GTLB,"Gitlab, Inc. Class A",NASDAQ,Technology,4477.95098895381,955.224
+GTM,ZoomInfo Technologies Inc,NASDAQ,Technology,957.833557128906,1254
+GWRE,"Guidewire Software, Inc.",NYSE,Finance,11282.3014823012,1341.812
+GWW,"W.W. Grainger, Inc.",NYSE,Industrials,58828.9599290723,18378
+GXO,GXO Logistics Inc,NYSE,Industrials,5780.04105248023,13499
+H,Hyatt Hotels Corporation Class A,NYSE,Consumer Services,17245.6974348245,7181
+HAL,Halliburton Company,NYSE,Energy,33081.7502633701,22169
+HALO,"Halozyme Therapeutics, Inc.",NASDAQ,Healthcare,8142.78255975799,1508.458
+HAS,"Hasbro, Inc.",NASDAQ,Consumer Cyclicals,12449.765699025,4812.4
+HAYW,"Hayward Holdings, Inc.",NYSE,Consumer Cyclicals,3074.36547401146,1148.53
+HBAN,Huntington Bancshares Incorporated,NASDAQ,Finance,32494.9051541272,13160
+HCA,HCA Healthcare Inc,NYSE,Healthcare,86994.4754213574,76388
+HD,"Home Depot, Inc.",NYSE,Consumer Cyclicals,316587.413690355,166592
+HEI,HEICO Corporation,NYSE,Industrials,36450.3071133094,4911.297
+HHH,Howard Hughes Holdings Inc.,NYSE,Finance,3808.22237268492,1511.481
+HIG,"Hartford Insurance Group, Inc.",NYSE,Finance,36100.2855026387,28784
+HII,"Huntington Ingalls Industries, Inc.",NYSE,Industrials,12513.14241036,12849
+HIW,"Highwoods Properties, Inc.",NYSE,Finance,2896.86381245698,824.725
+HLI,"Houlihan Lokey, Inc. Class A",NYSE,Finance,10261.6338055091,2621.454
+HLNE,Hamilton Lane Incorporated Class A,NASDAQ,Finance,5047.08989989795,758.993
+HLT,Hilton Worldwide Holdings Inc.,NYSE,Consumer Services,76653.7616011333,12224
+HOG,"Harley-Davidson, Inc.",NYSE,Consumer Cyclicals,2542.22947530048,4316.497
+HON,Honeywell International Inc.,NASDAQ,Industrials,146722.385854044,36764
+HOOD,"Robinhood Markets, Inc. Class A",NASDAQ,Finance,68706.5069885639,4647
+HPE,Hewlett Packard Enterprise Co.,NYSE,Technology,49358.9744986375,35830
+HPQ,HP Inc.,NYSE,Technology,23311.8836468772,57683
+HR,Healthcare Realty Trust Incorporated Class A,NYSE,Finance,6999.73609811522,1160.559
+HRB,"H&R Block, Inc.",NYSE,Business Services,4903.08459404303,3911.534
+HRL,Hormel Foods Corporation,NYSE,Consumer Non-Cyclicals,11533.9559024498,12218.454
+HSIC,"Henry Schein, Inc.",NASDAQ,Healthcare,8620.08069343551,13384
+HST,"Host Hotels & Resorts, Inc.",NASDAQ,Finance,16080.96500387,6165
+HSY,Hershey Company,NYSE,Consumer Non-Cyclicals,40126.5294401901,11991.324
+HUBB,Hubbell Incorporated,NYSE,Industrials,25588.630900383,5996.1
+HUBS,"HubSpot, Inc.",NYSE,Technology,10280.4246557223,3298.102
+HUM,Humana Inc.,NYSE,Healthcare,36771.2344542041,137247
+HUN,Huntsman Corporation,NYSE,Non-Energy Materials,2602.18075734697,5693
+HWM,Howmet Aerospace Inc.,NYSE,Industrials,103235.728344766,8623
+HXL,Hexcel Corporation,NYSE,Industrials,6652.67749198247,1917
+IAC,IAC Inc.,NASDAQ,Technology,3288.34204336503,2245.593
+IBKR,"Interactive Brokers Group, Inc. Class A",NASDAQ,Finance,36061.9911767384,10759
+IBM,International Business Machines Corporation,NYSE,Technology,239858.713928573,68912
+ICE,"Intercontinental Exchange, Inc.",NYSE,Finance,84662.8819992905,12927
+IDA,"IDACORP, Inc.",NYSE,Utilities,7964.3798081507,1781.982
+IDXX,"IDEXX Laboratories, Inc.",NASDAQ,Healthcare,43463.7451820355,4446.095
+IEX,IDEX Corporation,NYSE,Industrials,15672.6874294281,3530.1
+IFF,International Flavors & Fragrances Inc.,NYSE,Non-Energy Materials,19658.3669433594,10788
+ILMN,"Illumina, Inc.",NASDAQ,Healthcare,22720.7211812439,4388
+INCY,Incyte Corporation,NASDAQ,Healthcare,19446.793775517,5361.02
+INGM,Ingram Micro Holding Corporation,NYSE,Technology,6305.41839166117,54238.401
+INGR,Ingredion Incorporated,NYSE,Non-Energy Materials,6555.62012735681,7198
+INSM,Insmed Incorporated,NASDAQ,Healthcare,23062.4617198982,819.564
+INSP,"Inspire Medical Systems, Inc.",NYSE,Healthcare,1216.49132583698,915.247
+INTC,Intel Corporation,NASDAQ,Technology,612016.003128052,53763
+INTU,Intuit Inc.,NASDAQ,Technology,84175.5401084386,20925
+INVH,"Invitation Homes, Inc.",NYSE,Finance,17470.7731045468,2811.27
+IONS,"Ionis Pharmaceuticals, Inc.",NASDAQ,Healthcare,12640.9327071112,1058.19
+IOT,"Samsara, Inc. Class A",NYSE,Technology,17172.4648647878,1618.635
+IP,International Paper Company,NYSE,Non-Energy Materials,17166.9411044,23704
+IPGP,IPG Photonics Corporation,NASDAQ,Industrials,4965.47886974935,1041.481
+IQV,IQVIA Holdings Inc,NYSE,Healthcare,27641.9761741944,16632
+IR,Ingersoll Rand Inc.,NYSE,Industrials,27769.2627325407,7781.3
+IRDM,Iridium Communications Inc.,NASDAQ,Telecommunications,5433.34875390457,875.838
+IRM,"Iron Mountain, Inc.",NYSE,Finance,37788.6113499978,7245.357
+ISRG,"Intuitive Surgical, Inc.",NASDAQ,Healthcare,148234.853110805,10582.1
+IT,"Gartner, Inc.",NYSE,Technology,10710.293771151,6474.137
+ITT,"ITT, Inc.",NYSE,Industrials,17517.9300261688,4237.4
+ITW,Illinois Tool Works Inc.,NYSE,Industrials,72008.4341237182,16221
+IVZ,Invesco Ltd.,NYSE,Finance,12239.4202485941,6710.5
+J,Jacobs Solutions Inc.,NYSE,Industrials,13685.5740807814,13162.474
+JAZZ,Jazz Pharmaceuticals Public Limited Company,NASDAQ,Healthcare,14905.1843417534,4438.645
+JBHT,"J.B. Hunt Transport Services, Inc.",NASDAQ,Industrials,25542.8243759042,12134.195
+JBL,Jabil Inc.,NYSE,Technology,39181.5652063116,32667
+JCI,Johnson Controls International plc,NYSE,Industrials,84317.9741390515,24433
+JEF,Jefferies Financial Group Inc.,NYSE,Finance,10661.1453833501,9930.327
+JHG,Janus Henderson Group PLC,NYSE,Finance,7978.03475790331,3315.4
+JHX,James Hardie Industries PLC,NYSE,Non-Energy Materials,13213.7631428442,4835.80000004437
+JKHY,"Jack Henry & Associates, Inc.",NASDAQ,Finance,9681.3790628314,2515.688
+JLL,Jones Lang LaSalle Incorporated,NYSE,Finance,13453.2090289058,26755.7
+JNJ,Johnson & Johnson,NYSE,Healthcare,556765.213254768,96352
+JPM,JPMorgan Chase & Co.,NYSE,Finance,801924.190850206,284017
+KBR,"KBR, Inc.",NYSE,Industrials,4185.33620633095,7654
+KD,Kyndryl Holdings Incorporation,NYSE,Technology,2653.51352162805,15092
+KDP,Keurig Dr Pepper Inc.,NASDAQ,Consumer Non-Cyclicals,40952.8399111021,16944
+KEX,Kirby Corporation,NYSE,Industrials,7668.15509796143,3422.49
+KEY,KeyCorp,NYSE,Finance,23310.852722168,11137
+KEYS,Keysight Technologies Inc,NYSE,Technology,59622.8439269867,6088
+KHC,Kraft Heinz Company,NASDAQ,Consumer Non-Cyclicals,28909.2565976293,24990
+KIM,Kimco Realty Corporation,NYSE,Finance,16468.5997377312,2175.093
+KKR,KKR & Co Inc,NYSE,Finance,85324.8629481532,22706.158
+KLAC,KLA Corporation,NASDAQ,Technology,255662.863713689,13090.947
+KMB,Kimberly-Clark Corporation,NASDAQ,Consumer Non-Cyclicals,33253.783175641,15770
+KMI,Kinder Morgan Inc Class P,NYSE,Energy,71683.8862412423,17412
+KMPR,Kemper Corp,NYSE,Finance,1539.5610771659,4716.7
+KMX,"CarMax, Inc.",NYSE,Consumer Cyclicals,5993.34357879212,27745.352
+KNSL,"Kinsale Capital Group, Inc.",NYSE,Finance,7058.83703554387,1917.308
+KNX,Knight-Swift Transportation Holdings Inc. Class A,NYSE,Industrials,12053.805214079,7495.55
+KO,Coca-Cola Company,NYSE,Consumer Non-Cyclicals,351168.627090558,49815
+KR,Kroger Co.,NYSE,Consumer Non-Cyclicals,39885.3111793473,147642
+KRC,Kilroy Realty Corporation,NYSE,Finance,4105.91047618915,1111.876
+KRMN,Karman Holdings Inc.,NYSE,Industrials,8418.07005822432,522.586
+KVUE,"Kenvue, Inc.",NYSE,Consumer Non-Cyclicals,33964.9543444871,15291
+L,Loews Corporation,NYSE,Finance,22013.1549513115,18515
+LAD,"Lithia Motors, Inc.",NYSE,Consumer Cyclicals,6673.66735405521,37728
+LAMR,Lamar Advertising Company Class A,NASDAQ,Finance,15431.319285988,2288.788
+LAZ,Lazard Inc,NYSE,Finance,4738.79037189472,3323.397
+LBRDK,Liberty Broadband Corp. Class C,NASDAQ,Telecommunications,4943.29738668114,-266
+LBTYA,Liberty Global Ltd. Class A,NASDAQ,Telecommunications,4065.96047470963,4981.9
+LCID,"Lucid Group, Inc.",NASDAQ,Consumer Cyclicals,2443.00769125141,1401.207
+LDOS,"Leidos Holdings, Inc.",NYSE,Industrials,16430.0973538002,17329
+LEA,Lear Corporation,NYSE,Consumer Cyclicals,7300.85965193535,23521.4
+LECO,"Lincoln Electric Holdings, Inc.",NASDAQ,Industrials,14400.2436274886,4345.515
+LEN,Lennar Corporation Class A,NYSE,Consumer Cyclicals,22322.2408695594,33114.896
+LFUS,"Littelfuse, Inc.",NASDAQ,Technology,12028.9202596563,2488.956
+LH,Labcorp Holdings Inc.,NYSE,Healthcare,21176.5,14144.2
+LHX,L3Harris Technologies Inc,NYSE,Industrials,57574.452762818,22477
+LII,Lennox International Inc.,NYSE,Industrials,17509.9523883361,5257.8
+LIN,Linde plc,NASDAQ,Non-Energy Materials,234940.414857607,34655
+LINE,"Lineage, Inc.",NASDAQ,Finance,9874.23684467765,5360
+LITE,"Lumentum Holdings, Inc.",NASDAQ,Technology,70199.7205636902,2488.4
+LKQ,LKQ Corporation,NASDAQ,Consumer Cyclicals,6991.46058040892,13657
+LLY,Eli Lilly and Company,NYSE,Healthcare,1019830.63182213,72249.5
+LLYVK,"Liberty Live Holdings, Inc. Series -C-",NASDAQ,Consumer Services,8883.17934440448,445.571
+LMT,Lockheed Martin Corporation,NYSE,Industrials,122461.561259782,75106
+LNC,Lincoln National Corp,NYSE,Finance,6730.70463807159,19697
+LNG,"Cheniere Energy, Inc.",NYSE,Energy,48400.1979523338,20955
+LNT,Alliant Energy Corporation,NASDAQ,Utilities,19047.9315948486,4418
+LOAR,Loar Holdings Inc.,NYSE,Industrials,5818.76070117869,537.712
+LOPE,"Grand Canyon Education, Inc.",NASDAQ,Consumer Non-Cyclicals,4026.99163153954,1125.52
+LOW,"Lowe's Companies, Inc.",NYSE,Consumer Cyclicals,121444.029858168,88434
+LPLA,LPL Financial Holdings Inc.,NASDAQ,Finance,21712.1456100403,18257.906
+LPX,Louisiana-Pacific Corporation,NYSE,Non-Energy Materials,5256.63367948786,2558
+LRCX,Lam Research Corporation,NASDAQ,Technology,398844.614197478,21681.845
+LSCC,Lattice Semiconductor Corporation,NASDAQ,Technology,20264.8328193952,574.009
+LSTR,"Landstar System, Inc.",NASDAQ,Industrials,6821.94567692629,4762.549
+LULU,lululemon athletica inc.,NASDAQ,Consumer Cyclicals,15665.960269831,11102.6
+LUV,Southwest Airlines Co.,NYSE,Industrials,21349.6358962322,28884
+LVS,Las Vegas Sands Corp.,NYSE,Consumer Services,33834.2629339197,13740
+LW,"Lamb Weston Holdings, Inc.",NYSE,Consumer Non-Cyclicals,5905.37370563025,6518
+LYB,LyondellBasell Industries NV,NYSE,Non-Energy Materials,21842.8461509068,29683
+LYFT,"Lyft, Inc. Class A",NASDAQ,Industrials,5201.65052877759,6516.578
+LYV,"Live Nation Entertainment, Inc.",NYSE,Consumer Services,38760.6432453301,25612.318
+M,"Macy's, Inc.",NYSE,Consumer Non-Cyclicals,5551.71631489601,22621
+MA,Mastercard Incorporated Class A,NYSE,Finance,437409.371447343,34010
+MAA,"Mid-America Apartment Communities, Inc.",NYSE,Finance,15580.4323299004,2213.556
+MAN,ManpowerGroup Inc.,NYSE,Business Services,1362.66512298024,18377.2
+MANH,"Manhattan Associates, Inc.",NASDAQ,Technology,8197.2555621402,1100.82
+MAR,"Marriott International, Inc. Class A",NASDAQ,Consumer Services,101746.890581343,26577
+MAS,Masco Corporation,NYSE,Consumer Non-Cyclicals,14085.0982624101,7679
+MASI,Masimo Corporation,NASDAQ,Healthcare,9361.95951836754,1558.5
+MAT,"Mattel, Inc.",NASDAQ,Consumer Cyclicals,4329.93998008728,5383.165
+MCD,McDonald's Corporation,NYSE,Consumer Services,199595.315556109,27446
+MCHP,Microchip Technology Incorporated,NASDAQ,Technology,52500.3719816906,4713.1
+MCK,McKesson Corporation,NYSE,Healthcare,90930.7585589327,403430
+MCO,Moody's Corporation,NYSE,Business Services,78887.5301954346,7873
+MDB,"MongoDB, Inc. Class A",NASDAQ,Technology,23704.0113397222,2463.797
+MDLN,"Medline, Inc. Class A",NASDAQ,Healthcare,47082.5845061329,29140
+MDLZ,"Mondelez International, Inc. Class A",NASDAQ,Consumer Non-Cyclicals,79907.1988220215,39304
+MDT,Medtronic Plc,NYSE,Healthcare,97549.5873519089,35484
+MDU,"MDU Resources Group, Inc.",NYSE,Utilities,4579.32202453521,1806.21
+MEDP,"Medpace Holdings, Inc.",NASDAQ,Healthcare,12223.5467071533,2678.268
+MET,"MetLife, Inc.",NYSE,Finance,53533.9370988868,77589
+META,Meta Platforms Inc Class A,NASDAQ,Technology,1612545.99540103,214963
+MGM,MGM Resorts International,NYSE,Consumer Services,10732.9591597376,17715.319
+MHK,"Mohawk Industries, Inc.",NYSE,Non-Energy Materials,6459.81441352374,10988.3
+MIDD,Middleby Corporation,NASDAQ,Industrials,6982.926967229,3134.483
+MKC,"McCormick & Company, Incorporated",NYSE,Consumer Non-Cyclicals,12777.5768310783,7108.7
+MKL,Markel Group Inc.,NYSE,Finance,23123.7092772005,16013.252
+MKSI,MKS Inc.,NASDAQ,Technology,22155.1527245063,4073
+MKTX,MarketAxess Holdings Inc.,NASDAQ,Finance,4653.53587915516,877.768
+MLI,"Mueller Industries, Inc.",NYSE,Non-Energy Materials,15014.3823958425,4371.387
+MLM,"Martin Marietta Materials, Inc.",NYSE,Non-Energy Materials,34489.7644830942,6159
+MMM,3M Company,NYSE,Non-Energy Materials,80931.5908943471,25024
+MNST,Monster Beverage Corporation,NASDAQ,Consumer Non-Cyclicals,87277.442332136,8793.076
+MO,"Altria Group, Inc.",NYSE,Consumer Non-Cyclicals,120415.858000422,20355
+MOH,"Molina Healthcare, Inc.",NYSE,Healthcare,9267.0264741974,45075
+MORN,"Morningstar, Inc.",NASDAQ,Technology,6718.41003851529,2508.4
+MOS,Mosaic Company,NYSE,Non-Energy Materials,7539.32230006257,12429.5
+MP,MP Materials Corp Class A,NYSE,Non-Energy Materials,11608.8275993144,347.569
+MPC,Marathon Petroleum Corporation,NYSE,Energy,72122.9416242572,135383
+MPT,"Medical Properties Trust, Inc.",NYSE,Finance,3080.21493130684,1000.288
+MPWR,"Monolithic Power Systems, Inc.",NASDAQ,Technology,79598.9559895615,2957.09
+MRK,"Merck & Co., Inc.",NYSE,Healthcare,296971.688141854,65507
+MRNA,"Moderna, Inc.",NASDAQ,Healthcare,18890.9938371498,2225
+MRP,Millrose Properties Inc Class A,NYSE,Finance,4327.64050570704,712.692
+MRSH,"Marsh & McLennan Companies, Inc.",NYSE,Business Services,77371.3761280719,27552
+MRVL,"Marvell Technology, Inc.",NASDAQ,Technology,173972.410542135,8717.1
+MS,Morgan Stanley,NYSE,Finance,317996.412093069,123705
+MSA,"MSA Safety, Inc.",NYSE,Industrials,6628.32241751376,1917.106
+MSCI,MSCI Inc. Class A,NYSE,Technology,43932.6157088317,3239.433
+MSFT,Microsoft Corporation,NASDAQ,Technology,3065492.19387791,318273
+MSGS,Madison Square Garden Sports Corp. Class A,NYSE,Consumer Services,8819.97648760226,1079.034
+MSI,"Motorola Solutions, Inc.",NYSE,Technology,67844.0500198742,11868
+MSM,"MSC Industrial Direct Co., Inc. Class A",NYSE,Industrials,6001.63012478937,3832.778
+MSTR,Strategy Inc Class A,NASDAQ,Technology,54039.0215008312,490.467
+MTB,M&T Bank Corporation,NYSE,Finance,31500.3350979313,13228
+MTCH,"Match Group, Inc.",NASDAQ,Technology,8420.92120625835,3519.953
+MTD,Mettler-Toledo International Inc.,NYSE,Healthcare,22103.8821857448,4089.782
+MTDR,Matador Resources Company,NYSE,Energy,6516.87346854634,3591.945
+MTG,MGIC Investment Corporation,NYSE,Finance,5469.13837920548,1204.479
+MTN,"Vail Resorts, Inc.",NYSE,Consumer Services,4675.05592153,2921.808
+MTSI,"MACOM Technology Solutions Holdings, Inc.",NASDAQ,Technology,30568.6660386808,1073.816
+MTZ,"MasTec, Inc.",NYSE,Industrials,30621.2694443762,15280.254
+MU,"Micron Technology, Inc.",NASDAQ,Technology,1046999.50081403,58119
+MUSA,"Murphy USA, Inc.",NYSE,Consumer Cyclicals,9532.3519253108,19677.9
+NBIX,"Neurocrine Biosciences, Inc.",NASDAQ,Healthcare,15668.7047818908,3102.4
+NCLH,Norwegian Cruise Line Holdings Ltd.,NYSE,Consumer Services,8332.84882846446,10031.26
+NCNO,nCino Inc,NASDAQ,Finance,1652.5899502281,610.058
+NDAQ,"Nasdaq, Inc.",NASDAQ,Finance,51198.4108776357,8309
+NDSN,Nordson Corporation,NASDAQ,Industrials,16088.0000251848,2903.637
+NEE,"NextEra Energy, Inc.",NYSE,Utilities,182780.190279147,27562
+NEM,Newmont Corporation,NYSE,Non-Energy Materials,114473.683290735,24409
+NET,Cloudflare Inc Class A,NYSE,Technology,73952.2088024863,2328.605
+NEU,NewMarket Corporation,NYSE,Non-Energy Materials,7166.17639992782,2693.94
+NFG,National Fuel Gas Company,NYSE,Energy,7441.26915370289,2447.958
+NFLX,"Netflix, Inc.",NASDAQ,Technology,367813.228560183,47278.448
+NI,NiSource Inc,NYSE,Utilities,22758.9812844107,6822.1
+NIQ,NIQ Global Intelligence PLC,NYSE,Technology,2490.95069158555,4305.20000004917
+NKE,"NIKE, Inc. Class B",NYSE,Consumer Cyclicals,68091.1958853458,46547
+NLY,"Annaly Capital Management, Inc.",NYSE,Finance,15871.9333574255,7110.062
+NNN,"NNN REIT, Inc.",NYSE,Finance,8530.72792453738,935.783
+NOC,Northrop Grumman Corp.,NYSE,Industrials,78308.7330425857,42367
+NOV,NOV Inc.,NYSE,Energy,7260.31334615091,8694
+NOW,"ServiceNow, Inc.",NYSE,Technology,105317.17409722,13960
+NRG,"NRG Energy, Inc.",NYSE,Utilities,29116.132232666,32361
+NSA,National Storage Affiliates Trust,NYSE,Finance,5764.43418886865,749.976
+NSC,Norfolk Southern Corporation,NYSE,Industrials,73145.7703667432,12185
+NTAP,"NetApp, Inc.",NASDAQ,Technology,28166.944352401,6703
+NTNX,"Nutanix, Inc. Class A",NASDAQ,Technology,12350.927284176,2749.734
+NTRA,"Natera, Inc.",NASDAQ,Healthcare,29088.4754739169,2500.927
+NTRS,Northern Trust Corporation,NASDAQ,Finance,31076.8392658625,14601.9
+NU,Nu Holdings Ltd. Class A,NYSE,Finance,63333.6067101059,16160.3270001919
+NUE,Nucor Corporation,NYSE,Non-Energy Materials,56131.3126035961,34160
+NVDA,NVIDIA Corporation,NASDAQ,Technology,5144920.14770508,253491
+NVR,"NVR, Inc.",NYSE,Consumer Cyclicals,16460.4984318218,9608.449
+NVST,Envista Holdings Corp.,NYSE,Healthcare,3793.18774070012,2808.1
+NVT,nVent Electric plc,NYSE,Industrials,27136.6935111098,4325.8
+NWL,Newell Brands Inc,NASDAQ,Consumer Non-Cyclicals,1555.13401413059,7187
+NWSA,News Corporation Class A,NASDAQ,Consumer Services,15272.2085160975,8800
+NXST,"Nexstar Media Group, Inc.",NASDAQ,Consumer Services,5653.37309337663,5111
+NYT,New York Times Company Class A,NYSE,Consumer Services,12107.3300212361,2901.244
+O,Realty Income Corporation,NYSE,Finance,57991.7068389233,6024.153
+OC,Owens Corning,NYSE,Non-Energy Materials,9844.58715820312,9838
+ODFL,"Old Dominion Freight Line, Inc.",NASDAQ,Industrials,45638.6377480521,5456.227
+OGE,OGE Energy Corp.,NYSE,Utilities,9943.11521556834,3265
+OGN,Organon & Co.,NYSE,Healthcare,3513.59954482279,6163
+OHI,"Omega Healthcare Investors, Inc.",NYSE,Finance,14214.0894168997,1244.969
+OKE,"ONEOK, Inc.",NYSE,Energy,55575.2013512882,35151
+OKTA,"Okta, Inc. Class A",NASDAQ,Technology,15693.5061172686,2919
+OLED,Universal Display Corporation,NASDAQ,Non-Energy Materials,4291.73173675808,626.545
+OLLI,Ollie's Bargain Outlet Holdings Inc,NASDAQ,Consumer Non-Cyclicals,4791.76809086988,2649.198
+OLN,Olin Corporation,NYSE,Non-Energy Materials,2963.61992640584,6719.6
+OMC,Omnicom Group Inc,NYSE,Business Services,21332.7132659818,19824.4
+OMF,"OneMain Holdings, Inc.",NYSE,Finance,6271.01995815313,6328
+ON,ON Semiconductor Corporation,NASDAQ,Technology,48944.7901892681,6063
+ONON,On Holding AG Class A,NYSE,Consumer Cyclicals,13114.1213908685,3882.48754977067
+ONTO,"Onto Innovation, Inc.",NYSE,Technology,13276.0606862842,1030.605
+ORCL,Oracle Corporation,NYSE,Technology,549209.744075015,64076
+ORI,Old Republic International Corporation,NYSE,Finance,9345.16850908229,9421.8
+ORLY,"O'Reilly Automotive, Inc.",NASDAQ,Consumer Cyclicals,73772.2143420819,18205.607
+OSK,Oshkosh Corp,NYSE,Industrials,8073.87107496598,10427.3
+OTIS,Otis Worldwide Corporation,NYSE,Business Services,27546.9766183924,14647
+OVV,Ovintiv Inc,NYSE,Energy,15635.8739092904,8938.00000002128
+OWL,"Blue Owl Capital, Inc. Class A",NYSE,Finance,15793.1799726872,2940.503
+OXY,Occidental Petroleum Corporation,NYSE,Energy,56584.7677370394,20218
+OZK,Bank OZK,NASDAQ,Finance,5461.74615925888,2792.71
+P,"Everpure, Inc. Class A",NYSE,Technology,28478.7621761877,3937.254
+PAG,"Penske Automotive Group, Inc.",NYSE,Consumer Cyclicals,11112.2820627635,32067.6
+PANW,"Palo Alto Networks, Inc.",NASDAQ,Technology,202751.520996094,9893.3
+PATH,"UiPath, Inc. Class A",NYSE,Technology,5808.15145128972,1610.572
+PAYC,"Paycom Software, Inc.",NYSE,Technology,6300.68823424506,2093.1
+PAYX,"Paychex, Inc.",NASDAQ,Technology,33831.615835696,6333.8
+PB,"Prosperity Bancshares, Inc.(R)",NYSE,Finance,6950.90508815669,1790.154
+PCAR,PACCAR Inc,NASDAQ,Industrials,59080.8960974133,27783.6
+PCG,PG&E Corporation,NYSE,Utilities,36402.7783407611,25833
+PCOR,Procore Technologies Inc,NYSE,Finance,7073.73334720329,1371.16
+PCTY,Paylocity Holding Corp.,NASDAQ,Technology,5832.55444528017,1727.329
+PEG,Public Service Enterprise Group Inc,NYSE,Utilities,39776.0148845455,13014
+PEGA,Pegasystems Inc.,NASDAQ,Technology,5640.16645431519,1700.152
+PEN,"Penumbra, Inc.",NYSE,Healthcare,12599.4284485696,1454.283
+PENN,"PENN Entertainment, Inc.",NASDAQ,Consumer Services,2555.0699256658,7067.6
+PEP,"PepsiCo, Inc.",NASDAQ,Consumer Non-Cyclicals,201926.375742747,95448
+PFE,Pfizer Inc.,NYSE,Healthcare,149382.418029074,63315
+PFG,"Principal Financial Group, Inc.",NASDAQ,Finance,22588.4155706749,15458.7
+PFGC,Performance Food Group Co,NYSE,Consumer Non-Cyclicals,15174.8786665499,66749.5
+PG,Procter & Gamble Company,NYSE,Consumer Non-Cyclicals,343445.097161494,86717
+PGR,Progressive Corporation,NYSE,Finance,115061.68774049,89415
+PH,Parker-Hannifin Corporation,NYSE,Industrials,108015.685635048,20987.074
+PHM,"PulteGroup, Inc.",NYSE,Consumer Cyclicals,22686.9250236719,16827.875
+PINS,"Pinterest, Inc. Class A",NYSE,Technology,11219.9515878704,4374.293
+PK,"Park Hotels & Resorts, Inc.",NYSE,Finance,2442.51904114096,2533
+PKG,Packaging Corporation of America,NYSE,Non-Energy Materials,19422.6147824938,9216.1
+PLD,"Prologis, Inc.",NYSE,Finance,139491.588047633,8948.185
+PLNT,"Planet Fitness, Inc. Class A",NYSE,Consumer Services,4130.22340022173,1384.718
+PLTR,Palantir Technologies Inc. Class A,NASDAQ,Business Services,317667.838254842,5224.174
+PM,Philip Morris International Inc.,NYSE,Consumer Non-Cyclicals,283720.040385652,41415
+PNC,"PNC Financial Services Group, Inc.",NYSE,Finance,88665.4729051655,34545
+PNFP,"Pinnacle Financial Partners, Inc.",NYSE,Finance,14802.4231184935,4203.654
+PNR,Pentair plc,NYSE,Industrials,11708.3212452529,4202.3
+PNW,Pinnacle West Capital Corp,NYSE,Utilities,12458.0408605565,5457.256
+PODD,Insulet Corporation,NASDAQ,Healthcare,10113.3342797809,2900.8
+POOL,Pool Corporation,NASDAQ,Industrials,6720.454613248,5355.884
+POST,"Post Holdings, Inc.",NYSE,Consumer Non-Cyclicals,4384.96020126343,8448.8
+PPC,Pilgrim's Pride Corporation,NASDAQ,Consumer Non-Cyclicals,6904.49469265225,18570.199
+PPG,"PPG Industries, Inc.",NYSE,Non-Energy Materials,25160.950698822,16121
+PPL,PPL Corporation,NYSE,Utilities,26964.2385522996,9313
+PR,Permian Resources Corporation Class A,NYSE,Energy,16184.7798171014,5076.906
+PRGO,Perrigo Co. Plc,NYSE,Healthcare,1544.18426233402,4178.3
+PRI,"Primerica, Inc.",NYSE,Finance,8462.09185765614,3416.16
+PRMB,Primo Brands Corporation Class A,NYSE,Consumer Non-Cyclicals,8897.53727670375,6676.40000001446
+PRU,"Prudential Financial, Inc.",NYSE,Finance,35217.029258728,62830
+PSA,Public Storage,NYSE,Finance,53855.6808692263,4858.67
+PSN,Parsons Corporation,NYSE,Technology,6080.65927810341,6301.061
+PSX,Phillips 66,NYSE,Energy,70015.2859106325,135770
+PTC,PTC Inc.,NASDAQ,Industrials,16431.8531519762,2997.86
+PVH,PVH Corp.,NYSE,Consumer Cyclicals,4432.3231893187,8950.2
+PWR,"Quanta Services, Inc.",NYSE,Industrials,110087.126617748,30121.15
+PYPL,"PayPal Holdings, Inc.",NASDAQ,Finance,38600.9365028136,34021
+Q,"Qnity Electronics, Inc.",NYSE,Non-Energy Materials,33307.960698144,4951
+QCOM,QUALCOMM Incorporated,NASDAQ,Technology,246003.593566895,44486
+QGEN,QIAGEN NV,NYSE,Healthcare,7445.48103905079,2098.863
+QRVO,"Qorvo, Inc.",NASDAQ,Technology,9145.50096684694,3678.517
+QS,QuantumScape Corporation Class A,NASDAQ,Industrials,5603.97148529291,0
+QSR,"Restaurant Brands International, Inc.",NYSE,Consumer Services,34097.7645306216,9589.00000002047
+QXO,"QXO, Inc.",NYSE,Industrials,12617.9234416321,8558.892
+R,"Ryder System, Inc.",NYSE,Industrials,9649.15369498992,12660
+RAL,Ralliant Corporation,NYSE,Industrials,6995.82195281982,2121.6
+RARE,"Ultragenyx Pharmaceutical, Inc.",NASDAQ,Healthcare,2303.66296631517,669.708
+RBC,RBC Bearings Incorporated,NYSE,Non-Energy Materials,18266.8883436722,1870.9
+RBLX,Roblox Corp. Class A,NYSE,Technology,32670.1124138,5297.344
+RBRK,"Rubrik, Inc. Class A",NYSE,Technology,13544.3244073871,1316.191
+RCL,Royal Caribbean Group,NYSE,Consumer Services,73799.2153691342,18388
+RDDT,"Reddit, Inc. Class A",NYSE,Technology,29682.9686085649,2473.556
+REG,Regency Centers Corporation,NASDAQ,Finance,14455.4919400122,1588.971
+REGN,"Regeneron Pharmaceuticals, Inc.",NASDAQ,Healthcare,65811.6498501423,14919.6
+REXR,"Rexford Industrial Realty, Inc.",NYSE,Finance,8207.11114057503,991.16
+REYN,Reynolds Consumer Products Inc,NASDAQ,Consumer Non-Cyclicals,4647.42056292162,3780
+RF,Regions Financial Corporation,NYSE,Finance,23971.4324660308,9529
+RGA,"Reinsurance Group of America, Incorporated",NYSE,Finance,13546.8112907249,24938
+RGEN,Repligen Corporation,NASDAQ,Healthcare,6383.66357583727,763.339
+RGLD,"Royal Gold, Inc.",NASDAQ,Non-Energy Materials,18528.9249413909,1306.16
+RH,RH,NYSE,Consumer Cyclicals,2713.77261811207,3439.536
+RHI,Robert Half Inc.,NYSE,Business Services,2775.22492216267,5326.778
+RITM,Rithm Capital Corp.,NYSE,Finance,5197.83505849354,5653.202
+RIVN,"Rivian Automotive, Inc. Class A",NASDAQ,Consumer Cyclicals,18528.1406702389,5528
+RJF,"Raymond James Financial, Inc.",NYSE,Finance,28335.9908088194,16506
+RKLB,Rocket Lab Corporation,NASDAQ,Industrials,86963.2609514939,679.578
+RKT,"Rocket Companies, Inc. Class A",NYSE,Finance,40375.9629277525,8331.939
+RL,Ralph Lauren Corporation Class A,NYSE,Consumer Cyclicals,22398.8803414498,8114.5
+RLI,RLI Corp.,NYSE,Finance,4785.39008984502,1911.736
+RMD,ResMed Inc.,NYSE,Healthcare,29896.1242007837,5537.789
+RNG,"RingCentral, Inc. Class A",NYSE,Technology,3488.51769092787,2547.285
+RNR,RenaissanceRe Holdings Ltd.,NYSE,Finance,12349.938010195,11498.513
+ROIV,Roivant Sciences Ltd.,NASDAQ,Healthcare,21276.0179553779,8.26
+ROK,"Rockwell Automation, Inc.",NYSE,Industrials,50749.8244946124,8803
+ROKU,"Roku, Inc. Class A",NASDAQ,Consumer Services,19467.7518652915,4965.458
+ROL,"Rollins, Inc.",NYSE,Business Services,24256.1393808358,3844.97
+ROP,"Roper Technologies, Inc.",NASDAQ,Technology,31952.4535233527,8115
+ROST,"Ross Stores, Inc.",NASDAQ,Consumer Non-Cyclicals,75211.9319719216,23776.064
+RPM,RPM International Inc.,NYSE,Non-Energy Materials,13437.7970266356,7713.562
+RPRX,Royalty Pharma Plc Class A,NASDAQ,Healthcare,31080.3635165974,2440.522
+RRC,Range Resources Corporation,NYSE,Energy,9238.74834079994,3211.801
+RRX,Regal Rexnord Corporation,NYSE,Industrials,13713.9972544854,5995.5
+RS,"Reliance, Inc.",NYSE,Non-Energy Materials,19316.251346536,14835.6
+RSG,"Republic Services, Inc.",NYSE,Business Services,63255.7394022467,16695
+RTX,RTX Corporation,NYSE,Industrials,237810.807775818,90373
+RVMD,"Revolution Medicines, Inc.",NASDAQ,Healthcare,32527.2593078613,0
+RVTY,"Revvity, Inc.",NYSE,Healthcare,10797.8708508085,2902.407
+RYAN,"Ryan Specialty Holdings, Inc. Class A",NYSE,Business Services,8624.29934260298,3167.444
+RYN,Rayonier Inc.,NYSE,Finance,6275.41170793311,678.35
+S,"SentinelOne, Inc. Class A",NYSE,Technology,6129.60422733946,1001.278
+SAIA,"Saia, Inc.",NASDAQ,Industrials,12642.1559371948,3252.937
+SAIC,Science Applications International Corp.,NASDAQ,Industrials,4381.78876685444,7262
+SAIL,"SailPoint, Inc.",NASDAQ,Technology,8825.98286985199,1071.416
+SAM,"Boston Beer Company, Inc. Class A",NYSE,Consumer Non-Cyclicals,1910.34604472788,1945.057
+SARO,"StandardAero, Inc.",NYSE,Industrials,9142.97874450684,6253.782
+SBAC,SBA Communications Corp. Class A,NASDAQ,Finance,21233.8160398467,2854.329
+SBUX,Starbucks Corporation,NASDAQ,Consumer Services,116363.363275604,38452.9
+SCCO,Southern Copper Corporation,NYSE,Non-Energy Materials,156644.647094727,14549.5
+SCHW,Charles Schwab Corp,NYSE,Finance,148887.391049277,28325
+SCI,Service Corporation International,NYSE,Consumer Non-Cyclicals,10637.3580169678,4331.521
+SEB,Seaboard Corporation,NYSE AMERICAN,Consumer Non-Cyclicals,4836.39021017973,9830
+SEIC,SEI Investments Company,NASDAQ,Finance,10786.0808594583,2368.921
+SF,Stifel Financial Corp,NYSE,Finance,10834.7661640577,6544.511
+SFD,"Smithfield Foods, Inc.",NASDAQ,Consumer Non-Cyclicals,10505.8432597941,15614
+SFM,"Sprouts Farmers Market, Inc.",NASDAQ,Consumer Non-Cyclicals,8341.72946840117,8898.902
+SGI,Somnigroup International Inc.,NYSE,Consumer Non-Cyclicals,14763.808768074,7673.3
+SHC,Sotera Health Company,NASDAQ,Healthcare,4431.49504771549,1189.139
+SHW,Sherwin-Williams Company,NYSE,Non-Energy Materials,76449.6434687935,23935.5
+SIRI,SiriusXM Holdings Inc.,NASDAQ,Consumer Services,9987.51346989593,8581
+SITE,"SiteOne Landscape Supply, Inc.",NYSE,Industrials,5041.83368630972,4705.5
+SJM,J.M. Smucker Company,NYSE,Consumer Non-Cyclicals,10982.6446666356,8926.6
+SLB,SLB Limited,NYSE,Energy,84470.7553710938,35904
+SLGN,Silgan Holdings Inc.,NYSE,Non-Energy Materials,4014.77411407125,6577.763
+SLM,SLM Corp,NASDAQ,Finance,4126.19137860026,3099.175
+SMCI,"Super Micro Computer, Inc.",NASDAQ,Technology,22968.1723790334,33700.206
+SMG,Scotts Miracle-Gro Company Class A,NYSE,Non-Energy Materials,3556.66194256188,3389.3
+SMMT,Summit Therapeutics Inc,NASDAQ,Healthcare,13474.1831690446,0
+SN,"SharkNinja, Inc.",NYSE,Consumer Non-Cyclicals,16550.8068961476,6589.356
+SNA,Snap-on Incorporated,NYSE,Industrials,19277.0465897997,5221.2
+SNDK,Sandisk Corporation,NASDAQ,Technology,235453.836191945,13184
+SNDR,"Schneider National, Inc. Class B",NYSE,Industrials,6127.59965088735,5671
+SNOW,"Snowflake, Inc.",NYSE,Technology,60745.623274276,5032.823
+SNPS,"Synopsys, Inc.",NASDAQ,Technology,100746.297954262,8674.23
+SNX,TD SYNNEX Corporation,NYSE,Technology,19837.3050237916,65139.465
+SO,Southern Company,NYSE,Utilities,105673.207154813,30175
+SOFI,SoFi Technologies Inc,NASDAQ,Finance,20741.9254787248,5141.128
+SOLS,"Solstice Advanced Materials, Inc.",NASDAQ,Non-Energy Materials,13673.0465655453,#N/A
+SOLV,Solventum Corporation,NYSE,Healthcare,13142.2288740999,8262
+SON,Sonoco Products Company,NYSE,Non-Energy Materials,4923.66071100716,7482.64
+SPG,"Simon Property Group, Inc.",NYSE,Finance,67053.4284306479,6648.586
+SPGI,"S&P Global, Inc.",NYSE,Technology,123076.796386719,15730
+SPOT,Spotify Technology SA,NYSE,Technology,105557.102334022,20289.201054713
+SRE,Sempra,NYSE,Utilities,59655.7565893037,13489
+SRPT,"Sarepta Therapeutics, Inc.",NASDAQ,Healthcare,1761.01134264411,2184.184
+SSB,SouthState Bank Corporation,NYSE,Finance,9268.69762370002,3780.101
+SSD,"Simpson Manufacturing Co., Inc.",NYSE,Non-Energy Materials,7850.83774226077,2381.877
+SSNC,"SS&C Technologies Holdings, Inc.",NASDAQ,Finance,15832.4286276739,6405.4
+ST,Sensata Technologies Holding PLC,NYSE,Consumer Cyclicals,7345.77273334464,3715.01800004326
+STAG,"STAG Industrial, Inc.",NYSE,Finance,7321.24203220068,863.817
+STE,STERIS plc,NYSE,Healthcare,20877.228993698,5935.9
+STLD,"Steel Dynamics, Inc.",NASDAQ,Non-Energy Materials,37238.6252123569,19012.244
+STT,State Street Corporation,NYSE,Finance,43707.0486826776,21637
+STWD,"Starwood Property Trust, Inc.",NYSE,Finance,6417.65747381287,1975.132
+STZ,"Constellation Brands, Inc. Class A",NYSE,Consumer Non-Cyclicals,24747.9916651033,9138.1
+SUI,"Sun Communities, Inc.",NYSE,Finance,15376.7339160391,2359.2
+SW,Smurfit Westrock PLC,NYSE,Non-Energy Materials,20915.6268858716,31235.000000364
+SWK,"Stanley Black & Decker, Inc.",NYSE,Industrials,12352.4991643168,15232.2
+SWKS,"Skyworks Solutions, Inc.",NASDAQ,Technology,11833.9421857928,4044.3
+SYF,Synchrony Financial,NYSE,Finance,24248.9293162711,18978
+SYK,Stryker Corporation,NYSE,Healthcare,117285.388268093,25270
+SYY,Sysco Corporation,NYSE,Consumer Services,35968.8947530305,83567
+T,AT&T Inc,NYSE,Telecommunications,172944.150163367,126528
+TAP,Molson Coors Beverage Company Class B,NYSE,Consumer Non-Cyclicals,7450.68351017583,11187.8
+TDC,Teradata Corporation,NYSE,Technology,3031.90206570434,1689
+TDG,TransDigm Group Incorporated,NYSE,Industrials,69408.5435310169,9501
+TDY,Teledyne Technologies Incorporated,NYSE,Industrials,28377.5232231338,6224.2
+TEAM,Atlassian Corp Class A,NASDAQ,Technology,22603.1035535533,6273.34910750826
+TECH,Bio-Techne Corporation,NASDAQ,Healthcare,7529.39150490856,1210.811
+TEM,"Tempus AI, Inc. Class A",NASDAQ,Healthcare,8470.06986432219,1364.168
+TER,"Teradyne, Inc.",NASDAQ,Technology,58833.2379036392,3785.292
+TFC,Truist Financial Corporation,NYSE,Finance,60375.3084028205,30561
+TFSL,TFS Financial Corporation,NASDAQ,Finance,4456.06710952337,814.737
+TFX,Teleflex Incorporated,NYSE,Healthcare,5757.78343912913,1840.306
+TGT,Target Corporation,NYSE,Consumer Non-Cyclicals,58284.437584246,106377
+THC,Tenet Healthcare Corporation,NYSE,Healthcare,15595.965197572,21455
+THG,"Hanover Insurance Group, Inc.",NYSE,Finance,6708.71619415283,6692.6
+THO,"Thor Industries, Inc.",NYSE,Consumer Cyclicals,4148.24130183819,9933.811
+TIGO,Millicom International Cellular SA,NASDAQ,Telecommunications,14185.6819826523,6430.00000006984
+TJX,TJX Companies Inc,NYSE,Consumer Non-Cyclicals,173780.337051211,61584
+TKO,"TKO Group Holdings, Inc. Class A",NYSE,Consumer Services,35862.9367992236,5063.227
+TKR,Timken Company,NYSE,Non-Energy Materials,8836.9217437543,4672.8
+TLN,Talen Energy Corp,NASDAQ,Utilities,17240.1161159271,4045
+TMO,Thermo Fisher Scientific Inc.,NYSE,Healthcare,169537.423073303,45197
+TMUS,"T-Mobile US, Inc.",NASDAQ,Telecommunications,206495.478438221,90530
+TNL,Travel + Leisure Co.,NYSE,Consumer Services,4291.48607254028,4048
+TOL,"Toll Brothers, Inc.",NYSE,Consumer Cyclicals,13255.19245836,11045.372
+TOST,"Toast, Inc. Class A",NYSE,Finance,14210,6446
+TPG,TPG Inc Class A,NASDAQ,Finance,15991.2366887593,4136.076
+TPL,Texas Pacific Land Corporation,NYSE,Finance,28009.8245112021,839.025
+TPR,"Tapestry, Inc.",NYSE,Consumer Cyclicals,28049.8693349513,7850.8
+TREX,"Trex Company, Inc.",NYSE,Non-Energy Materials,4314.91402279818,1177.677
+TRGP,Targa Resources Corp.,NYSE,Energy,56590.8644118109,16674.2
+TRMB,Trimble Inc.,NASDAQ,Technology,12793.1599853181,3686.6
+TROW,"T. Rowe Price Group, Inc.",NASDAQ,Finance,22390.8614578247,7407.9
+TRU,TransUnion,NYSE,Business Services,13657.9515101318,4726.3
+TRV,"Travelers Companies, Inc.",NYSE,Finance,63780.646989489,48942
+TSCO,Tractor Supply Company,NASDAQ,Consumer Cyclicals,16084.8706827125,15649.14
+TSLA,"Tesla, Inc.",NASDAQ,Consumer Cyclicals,1653870.40392983,97879
+TSN,"Tyson Foods, Inc. Class A",NYSE,Consumer Non-Cyclicals,22785.3821701699,55710
+TT,Trane Technologies plc,NYSE,Industrials,101172.670905355,21602.8000002482
+TTC,Toro Company,NYSE,Industrials,8880.02647472103,4551.8
+TTD,"Trade Desk, Inc. Class A",NASDAQ,Consumer Services,10478.723918266,2969.12
+TTEK,"Tetra Tech, Inc.",NASDAQ,Industrials,7245.92932888219,5130.736
+TTWO,"Take-Two Interactive Software, Inc.",NASDAQ,Technology,40560.7390242512,6656.4
+TW,"Tradeweb Markets, Inc. Class A",NASDAQ,Finance,23810.3039806338,2160.516
+TWLO,"Twilio, Inc. Class A",NYSE,Technology,27557.5817335732,5301.664
+TXN,Texas Instruments Incorporated,NASDAQ,Technology,288908.981412876,18438
+TXRH,"Texas Roadhouse, Inc.",NASDAQ,Consumer Services,11929.2680527139,6063.593
+TXT,Textron Inc.,NYSE,Industrials,16053.4303082614,15188
+TYL,"Tyler Technologies, Inc.",NYSE,Business Services,12757.7626221243,2380.678
+U,"Unity Software, Inc.",NYSE,Technology,12118.2118015751,1922.886
+UAA,"Under Armour, Inc. Class A",NYSE,Consumer Cyclicals,2435.73286025499,4990.621
+UAL,"United Airlines Holdings, Inc.",NASDAQ,Industrials,36553.0441843041,60465
+UBER,"Uber Technologies, Inc.",NYSE,Industrials,143977.924034298,53687
+UDR,"UDR, Inc.",NYSE,Finance,19966.3445063286,1716.218
+UGI,UGI Corporation,NYSE,Energy,7542.37122418021,7358
+UHAL,U-Haul Holding Company,NYSE,Consumer Cyclicals,9337.42487158773,6046.079
+UHS,"Universal Health Services, Inc. Class B",NYSE,Healthcare,9338.23108869271,17760.291
+UI,Ubiquiti Inc.,NYSE,Technology,36912.4223981528,3095.991
+ULTA,Ulta Beauty Inc.,NASDAQ,Consumer Non-Cyclicals,22100.3759843699,12392.82
+UNH,UnitedHealth Group Incorporated,NYSE,Healthcare,348736.519999579,449713
+UNM,Unum Group,NYSE,Finance,13326.935917607,13320.7
+UNP,Union Pacific Corporation,NYSE,Industrials,165877.538471751,24700
+UPS,"United Parcel Service, Inc. Class B",NYSE,Industrials,88800.1539865317,88372
+URI,"United Rentals, Inc.",NYSE,Industrials,61909.8327338593,16365
+USB,U.S. Bancorp,NYSE,Finance,84895.2741866,42370
+USFD,US Foods Holding Corp.,NYSE,Consumer Services,18144.0615406972,39683
+UTHR,United Therapeutics Corporation,NASDAQ,Healthcare,24226.4742193222,3169.8
+UWMC,UWM Holdings Corp. Class A,NYSE,Finance,4963.3730438056,3608.554
+V,Visa Inc. Class A,NYSE,Finance,617258.119002903,43027
+VEEV,Veeva Systems Inc Class A,NYSE,Healthcare,25865.3628517385,3195.311
+VFC,V.F. Corporation,NYSE,Consumer Cyclicals,6820.7106671494,9602.782
+VGNT,Versigent PLC,NYSE,Consumer Cyclicals,3128.53702098932,9006
+VICI,VICI Properties Inc,NYSE,Finance,30606.3323364768,4040.433
+VIK,Viking Holdings Ltd,NYSE,Consumer Services,41257.4971947364,6658.104
+VIRT,"Virtu Financial, Inc. Class A",NYSE,Finance,7738.80931727532,3585.598
+VKTX,"Viking Therapeutics, Inc.",NASDAQ,Healthcare,3675.90467848119,0
+VLO,Valero Energy Corporation,NYSE,Energy,71364.8208004171,125063
+VLTO,Veralto Corporation,NYSE,Industrials,20743.3131415412,5593
+VMC,Vulcan Materials Company,NYSE,Non-Energy Materials,35766.9326553047,8062.4
+VMI,"Valmont Industries, Inc.",NYSE,Non-Energy Materials,10139.1676324382,4163.985
+VNO,Vornado Realty Trust,NYSE,Finance,6830.03396903491,1807.951
+VNOM,"Viper Energy, Inc.",NASDAQ,Finance,16102.2957552316,1597
+VNT,Vontier Corp,NYSE,Industrials,4114.17599249267,3085.1
+VOYA,"Voya Financial, Inc.",NYSE,Finance,7340.34463134798,8251
+VRSK,"Verisk Analytics, Inc.",NASDAQ,Finance,22470.2473754883,3102.3
+VRSN,"VeriSign, Inc.",NASDAQ,Technology,26904.1494445801,1683.2
+VRT,Vertiv Holdings Co. Class A,NYSE,Industrials,122830.319808217,10843.4
+VRTX,Vertex Pharmaceuticals Incorporated,NASDAQ,Healthcare,110968.806008063,12340.9
+VSNT,"Versant Media Group, Inc. Class A",NASDAQ,Consumer Services,6124.61859912146,6668
+VST,Vistra Corp.,NYSE,Utilities,53999.769647629,16455
+VTR,"Ventas, Inc.",NYSE,Finance,43811.0143300467,6135.25
+VTRS,"Viatris, Inc.",NASDAQ,Healthcare,18970.5631206231,14569.1
+VVV,"Valvoline, Inc.",NYSE,Consumer Cyclicals,4410.19785941055,1858.4
+VZ,Verizon Communications Inc.,NYSE,Telecommunications,201428.977125725,139146
+W,"Wayfair, Inc. Class A",NYSE,Consumer Cyclicals,9656.86463636411,12658
+WAB,Westinghouse Air Brake Technologies Corporation,NYSE,Industrials,44253.5460173283,11507
+WAL,Western Alliance Bancorp,NYSE,Finance,8562.31542858516,5575.4
+WAT,Waters Corporation,NYSE,Healthcare,33597.2341356017,3770.581
+WBD,"Warner Bros. Discovery, Inc. Series A",NASDAQ,Consumer Services,68043.6890166402,37251
+WBS,Webster Financial Corporation,NYSE,Finance,11824.6948435338,4443.43
+WCC,"WESCO International, Inc.",NYSE,Industrials,17951.1621080909,24247.3
+WDAY,"Workday, Inc. Class A",NASDAQ,Technology,30751.5,9853
+WDC,Western Digital Corporation,NASDAQ,Technology,182888.329182565,11777
+WEC,WEC Energy Group Inc,NYSE,Utilities,36852.6029524379,10084.8
+WELL,Welltower Inc.,NYSE,Finance,151192.747171037,11754.896
+WEN,Wendy's Company,NASDAQ,Consumer Services,1426.69992451157,2194.056
+WEX,WEX Inc.,NYSE,Finance,4954.07759830845,2697.9
+WFC,Wells Fargo & Company,NYSE,Finance,232911.021145135,125694
+WFRD,Weatherford International plc,NASDAQ,Energy,7635.59341464355,4877
+WH,"Wyndham Hotels & Resorts, Inc.",NYSE,Consumer Services,6265.82205319067,1440
+WHR,Whirlpool Corporation,NYSE,Consumer Cyclicals,2875.55364796333,15172
+WING,"Wingstop, Inc.",NASDAQ,Consumer Services,4141.79895935726,709.484
+WLK,Westlake Corporation,NYSE,Non-Energy Materials,11250.4750541737,10976
+WM,"Waste Management, Inc.",NYSE,Business Services,86575.7133139316,25413
+WMB,"Williams Companies, Inc.",NYSE,Energy,90954.3862618972,12160
+WMS,"Advanced Drainage Systems, Inc.",NYSE,Non-Energy Materials,10750.2084718824,3050.376
+WMT,Walmart Inc.,NASDAQ,Consumer Non-Cyclicals,944881.247561332,725305
+WPC,W. P. Carey Inc.,NYSE,Finance,16560.6521335768,1761.136
+WRB,W. R. Berkley Corporation,NYSE,Finance,24305.9482644135,14850.791
+WSC,WillScot Holdings Corporation Class A,NASDAQ,Finance,4638.8933602187,2270.523
+WSM,"Williams-Sonoma, Inc.",NYSE,Consumer Cyclicals,23923.755875269,7882.159
+WSO,"Watsco, Inc.",NYSE,Industrials,15507.0884418051,7241.214
+WST,"West Pharmaceutical Services, Inc.",NYSE,Healthcare,22092.2074644829,3221.1
+WTFC,Wintrust Financial Corporation,NASDAQ,Finance,10163.7033504737,4265.841
+WTM,White Mountains Insurance Group Ltd,NYSE,Finance,5205.81165097083,2823.3
+WTRG,"Essential Utilities, Inc.",NYSE,Utilities,10517.1108648065,2552.748
+WTW,Willis Towers Watson Public Limited Company,NASDAQ,Finance,23993.5629752028,9902
+WU,Western Union Company,NYSE,Finance,2552.59470187646,4040.4
+WWD,"Woodward, Inc.",NASDAQ,Industrials,21343.1754273392,3997.732
+WY,Weyerhaeuser Company,NYSE,Finance,17672.7648250678,6869
+WYNN,"Wynn Resorts, Limited",NASDAQ,Consumer Services,10505.2927252646,7294.289
+XEL,Xcel Energy Inc.,NASDAQ,Utilities,50565.8369750977,14770
+XOM,Exxon Mobil Corporation,NYSE,Energy,613037.675287187,329827
+XP,XP Inc. Class A,NASDAQ,Finance,8859.06123385457,3473.73415935303
+XPO,"XPO, Inc.",NYSE,Industrials,25001.2815926452,8299
+XRAY,"DENTSPLY SIRONA, Inc.",NASDAQ,Healthcare,2003.26690673828,3681
+XYL,Xylem Inc.,NYSE,Industrials,26170.0536244301,9087
+XYZ,"Block, Inc. Class A",NYSE,Finance,42508.0222869217,24478.734
+YETI,"YETI Holdings, Inc.",NYSE,Consumer Non-Cyclicals,3558.36855523172,1897.78
+YUM,"Yum! Brands, Inc.",NYSE,Consumer Services,41899.9337673024,8486
+Z,"Zillow Group, Inc. Class C",NASDAQ,Technology,8261.85989380412,2693
+ZBH,"Zimmer Biomet Holdings, Inc.",NYSE,Healthcare,15972.2617640076,8409.1
+ZBRA,Zebra Technologies Corporation Class A,NASDAQ,Technology,12027.9076365964,5638
+ZION,Zions Bancorporation NA,NASDAQ,Finance,9166.76168728888,4928
+ZM,"Zoom Communications, Inc. Class A",NASDAQ,Technology,29311.4938822009,4933.06
+ZS,"Zscaler, Inc.",NASDAQ,Technology,20441.7027461287,3173.564
+ZTS,"Zoetis, Inc. Class A",NYSE,Healthcare,33320.2522972135,9509

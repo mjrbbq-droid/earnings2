@@ -274,20 +274,9 @@ def get_client() -> anthropic.Anthropic:
     return anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
 
-def investigate_company(
-    client: anthropic.Anthropic,
-    *,
-    ticker: str,
-    company_name: str,
-    sector: str | None = None,
-    known_evidence: str | None = None,
-) -> StanceInvestigation:
-    """One balanced investigation per ticker. Claude does its own web_search.
-
-    If known_evidence is provided (e.g., grant data from corporate-foundation
-    990s), it's appended to the prompt so Claude can verify / contextualize
-    specific findings rather than discovering them blind via web search.
-    """
+def build_user_msg(ticker: str, company_name: str, sector: str | None = None,
+                   known_evidence: str | None = None) -> str:
+    """The per-ticker investigation prompt. Shared by the live and batch paths."""
     sector_hint = f" (sector: {sector})" if sector else ""
     user_msg = (
         f"Investigate **{company_name}** (ticker ${ticker}){sector_hint}.\n\n"
@@ -309,9 +298,33 @@ def investigate_company(
             f"your job is to add the WHO/WHY/WHEN/STATUS narrative and confirm whether "
             f"the giving pattern is ongoing or has faded."
         )
+    return user_msg
+
+
+def investigate_company(
+    client: anthropic.Anthropic,
+    *,
+    ticker: str,
+    company_name: str,
+    sector: str | None = None,
+    known_evidence: str | None = None,
+    model: str | None = None,
+    return_usage: bool = False,
+):
+    """One balanced investigation per ticker. Claude does its own web_search.
+
+    If known_evidence is provided (e.g., grant data from corporate-foundation
+    990s), it's appended to the prompt so Claude can verify / contextualize
+    specific findings rather than discovering them blind via web search.
+
+    model: override the API model (defaults to config ANTHROPIC_MODEL).
+    return_usage: if True, return (parsed_output, usage) so callers can track cost.
+    """
+    model = model or ANTHROPIC_MODEL
+    user_msg = build_user_msg(ticker, company_name, sector, known_evidence)
 
     response = client.messages.parse(
-        model=ANTHROPIC_MODEL,
+        model=model,
         max_tokens=12000,
         thinking={"type": "adaptive"},
         system=[{
@@ -325,4 +338,6 @@ def investigate_company(
         ],
         output_format=StanceInvestigation,
     )
+    if return_usage:
+        return response.parsed_output, response.usage
     return response.parsed_output
